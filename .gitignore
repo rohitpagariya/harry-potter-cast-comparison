@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Cloudflare Wrangler
+.wrangler/
+.wrangler.cache/
+.env
+.env.*
+!.env.example
+*.log
+
+# OS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+Thumbs.db
+ehthumbs.db
+
+# Archives & Temporary artifacts
+site.zip
+*.tmp
+*.bak
+__pycache__/
+*.py[cod]
+*$py.class

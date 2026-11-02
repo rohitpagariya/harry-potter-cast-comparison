@@ -1,0 +1,20 @@
+{
+  "name": "harry-potter-cast-comparison",
+  "version": "1.0.0",
+  "description": "Interactive book-by-book cast comparison: Warner Bros. Harry Potter Movies vs Audible Full Ensemble",
+  "scripts": {
+    "build": "mkdir -p dist && cp -r index.html styles.css data.js app.js images dist/",
+    "deploy": "wrangler pages deploy dist"
+  },
+  "keywords": [
+    "harry-potter",
+    "audible",
+    "warner-bros",
+    "casting",
+    "audiobook",
+    "dolby-atmos",
+    "cloudflare-pages"
+  ],
+  "author": "",
+  "license": "MIT"
+}

@@ -1,0 +1,4623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harry Potter Cast Comparison | Movies vs. Audible Full Ensemble</title>
+  <meta name="description" content="Explore side-by-side casting comparison between the Warner Bros. Harry Potter films and the Audible 2025–2026 full-cast audio editions book by book.">
+  
+  <!-- Google Fonts: Cinzel for wizarding grandeur, Plus Jakarta Sans for clean legibility -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <style>
+/* styles.css - The Chronicles of Casting: Harry Potter */
+:root {
+  --bg-primary: #090d16;
+  --bg-secondary: #0f1624;
+  --bg-tertiary: #162033;
+  --bg-card: rgba(18, 26, 42, 0.85);
+  --bg-card-hover: rgba(26, 38, 62, 0.95);
+  
+  --gold-primary: #dfb84c;
+  --gold-secondary: #c59b27;
+  --gold-light: #f5e4a8;
+  --gold-border: rgba(223, 184, 76, 0.35);
+  --gold-glow: rgba(223, 184, 76, 0.2);
+
+  --cyan-accent: #4fc3f7;
+  --cyan-glow: rgba(79, 195, 247, 0.2);
+  
+  --text-main: #f0f4f8;
+  --text-muted: #9aa8bd;
+  --text-dim: #6c7c94;
+
+  --gryffindor-red: #8b181b;
+  --gryffindor-gold: #dfb84c;
+  --slytherin-green: #1a5e35;
+  --slytherin-silver: #a8b8b0;
+  --ravenclaw-blue: #1c4587;
+  --ravenclaw-bronze: #b97a3a;
+  --hufflepuff-yellow: #dca314;
+  --hufflepuff-black: #2c2925;
+
+  --border-radius-lg: 16px;
+  --border-radius-md: 10px;
+  --border-radius-sm: 6px;
+  
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--text-main);
+  line-height: 1.6;
+  min-height: 100vh;
+  background-image: 
+    radial-gradient(circle at 15% 10%, rgba(223, 184, 76, 0.08) 0%, transparent 40%),
+    radial-gradient(circle at 85% 25%, rgba(79, 195, 247, 0.07) 0%, transparent 45%),
+    radial-gradient(circle at 50% 80%, rgba(139, 24, 27, 0.06) 0%, transparent 50%);
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+
+/* Header */
+.site-header {
+  border-bottom: 1px solid var(--gold-border);
+  background: linear-gradient(180deg, rgba(15, 22, 36, 0.95) 0%, rgba(9, 13, 22, 0.8) 100%);
+  backdrop-filter: blur(12px);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  padding: 1.25rem 2rem;
+}
+
+.header-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.brand-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.brand-crest {
+  width: 48px;
+  height: 48px;
+  background: linear-gradient(135deg, var(--gold-primary), #9a7217);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  box-shadow: 0 0 15px var(--gold-glow);
+  border: 2px solid var(--gold-light);
+}
+
+.brand-titles h1 {
+  font-size: 1.45rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  background: linear-gradient(90deg, #fff 0%, var(--gold-light) 50%, var(--gold-primary) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+}
+
+.brand-titles p {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.audio-toggle-btn {
+  background: var(--bg-tertiary);
+  color: var(--text-muted);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 0.5rem 0.9rem;
+  border-radius: var(--border-radius-md);
+  font-size: 0.85rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  transition: var(--transition-fast);
+}
+
+.audio-toggle-btn:hover {
+  color: var(--gold-light);
+  border-color: var(--gold-primary);
+}
+
+.audio-toggle-btn.active {
+  background: rgba(223, 184, 76, 0.15);
+  color: var(--gold-primary);
+  border-color: var(--gold-primary);
+}
+
+/* Main Container */
+.main-content {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Hero Section */
+.hero-banner {
+  background: linear-gradient(135deg, rgba(22, 32, 51, 0.9) 0%, rgba(15, 22, 36, 0.95) 100%);
+  border: 1px solid var(--gold-border);
+  border-radius: var(--border-radius-lg);
+  padding: 2rem;
+  margin-bottom: 2rem;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.5);
+}
+
+.hero-banner::before {
+  content: "⚡";
+  position: absolute;
+  right: -20px;
+  bottom: -40px;
+  font-size: 16rem;
+  opacity: 0.04;
+  pointer-events: none;
+}
+
+.hero-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: rgba(223, 184, 76, 0.15);
+  color: var(--gold-light);
+  padding: 0.35rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.75rem;
+  border: 1px solid var(--gold-border);
+}
+
+.hero-title {
+  font-size: 2.1rem;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 0.75rem;
+  line-height: 1.25;
+}
+
+.hero-desc {
+  font-size: 1.05rem;
+  color: var(--text-muted);
+  max-width: 900px;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.hero-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 1.5rem;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-value {
+  font-size: 1.7rem;
+  font-weight: 800;
+  color: var(--gold-light);
+}
+
+.stat-label {
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+/* Book Selector Navigation */
+.book-nav-container {
+  margin-bottom: 2rem;
+}
+
+.book-nav-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--gold-light);
+  margin-bottom: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.book-tabs-scroll {
+  display: flex;
+  gap: 0.75rem;
+  overflow-x: auto;
+  padding-bottom: 0.5rem;
+  scrollbar-width: thin;
+  scrollbar-color: var(--gold-secondary) var(--bg-secondary);
+}
+
+.book-tabs-scroll::-webkit-scrollbar {
+  height: 6px;
+}
+.book-tabs-scroll::-webkit-scrollbar-thumb {
+  background: var(--gold-secondary);
+  border-radius: 3px;
+}
+
+.book-tab-btn {
+  flex: 0 0 auto;
+  background: var(--bg-secondary);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: var(--border-radius-md);
+  padding: 0.85rem 1.2rem;
+  color: var(--text-muted);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.25rem;
+  min-width: 175px;
+  transition: var(--transition-normal);
+  text-align: left;
+  position: relative;
+}
+
+.book-tab-btn:hover {
+  background: var(--bg-tertiary);
+  color: var(--text-main);
+  border-color: rgba(223, 184, 76, 0.4);
+  transform: translateY(-2px);
+}
+
+.book-tab-btn.active {
+  background: linear-gradient(135deg, rgba(223, 184, 76, 0.15) 0%, rgba(22, 32, 51, 0.9) 100%);
+  border-color: var(--gold-primary);
+  color: #fff;
+  box-shadow: 0 4px 18px var(--gold-glow);
+}
+
+.book-tab-btn.active::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 10%;
+  right: 10%;
+  height: 3px;
+  background: var(--gold-primary);
+  border-radius: 3px;
+  box-shadow: 0 0 8px var(--gold-primary);
+}
+
+.book-tab-badge {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--gold-light);
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.book-tab-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.book-tab-meta {
+  font-size: 0.72rem;
+  color: var(--text-dim);
+}
+
+/* Book Context Banner */
+.book-context-card {
+  background: linear-gradient(135deg, rgba(15, 22, 36, 0.95) 0%, rgba(22, 32, 51, 0.85) 100%);
+  border: 1px solid var(--gold-border);
+  border-radius: var(--border-radius-lg);
+  padding: 1.5rem 2rem;
+  margin-bottom: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  position: relative;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+@media (max-width: 900px) {
+  .book-context-card {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+}
+
+.context-left h3 {
+  font-size: 1.35rem;
+  color: var(--gold-light);
+  margin-bottom: 0.5rem;
+}
+
+.context-synopsis {
+  font-size: 0.92rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.context-meta-row {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.context-meta-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.context-meta-item span:first-child {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  letter-spacing: 0.04em;
+}
+
+.context-meta-item span:last-child {
+  font-size: 0.88rem;
+  color: var(--text-main);
+  font-weight: 600;
+}
+
+.context-right {
+  background: rgba(9, 13, 22, 0.6);
+  border-radius: var(--border-radius-md);
+  padding: 1.25rem;
+  border: 1px solid rgba(223, 184, 76, 0.25);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.shift-alert-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--gold-light);
+  margin-bottom: 0.5rem;
+}
+
+.shift-alert-desc {
+  font-size: 0.88rem;
+  color: #e0e8f2;
+  line-height: 1.55;
+}
+
+/* Controls Bar */
+.controls-bar {
+  background: var(--bg-secondary);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: var(--border-radius-md);
+  padding: 1rem 1.25rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.search-box {
+  flex: 1 1 280px;
+  position: relative;
+}
+
+.search-box input {
+  width: 100%;
+  background: var(--bg-tertiary);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: var(--border-radius-md);
+  padding: 0.65rem 1rem 0.65rem 2.4rem;
+  color: #fff;
+  font-size: 0.9rem;
+  outline: none;
+  transition: var(--transition-fast);
+}
+
+.search-box input:focus {
+  border-color: var(--gold-primary);
+  box-shadow: 0 0 10px var(--gold-glow);
+}
+
+.search-icon {
+  position: absolute;
+  left: 0.85rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text-dim);
+  font-size: 0.9rem;
+}
+
+.filter-toggles {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.toggle-btn {
+  background: var(--bg-tertiary);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: var(--text-muted);
+  border-radius: var(--border-radius-md);
+  padding: 0.55rem 0.95rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  transition: var(--transition-fast);
+}
+
+.toggle-btn:hover {
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.toggle-btn.active {
+  background: rgba(223, 184, 76, 0.2);
+  color: var(--gold-light);
+  border-color: var(--gold-primary);
+}
+
+.view-mode-tabs {
+  display: flex;
+  background: var(--bg-primary);
+  border-radius: var(--border-radius-md);
+  padding: 3px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.view-btn {
+  background: transparent;
+  border: none;
+  color: var(--text-dim);
+  padding: 0.45rem 0.85rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  border-radius: var(--border-radius-sm);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  transition: var(--transition-fast);
+}
+
+.view-btn.active {
+  background: var(--bg-tertiary);
+  color: var(--gold-light);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Category Pills */
+.category-pills {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.cat-pill {
+  background: var(--bg-secondary);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: var(--text-muted);
+  padding: 0.4rem 0.85rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition-fast);
+}
+
+.cat-pill:hover {
+  background: var(--bg-tertiary);
+  color: #fff;
+}
+
+.cat-pill.active {
+  background: var(--gold-primary);
+  color: #101624;
+  border-color: var(--gold-light);
+  box-shadow: 0 2px 10px var(--gold-glow);
+}
+
+/* Results Summary */
+.results-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.25rem;
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+
+.results-count {
+  font-weight: 700;
+  color: var(--gold-light);
+}
+
+/* Character Comparison Cards Grid */
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(620px, 1fr));
+  gap: 1.75rem;
+}
+
+@media (max-width: 680px) {
+  .cards-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.char-card {
+  background: var(--bg-card);
+  border: 1px solid rgba(223, 184, 76, 0.25);
+  border-radius: var(--border-radius-lg);
+  overflow: hidden;
+  transition: var(--transition-normal);
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+  position: relative;
+}
+
+.char-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--gold-primary);
+  box-shadow: 0 14px 35px rgba(0, 0, 0, 0.55), 0 0 15px var(--gold-glow);
+}
+
+/* Card Header */
+.char-card-header {
+  padding: 1.15rem 1.3rem;
+  background: linear-gradient(135deg, rgba(22, 32, 51, 0.98) 0%, rgba(14, 20, 34, 0.98) 100%);
+  border-bottom: 1px solid rgba(223, 184, 76, 0.2);
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.char-header-identity {
+  display: flex;
+  align-items: center;
+  gap: 1.1rem;
+  width: 100%;
+}
+
+.char-portrait-container {
+  width: 76px;
+  height: 76px;
+  min-width: 76px;
+  border-radius: 16px;
+  position: relative;
+  overflow: hidden;
+  background: var(--bg-tertiary);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.55);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.char-card:hover .char-portrait-container {
+  transform: scale(1.05);
+}
+
+.char-portrait-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 15%;
+  display: block;
+}
+
+.char-portrait-tag {
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  background: rgba(10, 14, 24, 0.88);
+  backdrop-filter: blur(4px);
+  padding: 1px 4px;
+  border-radius: 4px;
+  font-size: 0.68rem;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  line-height: 1;
+  pointer-events: none;
+}
+
+/* House Glowing Rings */
+.house-ring-gryffindor {
+  border: 2.5px solid #d32f2f;
+  box-shadow: 0 0 14px rgba(211, 47, 47, 0.4), inset 0 0 6px rgba(211, 47, 47, 0.2);
+}
+
+.house-ring-slytherin {
+  border: 2.5px solid #2e7d32;
+  box-shadow: 0 0 14px rgba(46, 125, 50, 0.4), inset 0 0 6px rgba(46, 125, 50, 0.2);
+}
+
+.house-ring-ravenclaw {
+  border: 2.5px solid #1976d2;
+  box-shadow: 0 0 14px rgba(25, 118, 210, 0.4), inset 0 0 6px rgba(25, 118, 210, 0.2);
+}
+
+.house-ring-hufflepuff {
+  border: 2.5px solid #fbc02d;
+  box-shadow: 0 0 14px rgba(251, 192, 45, 0.4), inset 0 0 6px rgba(251, 192, 45, 0.2);
+}
+
+.house-ring-hogwarts, .house-ring-ministry, .house-ring-muggle, .house-ring-free-elves, .house-ring-house-of-crouch, .house-ring-beauxbatons, .house-ring-house-of-black {
+  border: 2.5px solid #dfb84c;
+  box-shadow: 0 0 14px rgba(223, 184, 76, 0.35), inset 0 0 6px rgba(223, 184, 76, 0.15);
+}
+
+.char-identity-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  flex: 1;
+  min-width: 0;
+}
+
+.char-title-row {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.char-name {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: 0.02em;
+  margin: 0;
+}
+
+.char-tags-list {
+  display: flex;
+  gap: 0.35rem;
+  flex-wrap: wrap;
+  margin-top: 0.25rem;
+}
+
+.char-monogram {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  background: var(--bg-tertiary);
+}
+
+.house-badge {
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.2rem 0.55rem;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.house-badge.gryffindor {
+  background: rgba(139, 24, 27, 0.4);
+  color: #ff9999;
+  border: 1px solid var(--gryffindor-red);
+}
+
+.house-badge.slytherin {
+  background: rgba(26, 94, 53, 0.4);
+  color: #8ce6aa;
+  border: 1px solid var(--slytherin-green);
+}
+
+.house-badge.ravenclaw {
+  background: rgba(28, 69, 135, 0.4);
+  color: #8bc3ff;
+  border: 1px solid var(--ravenclaw-blue);
+}
+
+.house-badge.hufflepuff {
+  background: rgba(220, 163, 20, 0.25);
+  color: #ffe680;
+  border: 1px solid var(--hufflepuff-yellow);
+}
+
+.house-badge.hogwarts, .house-badge.ministry, .house-badge.muggle, .house-badge.free-elves, .house-badge.house-of-crouch, .house-badge.beauxbatons, .house-badge.house-of-black {
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--text-muted);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.char-role {
+  font-size: 0.8rem;
+  color: var(--text-dim);
+}
+
+.char-tags {
+  display: flex;
+  gap: 0.35rem;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.tag-badge {
+  font-size: 0.68rem;
+  font-weight: 700;
+  padding: 0.2rem 0.5rem;
+  border-radius: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+}
+
+.tag-shift {
+  background: rgba(223, 184, 76, 0.18);
+  color: var(--gold-light);
+  border: 1px solid var(--gold-border);
+}
+
+.tag-exclusive {
+  background: rgba(139, 24, 27, 0.25);
+  color: #ff9d9d;
+  border: 1px solid rgba(255, 80, 80, 0.4);
+}
+
+.tag-star {
+  background: rgba(79, 195, 247, 0.18);
+  color: var(--cyan-accent);
+  border: 1px solid rgba(79, 195, 247, 0.3);
+}
+
+/* Card Body Split: Movie vs Audio */
+.char-card-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+  flex: 1;
+}
+
+@media (max-width: 580px) {
+  .char-card-body {
+    grid-template-columns: 1fr;
+  }
+}
+
+.char-side {
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.movie-side {
+  background: rgba(12, 17, 28, 0.4);
+  border-right: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.audible-side {
+  background: rgba(18, 28, 45, 0.3);
+}
+
+.side-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.9rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.side-title {
+  font-size: 0.74rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.side-title.movie {
+  color: var(--gold-light);
+}
+
+.side-title.audible {
+  color: var(--cyan-accent);
+}
+
+.side-year {
+  font-size: 0.68rem;
+  color: var(--text-dim);
+}
+
+/* Actor Info Row */
+.actor-profile-row {
+  display: flex;
+  gap: 0.9rem;
+  align-items: center;
+  margin-bottom: 0.85rem;
+}
+
+.actor-avatar-wrap {
+  width: 68px;
+  height: 68px;
+  min-width: 68px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2.5px solid var(--gold-primary);
+  background: var(--bg-tertiary);
+  position: relative;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.5), 0 0 10px rgba(223, 184, 76, 0.25);
+  transition: transform 0.2s ease;
+}
+
+.actor-avatar-wrap:hover {
+  transform: scale(1.06);
+}
+
+.actor-avatar-wrap.audible-wrap {
+  border-color: var(--cyan-accent);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.5), 0 0 12px rgba(56, 189, 248, 0.35);
+}
+
+.actor-avatar-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.actor-avatar-wrap:hover .actor-avatar-img {
+  transform: scale(1.1);
+}
+
+/* Fallback Monogram Avatar */
+.actor-monogram {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 1.1rem;
+  color: var(--gold-light);
+  background: linear-gradient(135deg, #1c2638, #0e1420);
+}
+
+.actor-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.actor-name-link {
+  font-size: 0.98rem;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  transition: var(--transition-fast);
+}
+
+.actor-name-link:hover {
+  color: var(--gold-primary);
+  text-decoration: underline;
+}
+
+.audible-side .actor-name-link:hover {
+  color: var(--cyan-accent);
+}
+
+.wiki-icon {
+  font-size: 0.72rem;
+  opacity: 0.7;
+}
+
+.actor-secondary {
+  font-size: 0.74rem;
+  color: var(--gold-light);
+  font-weight: 600;
+}
+
+.actor-coverage {
+  font-size: 0.72rem;
+  color: var(--text-dim);
+}
+
+.actor-notes {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+  flex: 1;
+}
+
+/* Card Footer */
+.char-card-footer {
+  padding: 0.9rem 1.4rem;
+  background: rgba(9, 13, 22, 0.7);
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.book-presence-dots {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.presence-label {
+  font-size: 0.7rem;
+  color: var(--text-dim);
+  margin-right: 0.2rem;
+  text-transform: uppercase;
+}
+
+.dot-book {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--text-dim);
+  font-size: 0.65rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dot-book.active {
+  background: rgba(223, 184, 76, 0.25);
+  color: var(--gold-light);
+  border: 1px solid var(--gold-primary);
+}
+
+.dot-book.selected {
+  background: var(--gold-primary);
+  color: #101624;
+  box-shadow: 0 0 8px var(--gold-glow);
+}
+
+.details-modal-btn {
+  background: var(--bg-tertiary);
+  border: 1px solid var(--gold-border);
+  color: var(--gold-light);
+  padding: 0.4rem 0.85rem;
+  border-radius: var(--border-radius-sm);
+  font-size: 0.78rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition-fast);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.details-modal-btn:hover {
+  background: var(--gold-primary);
+  color: #101624;
+  border-color: var(--gold-light);
+}
+
+/* Table View */
+.table-view-container {
+  background: var(--bg-card);
+  border: 1px solid var(--gold-border);
+  border-radius: var(--border-radius-lg);
+  overflow-x: auto;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.cast-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.cast-table th {
+  background: rgba(15, 22, 36, 0.95);
+  padding: 1rem 1.25rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--gold-light);
+  border-bottom: 2px solid var(--gold-border);
+}
+
+.cast-table td {
+  padding: 1rem 1.25rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  font-size: 0.88rem;
+  vertical-align: middle;
+}
+
+.cast-table tr:hover {
+  background: rgba(223, 184, 76, 0.05);
+}
+
+.table-char-cell {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+}
+
+.table-thumb-wrap {
+  width: 46px;
+  height: 46px;
+  min-width: 46px;
+  border-radius: 10px;
+  overflow: hidden;
+  background: var(--bg-tertiary);
+}
+
+.table-char-thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 15%;
+  display: block;
+}
+
+.table-char-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.table-actor-cell {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+}
+
+.table-actor-thumb {
+  width: 42px;
+  height: 42px;
+  min-width: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 15%;
+  border: 2px solid var(--gold-primary);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+}
+
+.table-actor-thumb.audible-thumb {
+  border-color: var(--cyan-accent);
+}
+
+.table-actor-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.table-wiki-link {
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.table-wiki-link:hover {
+  color: var(--gold-primary);
+  text-decoration: underline;
+}
+
+/* Modal */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(4, 7, 12, 0.85);
+  backdrop-filter: blur(8px);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.modal-overlay.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modal-dialog {
+  background: var(--bg-secondary);
+  border: 1px solid var(--gold-border);
+  border-radius: var(--border-radius-lg);
+  max-width: 860px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.8), 0 0 30px var(--gold-glow);
+  position: relative;
+  transform: translateY(20px);
+  transition: transform 0.3s ease;
+}
+
+.modal-overlay.open .modal-dialog {
+  transform: translateY(0);
+}
+
+.modal-close-btn {
+  position: absolute;
+  top: 1.25rem;
+  right: 1.25rem;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  color: #fff;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition-fast);
+  z-index: 10;
+}
+
+.modal-close-btn:hover {
+  background: var(--gryffindor-red);
+  transform: rotate(90deg);
+}
+
+.modal-header {
+  padding: 1.75rem 2.25rem 1.25rem;
+  border-bottom: 1px solid rgba(223, 184, 76, 0.2);
+}
+
+.modal-hero-split {
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+  width: 100%;
+}
+
+.modal-char-portrait-wrap {
+  width: 96px;
+  height: 96px;
+  min-width: 96px;
+  border-radius: 20px;
+  overflow: hidden;
+  background: var(--bg-tertiary);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+}
+
+.modal-char-portrait-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 15%;
+  display: block;
+}
+
+.modal-hero-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.modal-title {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 0.3rem;
+}
+
+.modal-subtitle {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+}
+
+.modal-body {
+  padding: 1.75rem 2.5rem;
+}
+
+.modal-dual-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-bottom: 1.75rem;
+}
+
+@media (max-width: 650px) {
+  .modal-dual-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.modal-column {
+  background: rgba(9, 13, 22, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: var(--border-radius-md);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.modal-actor-card-head {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.modal-actor-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--gold-border);
+}
+
+.wiki-btn-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: var(--bg-tertiary);
+  color: var(--gold-light);
+  border: 1px solid var(--gold-border);
+  padding: 0.45rem 0.9rem;
+  border-radius: var(--border-radius-sm);
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: var(--transition-fast);
+  margin-top: 0.4rem;
+  width: fit-content;
+}
+
+.wiki-btn-link:hover {
+  background: var(--gold-primary);
+  color: #101624;
+}
+
+.modal-section {
+  margin-bottom: 1.5rem;
+}
+
+.modal-section-title {
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--gold-light);
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.05em;
+}
+
+.modal-section-text {
+  font-size: 0.92rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+/* Timeline & Infographic Section */
+.timeline-section {
+  background: var(--bg-card);
+  border: 1px solid var(--gold-border);
+  border-radius: var(--border-radius-lg);
+  padding: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.timeline-title {
+  font-size: 1.5rem;
+  color: var(--gold-light);
+  margin-bottom: 1rem;
+}
+
+.timeline-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.era-card {
+  background: rgba(15, 22, 36, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: var(--border-radius-md);
+  padding: 1.5rem;
+  position: relative;
+}
+
+.era-card.era-1 {
+  border-left: 4px solid var(--gold-primary);
+}
+
+.era-card.era-2 {
+  border-left: 4px solid var(--cyan-accent);
+}
+
+.era-card.era-3 {
+  border-left: 4px solid #b388ff;
+}
+
+.era-badge {
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: var(--gold-light);
+  margin-bottom: 0.5rem;
+}
+
+.era-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+.era-desc {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  line-height: 1.55;
+  margin-bottom: 1rem;
+}
+
+.era-cast-list {
+  font-size: 0.82rem;
+  color: #d8e2ec;
+  line-height: 1.6;
+}
+
+/* Footer */
+.site-footer {
+  border-top: 1px solid var(--gold-border);
+  background: var(--bg-primary);
+  padding: 2.5rem 2rem;
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.footer-logo {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.footer-text {
+  font-size: 0.85rem;
+  color: var(--text-dim);
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  font-size: 0.82rem;
+}
+
+.footer-links a {
+  color: var(--gold-light);
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.35s ease forwards;
+}
+
+/* Smooth iOS Momentum Scrolling */
+.book-tabs-scroll,
+.table-view-container,
+.view-mode-tabs {
+  -webkit-overflow-scrolling: touch;
+}
+
+.modal-actor-img.audible-modal-img {
+  border-color: var(--cyan-accent);
+  box-shadow: 0 4px 14px rgba(56, 189, 248, 0.35);
+}
+
+/* Enhanced Mobile Responsiveness & WCAG Touch Target Compliance */
+@media (max-width: 640px) {
+  .main-content {
+    padding: 1rem 0.75rem;
+  }
+
+  .site-header {
+    padding: 1rem 0.75rem;
+  }
+
+  .hero-banner {
+    padding: 1.25rem 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero-title {
+    font-size: 1.5rem;
+  }
+
+  .char-portrait-container {
+    width: 64px;
+    height: 64px;
+    min-width: 64px;
+    border-radius: 12px;
+  }
+
+  .char-name {
+    font-size: 1.15rem;
+  }
+
+  .char-header-identity {
+    gap: 0.85rem;
+  }
+
+  .char-card-body {
+    grid-template-columns: 1fr;
+  }
+
+  .movie-side {
+    border-right: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .actor-avatar-wrap {
+    width: 58px;
+    height: 58px;
+    min-width: 58px;
+  }
+
+  /* Card footer wrapping on small screens */
+  .char-card-footer {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.75rem;
+    padding: 0.85rem 1rem;
+  }
+
+  .book-presence-dots {
+    justify-content: center;
+  }
+
+  .details-modal-btn {
+    width: 100%;
+    justify-content: center;
+    min-height: 44px;
+  }
+
+  /* View Switcher horizontal scroll */
+  .view-mode-tabs {
+    width: 100%;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .view-mode-tabs::-webkit-scrollbar {
+    display: none;
+  }
+
+  .view-btn {
+    flex: 1 0 auto;
+    justify-content: center;
+    white-space: nowrap;
+    min-height: 44px;
+  }
+
+  .modal-close-btn {
+    width: 44px;
+    height: 44px;
+    font-size: 1.3rem;
+  }
+
+  .toggle-btn,
+  .cat-pill,
+  .audio-toggle-btn {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+  }
+
+  /* Modal Mobile Hero */
+  .modal-hero-split {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.85rem;
+  }
+
+  .modal-char-portrait-wrap {
+    width: 76px;
+    height: 76px;
+    min-width: 76px;
+  }
+
+  .modal-actor-card-head {
+    gap: 0.75rem;
+  }
+
+  .modal-actor-img {
+    width: 64px;
+    height: 64px;
+    min-width: 64px;
+  }
+
+  .modal-header {
+    padding: 1.25rem 1.5rem;
+  }
+
+  .modal-body {
+    padding: 1.25rem 1.5rem;
+  }
+}
+
+@media (pointer: coarse) {
+  .modal-close-btn {
+    width: 44px;
+    height: 44px;
+  }
+  .toggle-btn,
+  .cat-pill,
+  .audio-toggle-btn,
+  .view-btn,
+  .details-modal-btn {
+    min-height: 44px;
+  }
+}
+
+</style>
+</head>
+<body>
+
+  <!-- Top Sticky Header -->
+  <header class="site-header">
+    <div class="header-container">
+      <div class="brand-wrapper">
+        <div class="brand-crest">⚡</div>
+        <div class="brand-titles">
+          <h1>Chronicles of Casting</h1>
+          <p>Warner Bros. Movies (2001–2011) vs. Audible Full-Cast Audiobooks (2025–2026)</p>
+        </div>
+      </div>
+      <div class="header-actions">
+        <button id="soundToggleBtn" class="audio-toggle-btn active" title="Toggle Magical Chime Effects">
+          🔔 Chimes: ON
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main class="main-content">
+    
+    <!-- Hero Banner -->
+    <section class="hero-banner">
+      <div class="hero-tag">✨ Complete Audio & Film Encyclopedia</div>
+      <h2 class="hero-title">Book-by-Book Cast Comparison & Vocal Evolution</h2>
+      <p class="hero-desc">
+        Compare every major wizard, witch, and magical creature side by side. Witness how the Warner Bros. live-action film ensemble compares to the star-studded, 500+ voice cast of Pottermore & Audible’s Dolby Atmos full-cast audio editions, including the intentional <strong>Book 1–3 to Book 4–7 cast evolution</strong>, Hollywood star crossovers, and beloved characters cut from the films!
+      </p>
+
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-value">7 Books</span>
+          <span class="stat-label">Full Saga Coverage</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-value">500+ Actors</span>
+          <span class="stat-label">Audible Ensemble Size</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-value">50+ Profiles</span>
+          <span class="stat-label">Major Character Lineups</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-value">Direct Wiki</span>
+          <span class="stat-label">Linked Actor Biographies</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Book Selector Navigation Bar -->
+    <nav class="book-nav-container" aria-label="Book Selection">
+      <div class="book-nav-title">
+        <span>📖 Select Book / Era</span>
+        <small style="color: var(--text-dim); text-transform: none; font-weight: 400;">Filter cast members by their specific book presence</small>
+      </div>
+      <div id="bookNavTabs" class="book-tabs-scroll">
+        <!-- Injected dynamically by app.js -->
+      </div>
+    </nav>
+
+    <!-- Dynamic Book Context & Shift Banner -->
+    <section id="bookContextBanner" aria-live="polite">
+      <!-- Injected dynamically by app.js -->
+    </section>
+
+    <!-- Interactive Filter & Search Controls Bar -->
+    <div class="controls-bar">
+      <!-- Search Input -->
+      <div class="search-box">
+        <span class="search-icon">🔍</span>
+        <input 
+          type="text" 
+          id="characterSearchInput" 
+          placeholder="Search character, movie actor, voice artist, or house..."
+          autocomplete="off"
+        />
+      </div>
+
+      <!-- Quick Toggles -->
+      <div class="filter-toggles">
+        <button id="toggleRecastsBtn" class="toggle-btn" title="Filter for characters with recasts or casting shifts">
+          <span>🔄 Only Recasts & Shifts</span>
+        </button>
+        <button id="toggleExclusivesBtn" class="toggle-btn" title="Filter for characters in the audiobooks cut from movies">
+          <span>📖 Only Book Exclusives</span>
+        </button>
+      </div>
+
+      <!-- View Switcher Tabs -->
+      <div class="view-mode-tabs" role="tablist">
+        <button class="view-btn active" data-view="cards" role="tab" aria-selected="true">
+          <span>🎴 Side-by-Side</span>
+        </button>
+        <button class="view-btn" data-view="table" role="tab" aria-selected="false">
+          <span>📋 Matrix Table</span>
+        </button>
+        <button class="view-btn" data-view="timeline" role="tab" aria-selected="false">
+          <span>📊 Era Architecture</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Category Filter Pills -->
+    <div id="categoryPills" class="category-pills" role="group" aria-label="Filter by Affiliation">
+      <!-- Injected dynamically by app.js -->
+    </div>
+
+    <!-- Results Header -->
+    <div class="results-header">
+      <span id="resultsCount" class="results-count">Loading Cast Profiles...</span>
+      <small style="color: var(--text-dim);">Click "Deep-Dive Comparison" on any character card to examine vocal nuance & lore trivia.</small>
+    </div>
+
+    <!-- Cast Content Display Area (Cards / Table / Timeline) -->
+    <div id="castContentArea">
+      <!-- Injected dynamically by app.js -->
+    </div>
+
+  </main>
+
+  <!-- Deep Dive Character Modal -->
+  <div id="charModal" class="modal-overlay" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-dialog">
+      <button id="modalCloseBtn" class="modal-close-btn" aria-label="Close Modal">✕</button>
+      <div id="modalBodyContent">
+        <!-- Injected dynamically when modal opens -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="footer-logo">⚡ 🧙‍♀️ 🎧</div>
+      <p class="footer-text">
+        <strong>The Chronicles of Casting</strong> is an educational interactive guide comparing the performance craft across media.
+        Harry Potter film adaptations &copy; Warner Bros. Entertainment Inc. Full-Cast Audio Editions produced by Audible &amp; Pottermore Publishing in Dolby Atmos.
+      </p>
+      <div class="footer-links">
+        <a href="https://en.wikipedia.org/wiki/Harry_Potter_(film_series)" target="_blank" rel="noopener noreferrer">Film Series Wikipedia</a>
+        <a href="https://harrypotter.fandom.com/wiki/Harry_Potter:_The_Full-Cast_Audio_Editions" target="_blank" rel="noopener noreferrer">Audible Full-Cast Wiki</a>
+        <a href="https://www.audible.com" target="_blank" rel="noopener noreferrer">Audible.com</a>
+        <a href="https://www.harrypotter.com" target="_blank" rel="noopener noreferrer">Wizarding World</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script>
+// Harry Potter Cast Comparison Dataset: Movies vs Audible Full Ensemble
+const HP_BOOKS_DATA = [
+  {
+    "id": 1,
+    "title": "Harry Potter and the Philosopher's / Sorcerer's Stone",
+    "shortTitle": "1. Philosopher's Stone",
+    "bookYear": 1997,
+    "movieYear": 2001,
+    "audibleYear": "Nov 2025",
+    "movieDirector": "Chris Columbus",
+    "audibleNarrator": "Cush Jumbo OBE",
+    "synopsis": "Harry discovers his magical heritage on his 11th birthday, arrives at Hogwarts School of Witchcraft and Wizardry, and protects the legendary Philosopher's Stone from Lord Voldemort and Professor Quirrell.",
+    "audibleCastEra": "Child Voice Cast (Books 1\u20133)",
+    "shiftSummary": "First introduction of Frankie Treadaway, Max Lester, and Arabella Stanton as the youthful Golden Trio. Richard Harris debuts as Movie Dumbledore; Hugh Laurie voices Dumbledore for Audible.",
+    "icon": "\u26a1"
+  },
+  {
+    "id": 2,
+    "title": "Harry Potter and the Chamber of Secrets",
+    "shortTitle": "2. Chamber of Secrets",
+    "bookYear": 1998,
+    "movieYear": 2002,
+    "audibleYear": "Dec 2025",
+    "movieDirector": "Chris Columbus",
+    "audibleNarrator": "Cush Jumbo OBE",
+    "synopsis": "Dark warnings from Dobby the House-Elf precede petrifications at Hogwarts. The Chamber of Secrets has been opened, unleashing Salazar Slytherin's Basilisk and Tom Riddle's preserved 16-year-old memory.",
+    "audibleCastEra": "Child Voice Cast (Books 1\u20133)",
+    "shiftSummary": "Introduces Kit Harington as Gilderoy Lockhart, Daniel Mays as Dobby, Alex Hassell as Lucius Malfoy, Simon Pegg as Arthur Weasley, and Oscar Brudenall-Jones as Tom Riddle. Richard Harris's final film as Dumbledore before his passing.",
+    "icon": "\ud83d\udc0d"
+  },
+  {
+    "id": 3,
+    "title": "Harry Potter and the Prisoner of Azkaban",
+    "shortTitle": "3. Prisoner of Azkaban",
+    "bookYear": 1999,
+    "movieYear": 2004,
+    "audibleYear": "Jan 2026",
+    "movieDirector": "Alfonso Cuar\u00f3n",
+    "audibleNarrator": "Cush Jumbo OBE",
+    "synopsis": "Notorious convict Sirius Black escapes Azkaban prison, Dementors patrol Hogwarts, and Harry uncovers the truth about the Marauders, his godfather, and Peter Pettigrew's ultimate betrayal.",
+    "audibleCastEra": "Child Voice Cast (Books 1\u20133) [Final Book of Era 1]",
+    "shiftSummary": "MAJOR MOVIE RECAST: Michael Gambon takes over Dumbledore from the late Richard Harris; Dawn French replaces Elizabeth Spriggs as The Fat Lady. Audible introduces Sope Dirisu as Sirius Black, Iwan Rheon as Remus Lupin, Blake Harrison as Wormtail, and Matt Berry as Sir Cadogan.",
+    "icon": "\ud83d\udc3a"
+  },
+  {
+    "id": 4,
+    "title": "Harry Potter and the Goblet of Fire",
+    "shortTitle": "4. Goblet of Fire",
+    "bookYear": 2000,
+    "movieYear": 2005,
+    "audibleYear": "Feb 2026",
+    "movieDirector": "Mike Newell",
+    "audibleNarrator": "Cush Jumbo OBE",
+    "synopsis": "Harry is mysteriously entered into the deadly Triwizard Tournament against older champions, culminating in the resurrection of Lord Voldemort in the Little Hangleton graveyard.",
+    "audibleCastEra": "Teen / Mature Voice Cast (Books 4\u20137) [MAJOR AUDIBLE TURNING POINT]",
+    "shiftSummary": "MAJOR AUDIBLE CAST SHIFT: The Golden Trio and student body transition to older actors! Jaxon Knopf replaces Frankie Treadaway as Harry; Rhys Mulligan replaces Max Lester as Ron; Nina Barker-Francis replaces Arabella Stanton as Hermione. Movie introduces Ralph Fiennes as physical Voldemort and Brendan Gleeson as Mad-Eye Moody (voiced by James McAvoy in Audible). Characters cut from the film like Ludo Bagman (Danny Kirrane) and Winky (Clare Corbett) appear in the audio edition!",
+    "icon": "\ud83c\udfc6"
+  },
+  {
+    "id": 5,
+    "title": "Harry Potter and the Order of the Phoenix",
+    "shortTitle": "5. Order of the Phoenix",
+    "bookYear": 2003,
+    "movieYear": 2007,
+    "audibleYear": "Mar 2026",
+    "movieDirector": "David Yates",
+    "audibleNarrator": "Cush Jumbo OBE",
+    "synopsis": "The Ministry denies Voldemort's return, installing Dolores Umbridge as High Inquisitor. Harry founds Dumbledore's Army to prepare for war as the Order fights from 12 Grimmauld Place.",
+    "audibleCastEra": "Teen / Mature Voice Cast (Books 4\u20137)",
+    "shiftSummary": "Audible casting highlights: Keira Knightley portrays Dolores Umbridge with terrifying sweetness; Ruth Wilson debuts as Bellatrix Lestrange; Abraham Popoola as Kingsley Shacklebolt; and Mackenzie Crook as Kreacher.",
+    "icon": "\ud83d\udd25"
+  },
+  {
+    "id": 6,
+    "title": "Harry Potter and the Half-Blood Prince",
+    "shortTitle": "6. Half-Blood Prince",
+    "bookYear": 2005,
+    "movieYear": 2009,
+    "audibleYear": "Apr 2026",
+    "movieDirector": "David Yates",
+    "audibleNarrator": "Cush Jumbo OBE",
+    "synopsis": "Dumbledore guides Harry through Voldemort's dark past using the Pensieve to unravel the mystery of Horcruxes, while Malfoy plots within Hogwarts and the mysterious Half-Blood Prince aids Harry's potions work.",
+    "audibleCastEra": "Teen / Mature Voice Cast (Books 4\u20137)",
+    "shiftSummary": "CROSSOVER CASTING: Bill Nighy (who played Rufus Scrimgeour in Deathly Hallows Part 1 film) voices Horace Slughorn in Audible! Jessica Henwick voices Narcissa Malfoy. Audible also includes the Gaunt family pensieve memories (Finbar Lynch as Marvolo, Pete Gold as Morfin) completely cut from the movie.",
+    "icon": "\ud83e\uddea"
+  },
+  {
+    "id": 7,
+    "title": "Harry Potter and the Deathly Hallows",
+    "shortTitle": "7. Deathly Hallows (Parts 1 & 2)",
+    "bookYear": 2007,
+    "movieYear": "2010 (Pt 1) / 2011 (Pt 2)",
+    "audibleYear": "May 2026",
+    "movieDirector": "David Yates",
+    "audibleNarrator": "Cush Jumbo OBE",
+    "synopsis": "Harry, Ron, and Hermione abandon Hogwarts to hunt Voldemort's Horcruxes on the run, leading to the ultimate standoff: The Battle of Hogwarts and the '19 Years Later' epilogue at Platform 9\u00be.",
+    "audibleCastEra": "Mature Cast (Books 4\u20137) + Epilogue Adult Cast",
+    "shiftSummary": "EPILOGUE CASTING: In Audible, adult voices take over for the 19 Years Later chapter: Sam Stafford (Adult Harry), Matthew Houston (Adult Ron), Saffron Coomber (Adult Hermione), and Claire-Louise Cordwell (Adult Ginny). In movies, the original actors wore prosthetic aging makeup. Features Jamie Demetriou as Xenophilius Lovegood and Leo Woodall as Bill Weasley.",
+    "icon": "\u2694\ufe0f"
+  }
+];
+
+const HP_CHARACTERS_DATA = [
+  {
+    "id": "harry_potter",
+    "name": "Harry Potter",
+    "role": "The Boy Who Lived / Gryffindor Seeker",
+    "category": "Golden Trio",
+    "house": "Gryffindor",
+    "booksActive": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "tags": [
+      "Audible Recast (Book 4)",
+      "Epilogue Adult Recast"
+    ],
+    "shiftSummary": "Audible divided Harry into three ages: young boy (Books 1\u20133), maturing teenager (Books 4\u20137), and grown adult (Epilogue). The film retained Daniel Radcliffe through all 8 movies, applying prosthetic makeup for the epilogue.",
+    "movie": {
+      "actor": "Daniel Radcliffe",
+      "wiki": "https://en.wikipedia.org/wiki/Daniel_Radcliffe",
+      "img": "images/actors/movie_harry_potter.jpg",
+      "coverage": "All 8 Movies (2001\u20132011)",
+      "notes": "Cast at age 11, Daniel Radcliffe aged in real time alongside Harry over a 10-year period, performing iconic stunt work and evolving Harry from wonderstruck orphan to battle-hardened hero."
+    },
+    "audible": {
+      "actor": "Frankie Treadaway (B1\u20133) / Jaxon Knopf (B4\u20137)",
+      "secondaryActor": "Adult Harry: Sam Stafford",
+      "wiki": "https://en.wikipedia.org/wiki/Daniel_Radcliffe",
+      "audibleWiki": "https://harrypotter.fandom.com/wiki/Harry_Potter:_The_Full-Cast_Audio_Editions",
+      "img": "images/actors/audible_harry_potter.svg",
+      "coverage": "Books 1\u20133 (Treadaway) | Books 4\u20137 (Knopf) | Epilogue (Stafford)",
+      "notes": "Audible's dual-casting reflects vocal puberty and emotional gravitas: Frankie Treadaway captures Harry's early vulnerability and awe, while Jaxon Knopf brings angsty power and weary determination from Goblet of Fire onward."
+    },
+    "trivia": "In the Audible Dolby Atmos mix, Harry's Parseltongue is whispered through multi-channel 3D audio, surrounding the listener in binaural snake-like hisses.",
+    "characterImg": "images/characters/harry_potter.jpg"
+  },
+  {
+    "id": "hermione_granger",
+    "name": "Hermione Granger",
+    "role": "Brightest Witch of Her Age / Gryffindor",
+    "category": "Golden Trio",
+    "house": "Gryffindor",
+    "booksActive": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "tags": [
+      "Audible Recast (Book 4)",
+      "Epilogue Adult Recast"
+    ],
+    "shiftSummary": "Audible casts Arabella Stanton for Books 1\u20133, Nina Barker-Francis for Books 4\u20137, and Saffron Coomber for the adult epilogue. Emma Watson portrayed Hermione in all 8 films.",
+    "movie": {
+      "actor": "Emma Watson",
+      "wiki": "https://en.wikipedia.org/wiki/Emma_Watson",
+      "img": "images/actors/movie_hermione_granger.jpg",
+      "coverage": "All 8 Movies (2001\u20132011)",
+      "notes": "Emma Watson's iconic performance brought sharp intellect, fierce poise, and emotional vulnerability, defining Hermione for a global generation."
+    },
+    "audible": {
+      "actor": "Arabella Stanton (B1\u20133) / Nina Barker-Francis (B4\u20137)",
+      "secondaryActor": "Adult Hermione: Saffron Coomber",
+      "wiki": "https://en.wikipedia.org/wiki/Saffron_Coomber",
+      "audibleWiki": "https://harrypotter.fandom.com/wiki/Harry_Potter:_The_Full-Cast_Audio_Editions",
+      "img": "images/actors/audible_hermione_granger.svg",
+      "coverage": "Books 1\u20133 (Stanton) | Books 4\u20137 (Barker-Francis) | Epilogue (Coomber)",
+      "notes": "Arabella Stanton plays young Hermione's bossy know-it-all cadence with charm; Nina Barker-Francis captures Hermione's teenage emotional depth, SPEW activism, and war-room strategic brilliance."
+    },
+    "trivia": "The Audible edition fully restores Hermione's S.P.E.W. (Society for the Promotion of Elfish Welfare) storyline, which was entirely omitted from the movie adaptations.",
+    "characterImg": "images/characters/hermione_granger.jpg"
+  },
+  {
+    "id": "ron_weasley",
+    "name": "Ron Weasley",
+    "role": "Harry's Loyal Best Friend / Gryffindor Keeper",
+    "category": "Golden Trio",
+    "house": "Gryffindor",
+    "booksActive": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "tags": [
+      "Audible Recast (Book 4)",
+      "Epilogue Adult Recast"
+    ],
+    "shiftSummary": "Audible transitions from child actor Max Lester (Books 1\u20133) to Rhys Mulligan (Books 4\u20137), with Matthew Houston voicing adult Ron. Rupert Grint portrayed Ron across all 8 films.",
+    "movie": {
+      "actor": "Rupert Grint",
+      "wiki": "https://en.wikipedia.org/wiki/Rupert_Grint",
+      "img": "images/actors/movie_ron_weasley.jpg",
+      "coverage": "All 8 Movies (2001\u20132011)",
+      "notes": "Rupert Grint brought peerless comedic timing, expressive facial comedy, and fierce heart to Ron across a decade on screen."
+    },
+    "audible": {
+      "actor": "Max Lester (B1\u20133) / Rhys Mulligan (B4\u20137)",
+      "secondaryActor": "Adult Ron: Matthew Houston",
+      "wiki": "https://en.wikipedia.org/wiki/Rupert_Grint",
+      "audibleWiki": "https://harrypotter.fandom.com/wiki/Harry_Potter:_The_Full-Cast_Audio_Editions",
+      "img": "images/actors/audible_ron_weasley.svg",
+      "coverage": "Books 1\u20133 (Lester) | Books 4\u20137 (Mulligan) | Epilogue (Houston)",
+      "notes": "Max Lester gives young Ron an earnest, squeaky warmth; Rhys Mulligan voices Ron's deeper teenage insecurities, jealousy, and fierce courage during the Horcrux hunt."
+    },
+    "trivia": "In the Audible audiobooks, Ron gets back dozens of book-original lines and wizarding knowledge explanations that the movie screenplays had reassigned to Hermione.",
+    "characterImg": "images/characters/ron_weasley.jpg"
+  },
+  {
+    "id": "albus_dumbledore",
+    "name": "Albus Dumbledore",
+    "role": "Headmaster of Hogwarts / Supreme Mugwump",
+    "category": "Hogwarts Faculty & Staff",
+    "house": "Gryffindor",
+    "booksActive": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "tags": [
+      "Movie Recast (Movie 3)",
+      "Audible Continuity"
+    ],
+    "shiftSummary": "In the movies, Richard Harris portrayed Dumbledore in Films 1\u20132 before passing away; Michael Gambon took over for Films 3\u20138 with a more energetic, turbulent style. In Audible, Hugh Laurie voices Dumbledore consistently across all 7 books.",
+    "movie": {
+      "actor": "Richard Harris (M1\u20132) / Michael Gambon (M3\u20138)",
+      "wiki": "https://en.wikipedia.org/wiki/Michael_Gambon",
+      "secondaryWiki": "https://en.wikipedia.org/wiki/Richard_Harris",
+      "img": "images/actors/movie_albus_dumbledore.jpg",
+      "coverage": "Movies 1\u20132 (Harris) | Movies 3\u20138 (Gambon)",
+      "notes": "Harris brought fairy-tale twinkling gentleness; Gambon injected fierce vitality, famously yelling 'HARRY, DID YOU PUT YOUR NAME IN THE GOBLET OF FIRE?!'"
+    },
+    "audible": {
+      "actor": "Hugh Laurie",
+      "wiki": "https://en.wikipedia.org/wiki/Hugh_Laurie",
+      "audibleWiki": "https://harrypotter.fandom.com/wiki/Harry_Potter:_The_Full-Cast_Audio_Editions",
+      "img": "images/actors/audible_albus_dumbledore.jpg",
+      "coverage": "All 7 Audiobooks (Books 1\u20137)",
+      "notes": "Beloved star Hugh Laurie (House, Blackadder) delivers an exquisite balance: calm grandfatherly wit, profound philosophical sadness, and terrifying subterranean authority when provoked."
+    },
+    "trivia": "Hugh Laurie voiced Dumbledore for the entire Audible marathon, delivering the line 'Harry, did you put your name in the Goblet of Fire?' calmly, exactly as J.K. Rowling wrote it in the book.",
+    "characterImg": "images/characters/albus_dumbledore.jpg"
+  },
+  {
+    "id": "severus_snape",
+    "name": "Severus Snape",
+    "role": "Potions Master / Head of Slytherin / Headmaster",
+    "category": "Hogwarts Faculty & Staff",
+    "house": "Slytherin",
+    "booksActive": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "tags": [
+      "Audible Star Casting",
+      "Young Flashback Actors"
+    ],
+    "shiftSummary": "Alan Rickman created a definitive legendary screen performance in all 8 movies. In Audible, Oscar and Emmy winner Riz Ahmed takes on the complex antihero.",
+    "movie": {
+      "actor": "Alan Rickman",
+      "wiki": "https://en.wikipedia.org/wiki/Alan_Rickman",
+      "img": "images/actors/movie_severus_snape.jpg",
+      "coverage": "All 8 Movies (2001\u20132011)",
+      "notes": "Alan Rickman's deep, languid baritone, iconic pauses, and tragic emotional reveal in 'The Prince's Tale' created one of cinema history's greatest performances."
+    },
+    "audible": {
+      "actor": "Riz Ahmed",
+      "secondaryActor": "Young: Raj Swamy | Child: Mylo Khan",
+      "wiki": "https://en.wikipedia.org/wiki/Riz_Ahmed",
+      "audibleWiki": "https://harrypotter.fandom.com/wiki/Harry_Potter:_The_Full-Cast_Audio_Editions",
+      "img": "images/actors/audible_severus_snape.jpg",
+      "coverage": "All 7 Audiobooks (Books 1\u20137)",
+      "notes": "Riz Ahmed (Sound of Metal, Rogue One, The Night Of) delivers a coiled, venomous, and deeply tragic interpretation, leaning into Snape's bitter sarcasm and repressed heartbreak."
+    },
+    "trivia": "J.K. Rowling had personally told Alan Rickman Snape's secret 'Always' backstory years before Deathly Hallows was published so he could calibrate his acting accordingly.",
+    "characterImg": "images/characters/severus_snape.jpg"
+  },
+  {
+    "id": "minerva_mcgonagall",
+    "name": "Minerva McGonagall",
+    "role": "Transfiguration Professor / Deputy Headmistress",
+    "category": "Hogwarts Faculty & Staff",
+    "house": "Gryffindor",
+    "booksActive": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "tags": [
+      "Audible Star Casting"
+    ],
+    "shiftSummary": "Dame Maggie Smith brought unforgettable aristocratic Scottish grandeur to all 8 films. Michelle Gomez voices McGonagall in Audible with sharp Scottish wit.",
+    "movie": {
+      "actor": "Maggie Smith",
+      "wiki": "https://en.wikipedia.org/wiki/Maggie_Smith",
+      "img": "images/actors/movie_minerva_mcgonagall.jpg",
+      "coverage": "All 8 Movies (2001\u20132011)",
+      "notes": "Dame Maggie Smith balanced fierce disciplinary authority with fierce maternal protection, uttering classics like 'I've always wanted to use that spell!'"
+    },
+    "audible": {
+      "actor": "Michelle Gomez",
+      "wiki": "https://en.wikipedia.org/wiki/Michelle_Gomez",
+      "audibleWiki": "https://harrypotter.fandom.com/wiki/Harry_Potter:_The_Full-Cast_Audio_Editions",
+      "img": "images/actors/audible_minerva_mcgonagall.jpg",
+      "coverage": "All 7 Audiobooks (Books 1\u20137)",
+      "notes": "Scottish actress Michelle Gomez (Doctor Who's Missy, The Flight Attendant) brings razor-sharp comedic timing, crisp brogue, and commanding courage during the Battle of Hogwarts."
+    },
+    "trivia": "Michelle Gomez's fiery delivery of McGonagall offering Harry a biscuit while eviscerating Umbridge's educational decrees in Book 5 is an audio standout.",
+    "characterImg": "images/characters/minerva_mcgonagall.jpg"
+  },
+  {
+    "id": "rubeus_hagrid",
+    "name": "Rubeus Hagrid",
+    "role": "Keeper of Keys and Grounds / Care of Magical Creatures",
+    "category": "Hogwarts Faculty & Staff",
+    "house": "Gryffindor",
+    "booksActive": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "tags": [
+      "Audible Star Casting"
+    ],
+    "shiftSummary": "Robbie Coltrane's gentle giant in the films was followed by Mark Addy voicing Hagrid across all 7 books in Audible.",
+    "movie": {
+      "actor": "Robbie Coltrane",
+      "wiki": "https://en.wikipedia.org/wiki/Robbie_Coltrane",
+      "img": "images/actors/movie_rubeus_hagrid.jpg",
+      "coverage": "All 8 Movies (2001\u20132011)",
+      "notes": "Robbie Coltrane's warm West Country rumble made Hagrid the emotional heartbeat of the cinematic universe ('Yer a wizard, Harry')."
+    },
+    "audible": {
+      "actor": "Mark Addy",
+      "secondaryActor": "Young Hagrid: Patrick Davies",
+      "wiki": "https://en.wikipedia.org/wiki/Mark_Addy",
+      "audibleWiki": "https://harrypotter.fandom.com/wiki/Harry_Potter:_The_Full-Cast_Audio_Editions",
+      "img": "images/actors/audible_rubeus_hagrid.jpg",
+      "coverage": "All 7 Audiobooks (Books 1\u20137)",
+      "notes": "Mark Addy (Robert Baratheon in Game of Thrones, The Full Monty) channels Hagrid's booming, sentimental giant-heart with Yorkshire/West-Country warmth and comic tears."
+    },
+    "trivia": "Mark Addy also recorded Hagrid's giant half-brother Grawp's vocal interactions alongside Finbar Lynch.",
+    "characterImg": "images/characters/rubeus_hagrid.jpg"
+  },
+  {
+    "id": "lord_voldemort",
+    "name": "Lord Voldemort / Tom Riddle",
+    "role": "The Dark Lord / Heir of Slytherin",
+    "category": "Death Eaters & Dark Forces",
+    "house": "Slytherin",
+    "booksActive": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7
+    ],
+    "tags": [
+      "Movie Recasts Across Forms",
+      "Audible Star Casting"
+    ],
+    "shiftSummary": "Movies used Richard Bremmer & Ian Hart (M1), Christian Coulson (M2 16yo), Ralph Fiennes (M4\u20138), and Hero Fiennes Tiffin & Frank Dillane (M6). Audible casts Matthew Macfadyen as Voldemort and Oscar Brudenall-Jones / Sam Squire as Tom Riddle.",
+    "movie": {
+      "actor": "Ralph Fiennes (M4\u20138) / Christian Coulson (M2)",
+      "secondaryActor": "Young: Hero Fiennes Tiffin & Frank Dillane (M6) | Face: Richard Bremmer (M1)",
+      "wiki": "https://en.wikipedia.org/wiki/Ralph_Fiennes",
+      "img": "images/actors/movie_lord_voldemort.jpg",
+      "coverage": "M1 (Bremmer), M2 (Coulson), M4\u20138 (Fiennes), M6 (Fiennes Tiffin, Dillane)",
+      "notes": "Ralph Fiennes' theatrical, hissing, aristocratic nightmare with no nose created a terrifying cinematic terror ('NYAAAH!')."
+    },
+    "audible": {
+      "actor": "Matthew Macfadyen (Lord Voldemort)",
+      "secondaryActor": "Tom Riddle: Oscar Brudenall-Jones | Young: Sam Squire",
+      "wiki": "https://en.wikipedia.org/wiki/Matthew_Macfadyen",
+      "audibleWiki": "https://harrypotter.fandom.com/wiki/Harry_Potter:_The_Full-Cast_Audio_Editions",
+      "img": "images/actors/audible_lord_voldemort.jpg",
+      "coverage": "Books 1, 4\u20137 (Macfadyen) | Books 2 & 6 (Brudenall-Jones, Squire)",
+      "notes": "Succession star Matthew Macfadyen portrays Voldemort with chilling quiet sophistication, predatory whispered sibilance, and sudden explosive malice."
+    },
+    "trivia": "In Dolby Atmos, Matthew Macfadyen's telepathic Voldemort voice in Book 5 actually whispers directly inside the listener's ear cups, mimicking Harry's mental intrusion.",
+    "characterImg": "images/characters/lord_voldemort.jpg"
+  },
+  {
+    "id": "narrator",
+    "name": "The Narrator",
+    "role": "Omniscient Guide & Storyteller of the Wizarding World",
+    "category": "Narrator",
+    "house": "Hogwarts",
+    "booksActive": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "tags": [
+      "Audible Exclusive Anchor",
+      "Audiobook Centerpiece"
+    ],
+    "shiftSummary": "Movies do not have a narrator, using visual cinematic storytelling. The Audible series features Cush Jumbo OBE guiding listeners through all 7 books alongside 500+ actors.",
+    "movie": {
+      "actor": "N/A (Visual Cinema Medium)",
+      "wiki": "https://en.wikipedia.org/wiki/Harry_Potter_(film_series)",
+      "img": "images/actors/movie_narrator.jpg",
+      "coverage": "N/A (Film direction by Columbus, Cuar\u00f3n, Newell, Yates)",
+      "notes": "The films rely on mise-en-sc\u00e8ne, John Williams' musical score, and visual effects rather than an omniscient narrative voice."
+    },
+    "audible": {
+      "actor": "Cush Jumbo OBE",
+      "wiki": "https://en.wikipedia.org/wiki/Cush_Jumbo",
+      "audibleWiki": "https://harrypotter.fandom.com/wiki/Harry_Potter:_The_Full-Cast_Audio_Editions",
+      "img": "images/actors/audible_narrator.jpg",
+      "coverage": "All 7 Audiobooks (Books 1\u20137)",
+      "notes": "Olivier-nominated and OBE honoree Cush Jumbo (The Good Fight, Criminal Record) acts as the lyrical spine of the entire production, narrating scene descriptions, magical lore, and dramatic pauses."
+    },
+    "trivia": "Cush Jumbo recorded over 200 studio hours for the complete 7-book cycle, working in Dolby Atmos spatial audio soundstages.",
+    "characterImg": "images/characters/narrator.jpg"
+  },
+  {
+    "id": "draco_malfoy",
+    "name": "Draco Malfoy",
+    "role": "Slytherin Rival / Seeker / Reluctant Death Eater",
+    "category": "Hogwarts Students",
+    "house": "Slytherin",
+    "booksActive": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "tags": [
+      "Audible Recast (Book 4)",
+      "Movie Continuity"
+    ],
+    "shiftSummary": "Tom Felton played Draco across all 8 movies. Audible casts Jude Farrant for Books 1\u20133, transitioning to Maximus Evans for Books 4\u20137.",
+    "movie": {
+      "actor": "Tom Felton",
+      "wiki": "https://en.wikipedia.org/wiki/Tom_Felton",
+      "img": "images/actors/movie_draco_malfoy.jpg",
+      "coverage": "All 8 Movies (2001\u20132011)",
+      "notes": "Tom Felton transformed Draco from a slick-backed playground bully into a conflicted, terrified boy trapped by Voldemort's demands in Half-Blood Prince."
+    },
+    "audible": {
+      "actor": "Jude Farrant (B1\u20133) / Maximus Evans (B4\u20137)",
+      "wiki": "https://en.wikipedia.org/wiki/Maximus_Evans",
+      "audibleWiki": "https://harrypotter.fandom.com/wiki/Harry_Potter:_The_Full-Cast_Audio_Editions",
+      "img": "images/actors/audible_draco_malfoy.svg",
+      "coverage": "Books 1\u20133 (Farrant) | Books 4\u20137 (Evans)",
+      "notes": "Maximus Evans (known for playing villain Corey Brent in Coronation Street) takes over from Book 4, giving Draco an oily sneer that crumbles into terrified remorse in the Vanishing Cabinet scenes."
+    },
+    "trivia": "Audible's sound design includes the mechanical clicking of Draco's Vanishing Cabinet echoing across the Room of Requirement in Book 6.",
+    "characterImg": "images/characters/draco_malfoy.jpg"
+  },
+  {
+    "id": "neville_longbottom",
+    "name": "Neville Longbottom",
+    "role": "Gryffindor Herbologist / D.A. Leader / Hero of Hogwarts",
+    "category": "Hogwarts Students",
+    "house": "Gryffindor",
+    "booksActive": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "tags": [
+      "Audible Recast (Book 4)",
+      "Movie Continuity"
+    ],
+    "shiftSummary": "Matthew Lewis played Neville in all 8 movies. Audible casts Jake Sigsworth for Books 1\u20133 and Archie Mountain for Books 4\u20137.",
+    "movie": {
+      "actor": "Matthew Lewis",
+      "wiki": "https://en.wikipedia.org/wiki/Matthew_Lewis_(actor)",
+      "img": "images/actors/movie_neville_longbottom.jpg",
+      "coverage": "All 8 Movies (2001\u20132011)",
+      "notes": "Matthew Lewis embodied the ultimate transformation in cinema, from the toad-losing boy petrified by Hermione to pulling Gryffindor's sword to slay Nagini."
+    },
+    "audible": {
+      "actor": "Jake Sigsworth (B1\u20133) / Archie Mountain (B4\u20137)",
+      "wiki": "https://en.wikipedia.org/wiki/Matthew_Lewis_(actor)",
+      "audibleWiki": "https://harrypotter.fandom.com/wiki/Harry_Potter:_The_Full-Cast_Audio_Editions",
+      "img": "images/actors/audible_neville_longbottom.svg",
+      "coverage": "Books 1\u20133 (Sigsworth) | Books 4\u20137 (Mountain)",
+      "notes": "Archie Mountain guides Neville through the tragic St. Mungo's hospital encounter with his parents and his rebellious leadership of Hogwarts during Deathly Hallows."
+    },
+    "trivia": "In the audio production, the St. Mungo's scene where Neville's mother hands him a Drooble's chewing gum wrapper is voiced with heart-wrenching emotional subtlety.",
+    "characterImg": "images/characters/neville_longbottom.jpg"
+  },
+  {
+    "id": "sirius_black",
+    "name": "Sirius Black",
+    "role": "Padfoot / Harry's Godfather / Order of the Phoenix",
+    "category": "Order of the Phoenix",
+    "house": "Gryffindor",
+    "booksActive": [
+      3,
+      4,
+      5,
+      7
+    ],
+    "tags": [
+      "Audible Star Casting",
+      "Young Flashback Actors"
+    ],
+    "shiftSummary": "Gary Oldman played Sirius in Movies 3, 4, 5, and 8. \u1e62\u1ecdp\u1eb9\u0301 D\u00ecr\u00eds\u00f9 voices Sirius in Audible across Books 3, 4, 5, and 7.",
+    "movie": {
+      "actor": "Gary Oldman",
+      "wiki": "https://en.wikipedia.org/wiki/Gary_Oldman",
+      "img": "images/actors/movie_sirius_black.jpg",
+      "coverage": "Movies 3, 4 (cameo), 5, 8",
+      "notes": "Gary Oldman brought aristocratic rock-and-roll rebellion, feral desperation, and tender fatherly love to Sirius Black."
+    },
+    "audible": {
+      "actor": "\u1e62\u1ecdp\u1eb9\u0301 D\u00ecr\u00eds\u00f9",
+      "secondaryActor": "Young: Anthony J. Abraham | Child: Dylan Trigger",
+      "wiki": "https://en.wikipedia.org/wiki/Sope_Dirisu",
+      "audibleWiki": "https://harrypotter.fandom.com/wiki/Harry_Potter:_The_Full-Cast_Audio_Editions",
+      "img": "images/actors/audible_sirius_black.jpg",
+      "coverage": "Books 3, 4, 5, 7 (D\u00ecr\u00eds\u00f9)",
+      "notes": "Sope Dirisu (Gangs of London, His House, Slow Horses) gives Sirius a rich, haunted timbre, balancing 12 years of Azkaban anguish with reckless, protective courage."
+    },
+    "trivia": "In Book 4, Sirius communicates with Harry by fire in the Gryffindor common room; the Audible team layered Dirisu's voice with crackling hearth ember acoustics.",
+    "characterImg": "images/characters/sirius_black.jpg"
+  },
+  {
+    "id": "remus_lupin",
+    "name": "Remus Lupin",
+    "role": "Moony / Defense Against the Dark Arts Teacher / Order Member",
+    "category": "Order of the Phoenix",
+    "house": "Gryffindor",
+    "booksActive": [
+      3,
+      5,
+      6,
+      7
+    ],
+    "tags": [
+      "Audible Star Casting"
+    ],
+    "shiftSummary": "David Thewlis played Lupin in Movies 3, 5, 6, 7, and 8. Iwan Rheon voices Lupin in Audible across Books 3, 5, 6, and 7.",
+    "movie": {
+      "actor": "David Thewlis",
+      "wiki": "https://en.wikipedia.org/wiki/David_Thewlis",
+      "img": "images/actors/movie_remus_lupin.jpg",
+      "coverage": "Movies 3, 5, 6, 7, 8",
+      "notes": "David Thewlis brought threadbare gentleness, melancholy kindness, and deep intellectual warmth to the afflicted werewolf."
+    },
+    "audible": {
+      "actor": "Iwan Rheon",
+      "secondaryActor": "Young Lupin: Richard Stranks",
+      "wiki": "https://en.wikipedia.org/wiki/Iwan_Rheon",
+      "audibleWiki": "https://harrypotter.fandom.com/wiki/Harry_Potter:_The_Full-Cast_Audio_Editions",
+      "img": "images/actors/audible_remus_lupin.jpg",
+      "coverage": "Books 3, 5, 6, 7 (Rheon)",
+      "notes": "Iwan Rheon (Game of Thrones' Ramsay Bolton, Misfits) plays against his villain type with deep empathy, soft-spoken wisdom, and fierce protective instincts as Moony."
+    },
+    "trivia": "The 'Boggart in the Wardrobe' lesson in Book 3 features Rheon cheerfully directing students while Matt Berry's Sir Cadogan shouts in the background.",
+    "characterImg": "images/characters/remus_lupin.jpg"
+  },
+  {
+    "id": "dolores_umbridge",
+    "name": "Dolores Umbridge",
+    "role": "Senior Undersecretary / High Inquisitor / Headmistress",
+    "category": "Ministry & Civilians",
+    "house": "Slytherin",
+    "booksActive": [
+      5,
+      7
+    ],
+    "tags": [
+      "Audible Star Casting Coup"
+    ],
+    "shiftSummary": "Imelda Staunton delivered one of the most hated villains in film history in Movies 5 and 7. In a massive casting coup, Oscar nominee Keira Knightley voices Umbridge in Audible.",
+    "movie": {
+      "actor": "Imelda Staunton",
+      "wiki": "https://en.wikipedia.org/wiki/Imelda_Staunton",
+      "img": "images/actors/movie_dolores_umbridge.jpg",
+      "coverage": "Movies 5 & 7",
+      "notes": "Imelda Staunton's pink-cardiganed, kitten-loving bureaucrat with her prim 'Hem, hem' cough remains universally despised and acclaimed."
+    },
+    "audible": {
+      "actor": "Keira Knightley",
+      "wiki": "https://en.wikipedia.org/wiki/Keira_Knightley",
+      "audibleWiki": "https://harrypotter.fandom.com/wiki/Harry_Potter:_The_Full-Cast_Audio_Editions",
+      "img": "images/actors/audible_dolores_umbridge.jpg",
+      "coverage": "Books 5 & 7",
+      "notes": "Keira Knightley (Pride & Prejudice, Pirates of the Caribbean, Atonement) surprises listeners with a baby-voiced, sugar-coated cruelty that turns into bloodcurdling sadism during blood quill detentions."
+    },
+    "trivia": "Listeners were stunned by Keira Knightley's vocal transformation, masking her famous natural voice completely under an eerie, sing-song purr.",
+    "characterImg": "images/characters/dolores_umbridge.jpg"
+  },
+  {
+    "id": "bellatrix_lestrange",
+    "name": "Bellatrix Lestrange",
+    "role": "Voldemort's Most Loyal Lieutenant / Death Eater",
+    "category": "Death Eaters & Dark Forces",
+    "house": "Slytherin",
+    "booksActive": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "tags": [
+      "Audible Star Casting"
+    ],
+    "shiftSummary": "Helena Bonham Carter defined Bellatrix's wild gothic madness in Movies 5\u20138. Ruth Wilson voices Bellatrix in Audible across Books 4\u20137.",
+    "movie": {
+      "actor": "Helena Bonham Carter",
+      "wiki": "https://en.wikipedia.org/wiki/Helena_Bonham_Carter",
+      "img": "images/actors/movie_bellatrix_lestrange.jpg",
+      "coverage": "Movies 5, 6, 7, 8",
+      "notes": "Helena Bonham Carter brought wild unhinged hair, baby-talk cruelty ('I killed Sirius Black!'), and feral devotion to Voldemort."
+    },
+    "audible": {
+      "actor": "Ruth Wilson",
+      "wiki": "https://en.wikipedia.org/wiki/Ruth_Wilson",
+      "audibleWiki": "https://harrypotter.fandom.com/wiki/Harry_Potter:_The_Full-Cast_Audio_Editions",
+      "img": "images/actors/audible_bellatrix_lestrange.jpg",
+      "coverage": "Books 4 (Pensieve cameo), 5, 6, 7",
+      "notes": "Golden Globe winner Ruth Wilson (Luther's Alice Morgan, His Dark Materials' Mrs. Coulter) plays Bellatrix with lethal aristocratic poise that snaps into rabid, shrieking frenzy."
+    },
+    "trivia": "Ruth Wilson's vocal performance in the Malfoy Manor interrogation in Book 7 features terrifying psychological cruelty opposite Nina Barker-Francis's Hermione.",
+    "characterImg": "images/characters/bellatrix_lestrange.jpg"
+  },
+  {
+    "id": "gilderoy_lockhart",
+    "name": "Gilderoy Lockhart",
+    "role": "Defense Against the Dark Arts Teacher / Fraudulent Celebrity",
+    "category": "Hogwarts Faculty & Staff",
+    "house": "Ravenclaw",
+    "booksActive": [
+      2,
+      5
+    ],
+    "tags": [
+      "Audible Star Casting",
+      "Book 5 St. Mungo's Return"
+    ],
+    "shiftSummary": "Sir Kenneth Branagh played Lockhart in Movie 2. Kit Harington voices Lockhart in Audible for Books 2 and 5 (the St. Mungo's hospital scene cut from the movie).",
+    "movie": {
+      "actor": "Kenneth Branagh",
+      "wiki": "https://en.wikipedia.org/wiki/Kenneth_Branagh",
+      "img": "images/actors/movie_gilderoy_lockhart.jpg",
+      "coverage": "Movie 2 (Chamber of Secrets)",
+      "notes": "Kenneth Branagh dazzled with his teeth-gleaming vanity, billowing robes, and hilarious cowardice ('Cornish pixies! Let's see what you make of them!')."
+    },
+    "audible": {
+      "actor": "Kit Harington",
+      "wiki": "https://en.wikipedia.org/wiki/Kit_Harington",
+      "audibleWiki": "https://harrypotter.fandom.com/wiki/Harry_Potter:_The_Full-Cast_Audio_Editions",
+      "img": "images/actors/audible_gilderoy_lockhart.jpg",
+      "coverage": "Books 2 & 5",
+      "notes": "Kit Harington (Game of Thrones' Jon Snow) showcases dazzling comic range, playing Lockhart with ridiculous pomposity in Book 2 and delightful amnesiac cheerfulness in Book 5's Janus Thickey ward."
+    },
+    "trivia": "Kit Harington returns in Book 5 to sign autographs with peacock feathers in St. Mungo's Hospital\u2014a fan-favorite scene that never appeared in the film series!",
+    "characterImg": "images/characters/gilderoy_lockhart.jpg"
+  },
+  {
+    "id": "alastor_moody",
+    "name": "Alastor 'Mad-Eye' Moody",
+    "role": "Legendary Auror / Order of the Phoenix Leader",
+    "category": "Order of the Phoenix",
+    "house": "Hogwarts",
+    "booksActive": [
+      4,
+      5,
+      7
+    ],
+    "tags": [
+      "Audible Hollywood Star Casting"
+    ],
+    "shiftSummary": "Brendan Gleeson played Mad-Eye Moody in Movies 4, 5, and 7. Hollywood A-lister James McAvoy voices Moody in Audible across Books 4, 5, and 7.",
+    "movie": {
+      "actor": "Brendan Gleeson",
+      "wiki": "https://en.wikipedia.org/wiki/Brendan_Gleeson",
+      "img": "images/actors/movie_alastor_moody.jpg",
+      "coverage": "Movies 4, 5, 7",
+      "notes": "Brendan Gleeson brought Irish brogue, mechanical stomping, swirling magical eye movements, and barking paranoia ('CONSTANT VIGILANCE!')."
+    },
+    "audible": {
+      "actor": "James McAvoy",
+      "wiki": "https://en.wikipedia.org/wiki/James_McAvoy",
+      "audibleWiki": "https://harrypotter.fandom.com/wiki/Harry_Potter:_The_Full-Cast_Audio_Editions",
+      "img": "images/actors/audible_alastor_moody.jpg",
+      "coverage": "Books 4, 5, 7",
+      "notes": "James McAvoy (X-Men, Split, Atonement) turns in a gravelly, battle-scarred performance laden with ferocious intensity, guttural barks, and tragic loyalty."
+    },
+    "trivia": "Because Barty Crouch Jr. impersonates Moody for the entirety of Book 4, McAvoy had to subtly infuse his performance with slight hints of manic fanaticism.",
+    "characterImg": "images/characters/alastor_moody.jpg"
+  },
+  {
+    "id": "horace_slughorn",
+    "name": "Horace Slughorn",
+    "role": "Potions Master / Slug Club Founder / Slytherin Head",
+    "category": "Hogwarts Faculty & Staff",
+    "house": "Slytherin",
+    "booksActive": [
+      6,
+      7
+    ],
+    "tags": [
+      "Movie-to-Audio Star Crossover",
+      "Bill Nighy Switch"
+    ],
+    "shiftSummary": "Jim Broadbent played Slughorn in Movies 6 and 8. In a legendary crossover, Bill Nighy (who played Minister Rufus Scrimgeour in Deathly Hallows Part 1 film) voices Slughorn in Audible!",
+    "movie": {
+      "actor": "Jim Broadbent",
+      "wiki": "https://en.wikipedia.org/wiki/Jim_Broadbent",
+      "img": "images/actors/movie_horace_slughorn.jpg",
+      "coverage": "Movies 6 & 8",
+      "notes": "Jim Broadbent portrayed Slughorn with bumbling vanity, guilty shame, and deep affection for Lily Potter, disguised as an armchair."
+    },
+    "audible": {
+      "actor": "Bill Nighy",
+      "wiki": "https://en.wikipedia.org/wiki/Bill_Nighy",
+      "audibleWiki": "https://harrypotter.fandom.com/wiki/Harry_Potter:_The_Full-Cast_Audio_Editions",
+      "img": "images/actors/audible_horace_slughorn.jpg",
+      "coverage": "Books 6 & 7",
+      "notes": "Oscar nominee Bill Nighy brings his trademark theatrical drawl, velvety self-satisfaction, and profound remorse to Slughorn's Horcrux confession."
+    },
+    "trivia": "BILL NIGHY CASTING IRONIC CROSSOVER: Nighy played Minister Rufus Scrimgeour in the movie Deathly Hallows: Part 1! In Audible, Scrimgeour is voiced by Nicholas Boulton while Nighy plays Slughorn!",
+    "characterImg": "images/characters/horace_slughorn.jpg"
+  },
+  {
+    "id": "arthur_weasley",
+    "name": "Arthur Weasley",
+    "role": "Misuse of Muggle Artefacts Office / Order Member",
+    "category": "Order of the Phoenix",
+    "house": "Gryffindor",
+    "booksActive": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "tags": [
+      "Audible Star Casting"
+    ],
+    "shiftSummary": "Mark Williams played Arthur in Movies 2\u20138. Simon Pegg voices Arthur Weasley across Books 2\u20137 in Audible.",
+    "movie": {
+      "actor": "Mark Williams",
+      "wiki": "https://en.wikipedia.org/wiki/Mark_Williams_(actor)",
+      "img": "images/actors/movie_arthur_weasley.jpg",
+      "coverage": "Movies 2\u20138",
+      "notes": "Mark Williams brought endless gentle wonder to Muggle oddities ('Tell me, what exactly is the function of a rubber duck?')."
+    },
+    "audible": {
+      "actor": "Simon Pegg",
+      "wiki": "https://en.wikipedia.org/wiki/Simon_Pegg",
+      "audibleWiki": "https://harrypotter.fandom.com/wiki/Harry_Potter:_The_Full-Cast_Audio_Editions",
+      "img": "images/actors/audible_arthur_weasley.jpg",
+      "coverage": "Books 2\u20137",
+      "notes": "Pop culture icon Simon Pegg (Shaun of the Dead, Hot Fuzz, Star Trek) infuses Arthur with boundless nerdy curiosity, warm fatherly devotion, and courage when confronting Lucius Malfoy."
+    },
+    "trivia": "Simon Pegg previously voiced Phineas Nigellus Black in the video game Hogwarts Legacy; here he takes over the warm-hearted Arthur Weasley!",
+    "characterImg": "images/characters/arthur_weasley.jpg"
+  },
+  {
+    "id": "molly_weasley",
+    "name": "Molly Weasley",
+    "role": "Matriarch of the Burrow / Order of the Phoenix",
+    "category": "Order of the Phoenix",
+    "house": "Gryffindor",
+    "booksActive": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "tags": [
+      "Audible Star Casting"
+    ],
+    "shiftSummary": "Dame Julie Walters portrayed Molly across Movies 1\u20133 and 5\u20138. British comedy star Nina Wadia voices Molly in Audible.",
+    "movie": {
+      "actor": "Julie Walters",
+      "wiki": "https://en.wikipedia.org/wiki/Julie_Walters",
+      "img": "images/actors/movie_molly_weasley.jpg",
+      "coverage": "Movies 1\u20133, 5\u20138",
+      "notes": "Julie Walters provided heart, knitted sweaters, and the series' most iconic victory shout: 'NOT MY DAUGHTER, YOU BITCH!'"
+    },
+    "audible": {
+      "actor": "Nina Wadia",
+      "wiki": "https://en.wikipedia.org/wiki/Nina_Wadia",
+      "audibleWiki": "https://harrypotter.fandom.com/wiki/Harry_Potter:_The_Full-Cast_Audio_Editions",
+      "img": "images/actors/audible_molly_weasley.jpg",
+      "coverage": "All 7 Audiobooks (Books 1\u20137)",
+      "notes": "Nina Wadia (Goodness Gracious Me, EastEnders, Aladdin) voices Molly with magnificent comic exasperation, deep emotional vulnerability over the Boggart, and lethal fury in the final duel."
+    },
+    "trivia": "Nina Wadia's performance of Molly's Howler to Ron in Chamber of Secrets is processed through Dolby Atmos reverberation that literally rattles the listener's headphones.",
+    "characterImg": "images/characters/molly_weasley.jpg"
+  },
+  {
+    "id": "ginny_weasley",
+    "name": "Ginny Weasley",
+    "role": "Gryffindor Chaser & Seeker / D.A. / Harry's True Love",
+    "category": "Hogwarts Students",
+    "house": "Gryffindor",
+    "booksActive": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "tags": [
+      "Audible Recast (Book 4)",
+      "Book-to-Film Character Shift"
+    ],
+    "shiftSummary": "Bonnie Wright played Ginny in all 8 movies. Audible casts Bumble Clarke for Books 1\u20133, Shreya Lallu for Books 4\u20137, and Claire-Louise Cordwell for the adult epilogue.",
+    "movie": {
+      "actor": "Bonnie Wright",
+      "wiki": "https://en.wikipedia.org/wiki/Bonnie_Wright",
+      "img": "images/actors/movie_ginny_weasley.jpg",
+      "coverage": "All 8 Movies (2001\u20132011)",
+      "notes": "Bonnie Wright portrayed Ginny from shy first-year to D.A. warrior, though fans frequently noted that the films curtailed her fiery book personality."
+    },
+    "audible": {
+      "actor": "Bumble Clarke (B1\u20133) / Shreya Lallu (B4\u20137)",
+      "secondaryActor": "Adult Ginny: Claire-Louise Cordwell",
+      "wiki": "https://en.wikipedia.org/wiki/Bonnie_Wright",
+      "audibleWiki": "https://harrypotter.fandom.com/wiki/Harry_Potter:_The_Full-Cast_Audio_Editions",
+      "img": "images/actors/audible_ginny_weasley.svg",
+      "coverage": "Books 1\u20133 (Clarke) | Books 4\u20137 (Lallu) | Epilogue (Cordwell)",
+      "notes": "Shreya Lallu restores the fiery, witty, confident book-accurate Ginny Weasley\u2014casting Bat-Bogey Hexes, leading the rebellion at Hogwarts, and bantering with Harry."
+    },
+    "trivia": "Fans widely celebrated the Audible edition for restoring Ginny's sharp wit, fierce confidence, and natural romance with Harry that was muted in the movies.",
+    "characterImg": "images/characters/ginny_weasley.jpg"
+  },
+  {
+    "id": "luna_lovegood",
+    "name": "Luna Lovegood",
+    "role": "Ravenclaw Dreamer / D.A. Loyalist / The Quibbler Contributor",
+    "category": "Hogwarts Students",
+    "house": "Ravenclaw",
+    "booksActive": [
+      5,
+      6,
+      7
+    ],
+    "tags": [
+      "Beloved Character Portrayals"
+    ],
+    "shiftSummary": "Evanna Lynch famously won the role over 15,000 applicants for Movies 5\u20138. Millie Gubby voices Luna in Audible across Books 5\u20137.",
+    "movie": {
+      "actor": "Evanna Lynch",
+      "wiki": "https://en.wikipedia.org/wiki/Evanna_Lynch",
+      "img": "images/actors/movie_luna_lovegood.jpg",
+      "coverage": "Movies 5, 6, 7, 8",
+      "notes": "Evanna Lynch's ethereal cadence, Radish earrings, and dreamy delivery made her an instant fan legend; J.K. Rowling admitted Lynch influenced her writing in later books."
+    },
+    "audible": {
+      "actor": "Millie Gubby",
+      "wiki": "https://en.wikipedia.org/wiki/Evanna_Lynch",
+      "audibleWiki": "https://harrypotter.fandom.com/wiki/Harry_Potter:_The_Full-Cast_Audio_Editions",
+      "img": "images/actors/audible_luna_lovegood.svg",
+      "coverage": "Books 5, 6, 7",
+      "notes": "Millie Gubby captures Luna's floaty, matter-of-fact observations about Wrackspurts and Nargles while anchoring her fierce loyalty to her friends."
+    },
+    "trivia": "Luna's Quidditch commentary in Book 6\u2014talking about Loser's Lurgy rather than the match score\u2014is an absolute highlight in Millie Gubby's performance.",
+    "characterImg": "images/characters/luna_lovegood.jpg"
+  },
+  {
+    "id": "lucius_malfoy",
+    "name": "Lucius Malfoy",
+    "role": "Pureblood Aristocrat / Death Eater / School Governor",
+    "category": "Death Eaters & Dark Forces",
+    "house": "Slytherin",
+    "booksActive": [
+      2,
+      4,
+      5,
+      6,
+      7
+    ],
+    "tags": [
+      "Audible Star Casting"
+    ],
+    "shiftSummary": "Jason Isaacs created the silver-maned, cane-wielding Lucius across Movies 2, 4, 5, 7, and 8. Alex Hassell voices Lucius in Audible across Books 2, 4\u20137.",
+    "movie": {
+      "actor": "Jason Isaacs",
+      "wiki": "https://en.wikipedia.org/wiki/Jason_Isaacs",
+      "img": "images/actors/movie_lucius_malfoy.jpg",
+      "coverage": "Movies 2, 4, 5, 7, 8",
+      "notes": "Jason Isaacs brought sneering patrician arrogance and invented the snake-headed cane wand, descending into pathetic dishevelment as Voldemort takes over Malfoy Manor."
+    },
+    "audible": {
+      "actor": "Alex Hassell",
+      "wiki": "https://en.wikipedia.org/wiki/Alex_Hassell",
+      "audibleWiki": "https://harrypotter.fandom.com/wiki/Harry_Potter:_The_Full-Cast_Audio_Editions",
+      "img": "images/actors/audible_lucius_malfoy.jpg",
+      "coverage": "Books 2, 4, 5, 6, 7",
+      "notes": "Alex Hassell (Translucent in The Boys, Spike Spiegel in Cowboy Bebop) delivers Lucius's languid, venomous privilege, capturing his slow descent into terrified desperation."
+    },
+    "trivia": "Alex Hassell and Matthew Macfadyen share electric audio scenes in Book 7 where Voldemort demands Lucius surrender his wand at the Malfoy dining table.",
+    "characterImg": "images/characters/lucius_malfoy.jpg"
+  },
+  {
+    "id": "narcissa_malfoy",
+    "name": "Narcissa Malfoy",
+    "role": "Malfoy Matriarch / Draco's Protective Mother",
+    "category": "Death Eaters & Dark Forces",
+    "house": "Slytherin",
+    "booksActive": [
+      4,
+      6,
+      7
+    ],
+    "tags": [
+      "Audible Star Casting"
+    ],
+    "shiftSummary": "The late great Helen McCrory played Narcissa in Movies 6\u20138. Jessica Henwick voices Narcissa in Audible across Books 4, 6, and 7.",
+    "movie": {
+      "actor": "Helen McCrory",
+      "wiki": "https://en.wikipedia.org/wiki/Helen_McCrory",
+      "img": "images/actors/movie_narcissa_malfoy.jpg",
+      "coverage": "Movies 6, 7, 8",
+      "notes": "Helen McCrory brought fierce aristocratic dignity and maternal love, delivering the pivotal whisper in the forest: 'Is he alive? Is Draco alive?'"
+    },
+    "audible": {
+      "actor": "Jessica Henwick",
+      "wiki": "https://en.wikipedia.org/wiki/Jessica_Henwick",
+      "audibleWiki": "https://harrypotter.fandom.com/wiki/Harry_Potter:_The_Full-Cast_Audio_Editions",
+      "img": "images/actors/audible_narcissa_malfoy.jpg",
+      "coverage": "Books 4, 6, 7",
+      "notes": "Jessica Henwick (Glass Onion, The Matrix Resurrections, Game of Thrones) portrays Narcissa's cold exterior cracking under maternal agony in the Spinner's End chapter with Riz Ahmed's Snape."
+    },
+    "trivia": "The 'Spinner's End' chapter in Half-Blood Prince is considered one of the highest-rated audio performances in the Audible production.",
+    "characterImg": "images/characters/narcissa_malfoy.jpg"
+  },
+  {
+    "id": "peter_pettigrew",
+    "name": "Peter Pettigrew / Wormtail",
+    "role": "Scabbers / Marauder Traitor / Death Eater",
+    "category": "Death Eaters & Dark Forces",
+    "house": "Gryffindor",
+    "booksActive": [
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "tags": [
+      "Audible Comedy/Drama Star"
+    ],
+    "shiftSummary": "Timothy Spall played Wormtail in Movies 3\u20138. Blake Harrison voices Wormtail across Books 3\u20137 in Audible.",
+    "movie": {
+      "actor": "Timothy Spall",
+      "wiki": "https://en.wikipedia.org/wiki/Timothy_Spall",
+      "img": "images/actors/movie_peter_pettigrew.jpg",
+      "coverage": "Movies 3, 4, 5, 6, 7, 8",
+      "notes": "Timothy Spall gave Wormtail twitching rat-like mannerisms, squealing terror, and pathetic servility in the graveyard ritual."
+    },
+    "audible": {
+      "actor": "Blake Harrison",
+      "secondaryActor": "Young Pettigrew: Rory Toms",
+      "wiki": "https://en.wikipedia.org/wiki/Blake_Harrison",
+      "audibleWiki": "https://harrypotter.fandom.com/wiki/Harry_Potter:_The_Full-Cast_Audio_Editions",
+      "img": "images/actors/audible_peter_pettigrew.jpg",
+      "coverage": "Books 3, 4, 5, 6, 7",
+      "notes": "Blake Harrison (Neil in The Inbetweeners, A Very English Scandal) gives Pettigrew sniveling, desperate cowardice and gut-wrenching panic during his silver-hand demise in Book 7."
+    },
+    "trivia": "In the book (and Audible), Wormtail's silver hand strangles him when he hesitates to kill Harry due to a life debt\u2014a chilling moment altered in the movie.",
+    "characterImg": "images/characters/peter_pettigrew.jpg"
+  },
+  {
+    "id": "dobby",
+    "name": "Dobby the House-Elf",
+    "role": "Free Elf / Loyal Protector of Harry Potter",
+    "category": "Ghosts & Magical Beings",
+    "house": "Free Elves",
+    "booksActive": [
+      2,
+      4,
+      5,
+      6,
+      7
+    ],
+    "tags": [
+      "Restored Book Presence in Audio",
+      "Audible Star Voice"
+    ],
+    "shiftSummary": "Toby Jones voiced CGI Dobby in Movies 2 and 7 (Dobby was completely omitted from Movies 4, 5, and 6). Daniel Mays voices Dobby across all his book appearances (Books 2, 4, 5, 6, and 7) in Audible.",
+    "movie": {
+      "actor": "Toby Jones (Voice)",
+      "wiki": "https://en.wikipedia.org/wiki/Toby_Jones",
+      "img": "images/actors/movie_dobby.jpg",
+      "coverage": "Movies 2 & 7 (Cut from Movies 4, 5, 6)",
+      "notes": "Toby Jones provided Dobby's squeaky devotion, head-banging self-punishment, and heart-breaking death scene on the beach in Shell Cottage."
+    },
+    "audible": {
+      "actor": "Daniel Mays",
+      "wiki": "https://en.wikipedia.org/wiki/Daniel_Mays",
+      "audibleWiki": "https://harrypotter.fandom.com/wiki/Harry_Potter:_The_Full-Cast_Audio_Editions",
+      "img": "images/actors/audible_dobby.jpg",
+      "coverage": "Books 2, 4, 5, 6, 7",
+      "notes": "Daniel Mays (Line of Duty, Rogue One, 1917) voices Dobby with boundless emotional purity, squeaking enthusiasm, and wearing all of Hermione's knitted hats simultaneously."
+    },
+    "trivia": "MAJOR AUDIOBOOK WIN: In the movies, Neville gives Harry Gillyweed and shows him the Room of Requirement; in the books (and Audible), it is Dobby who gives Harry Gillyweed and discovers the Room of Requirement!",
+    "characterImg": "images/characters/dobby.jpg"
+  },
+  {
+    "id": "kreacher",
+    "name": "Kreacher the House-Elf",
+    "role": "Black Family House-Elf / Keeper of Regulus's Locket",
+    "category": "Ghosts & Magical Beings",
+    "house": "House of Black",
+    "booksActive": [
+      5,
+      6,
+      7
+    ],
+    "tags": [
+      "Audible Star Voice",
+      "Full Redemption Arc"
+    ],
+    "shiftSummary": "Voiced by Timothy Bateson (M5) and Simon McBurney (M7) in films. In Audible, Mackenzie Crook voices Kreacher across Books 5, 6, and 7.",
+    "movie": {
+      "actor": "Timothy Bateson (M5) / Simon McBurney (M7)",
+      "wiki": "https://en.wikipedia.org/wiki/Simon_McBurney",
+      "img": "images/actors/movie_kreacher.jpg",
+      "coverage": "Movie 5 (Bateson) | Movie 7 (McBurney)",
+      "notes": "Appeared briefly muttering insults under his breath; J.K. Rowling famously intervened to keep Kreacher in Movie 5 because of his vital role in Book 7."
+    },
+    "audible": {
+      "actor": "Mackenzie Crook",
+      "wiki": "https://en.wikipedia.org/wiki/Mackenzie_Crook",
+      "audibleWiki": "https://harrypotter.fandom.com/wiki/Harry_Potter:_The_Full-Cast_Audio_Editions",
+      "img": "images/actors/audible_kreacher.jpg",
+      "coverage": "Books 5, 6, 7",
+      "notes": "Mackenzie Crook (Pirates of the Caribbean's Ragetti, The Office's Gareth Keenan, Detectorists) gives an extraordinary performance: a rasping, bitter curmudgeon who weeps upon receiving Regulus's fake locket and leads the Hogwarts elves into battle ('Fight! Fight for my master, the defender of the house-elves!')."
+    },
+    "trivia": "Mackenzie Crook's recording of Kreacher's tale about Regulus Black drinking the emerald potion inside Voldemort's cave brought studio engineers to tears.",
+    "characterImg": "images/characters/kreacher.jpg"
+  },
+  {
+    "id": "sybill_trelawney",
+    "name": "Sybill Trelawney",
+    "role": "Divination Professor / True Seer of the Prophecy",
+    "category": "Hogwarts Faculty & Staff",
+    "house": "Ravenclaw",
+    "booksActive": [
+      3,
+      5,
+      6
+    ],
+    "tags": [
+      "Audible Star Casting"
+    ],
+    "shiftSummary": "Dame Emma Thompson played Trelawney in Movies 3, 5, and 8. Derry Girls star Saoirse-Monica Jackson voices Trelawney in Audible.",
+    "movie": {
+      "actor": "Emma Thompson",
+      "wiki": "https://en.wikipedia.org/wiki/Emma_Thompson",
+      "img": "images/actors/movie_sybill_trelawney.jpg",
+      "coverage": "Movies 3, 5, 8",
+      "notes": "Emma Thompson wore giant bottle-glass spectacles, shawls, and fluttering mannerisms, alternating between misty dramatics and trance prophecies."
+    },
+    "audible": {
+      "actor": "Saoirse-Monica Jackson",
+      "wiki": "https://en.wikipedia.org/wiki/Saoirse-Monica_Jackson",
+      "audibleWiki": "https://harrypotter.fandom.com/wiki/Harry_Potter:_The_Full-Cast_Audio_Editions",
+      "img": "images/actors/audible_sybill_trelawney.svg",
+      "coverage": "Books 3, 5, 6",
+      "notes": "Saoirse-Monica Jackson (Erin in Derry Girls) brings hilarious theatrical neurosis, misty breathiness, and a jarring pitch drop when uttering the prophecy."
+    },
+    "trivia": "In Book 6, Trelawney hides sherry bottles in the Room of Requirement and throws crystal balls at Death Eaters during the battle.",
+    "characterImg": "images/characters/sybill_trelawney.jpg"
+  },
+  {
+    "id": "nymphadora_tonks",
+    "name": "Nymphadora Tonks",
+    "role": "Metamorphmagus Auror / Order of the Phoenix",
+    "category": "Order of the Phoenix",
+    "house": "Hufflepuff",
+    "booksActive": [
+      5,
+      6,
+      7
+    ],
+    "tags": [
+      "Audible Star Casting"
+    ],
+    "shiftSummary": "Natalia Tena played Tonks in Movies 5\u20138. Ambika Mod voices Tonks in Audible across Books 5\u20137.",
+    "movie": {
+      "actor": "Natalia Tena",
+      "wiki": "https://en.wikipedia.org/wiki/Natalia_Tena",
+      "img": "images/actors/movie_nymphadora_tonks.jpg",
+      "coverage": "Movies 5, 6, 7, 8",
+      "notes": "Natalia Tena brought bubblegum punk attitude, morphing hair colors, and clumsy charm ('Don't call me Nymphadora!')."
+    },
+    "audible": {
+      "actor": "Ambika Mod",
+      "wiki": "https://en.wikipedia.org/wiki/Ambika_Mod",
+      "audibleWiki": "https://harrypotter.fandom.com/wiki/Harry_Potter:_The_Full-Cast_Audio_Editions",
+      "img": "images/actors/audible_nymphadora_tonks.jpg",
+      "coverage": "Books 5, 6, 7",
+      "notes": "Breakout star Ambika Mod (This Is Going to Hurt, One Day) captures Tonks's vibrant humor, clumsy energy, and heartbroken devotion to Remus Lupin."
+    },
+    "trivia": "The Audible edition includes Tonks's depression and Patronus shift in Book 6, an arc heavily condensed in the film version.",
+    "characterImg": "images/characters/nymphadora_tonks.jpg"
+  },
+  {
+    "id": "kingsley_shacklebolt",
+    "name": "Kingsley Shacklebolt",
+    "role": "Senior Auror / Order of the Phoenix / Minister for Magic",
+    "category": "Order of the Phoenix",
+    "house": "Hogwarts",
+    "booksActive": [
+      5,
+      6,
+      7
+    ],
+    "tags": [
+      "Audible Star Voice"
+    ],
+    "shiftSummary": "George Harris played Kingsley in Movies 5, 7, and 8. Abraham Popoola voices Kingsley in Audible.",
+    "movie": {
+      "actor": "George Harris",
+      "wiki": "https://en.wikipedia.org/wiki/George_Harris_(actor)",
+      "img": "images/actors/movie_kingsley_shacklebolt.jpg",
+      "coverage": "Movies 5, 7, 8",
+      "notes": "George Harris brought deep calming authority, cool ear-ringed robes, and duel prowess ('Dumbledore's got style')."
+    },
+    "audible": {
+      "actor": "Abraham Popoola",
+      "wiki": "https://en.wikipedia.org/wiki/Abraham_Popoola",
+      "audibleWiki": "https://harrypotter.fandom.com/wiki/Harry_Potter:_The_Full-Cast_Audio_Editions",
+      "img": "images/actors/audible_kingsley_shacklebolt.svg",
+      "coverage": "Books 5, 6, 7",
+      "notes": "Abraham Popoola (The Great, Cruella, Atlas) delivers Kingsley's slow, reassuring baritone, warning the wedding via his Lynx Patronus: 'The Ministry has fallen. Scrimgeour is dead. They are coming.'"
+    },
+    "trivia": "The Patronus warning at Bill and Fleur's wedding in Book 7 is one of the most suspenseful audio cues in the entire Audible series.",
+    "characterImg": "images/characters/kingsley_shacklebolt.jpg"
+  },
+  {
+    "id": "quirinus_quirrell",
+    "name": "Quirinus Quirrell",
+    "role": "Defense Against the Dark Arts Teacher / Voldemort's Host",
+    "category": "Hogwarts Faculty & Staff",
+    "house": "Ravenclaw",
+    "booksActive": [
+      1
+    ],
+    "tags": [
+      "Audible Star Casting"
+    ],
+    "shiftSummary": "Ian Hart played Quirrell in Movie 1. Sacha Dhawan voices Quirrell in Book 1 for Audible.",
+    "movie": {
+      "actor": "Ian Hart",
+      "wiki": "https://en.wikipedia.org/wiki/Ian_Hart",
+      "img": "images/actors/movie_quirinus_quirrell.jpg",
+      "coverage": "Movie 1 (Philosopher's Stone)",
+      "notes": "Ian Hart played the turban-wearing stutterer whose voice suddenly became cold and resonant during the mirror confrontation."
+    },
+    "audible": {
+      "actor": "Sacha Dhawan",
+      "wiki": "https://en.wikipedia.org/wiki/Sacha_Dhawan",
+      "audibleWiki": "https://harrypotter.fandom.com/wiki/Harry_Potter:_The_Full-Cast_Audio_Editions",
+      "img": "images/actors/audible_quirinus_quirrell.jpg",
+      "coverage": "Book 1 (Philosopher's Stone)",
+      "notes": "Sacha Dhawan (The Master in Doctor Who, The Great) expertly executes the chilling tonal snap from shivering stutter to psychopathic servant."
+    },
+    "trivia": "Sacha Dhawan's dialogue was mixed so his Quirrell voice sounds forward in the stereo field, while Matthew Macfadyen's Voldemort voice comes from behind the head!",
+    "characterImg": "images/characters/quirinus_quirrell.jpg"
+  },
+  {
+    "id": "vernon_dursley",
+    "name": "Vernon Dursley",
+    "role": "Harry's Muggle Uncle / Director of Grunnings Drills",
+    "category": "Ministry & Civilians",
+    "house": "Muggle",
+    "booksActive": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7
+    ],
+    "tags": [
+      "Audible Star Casting"
+    ],
+    "shiftSummary": "Richard Griffiths portrayed Uncle Vernon across Movies 1\u20133, 5, and 7. Emmy nominee Jeremy Swift voices Uncle Vernon in Audible.",
+    "movie": {
+      "actor": "Richard Griffiths",
+      "wiki": "https://en.wikipedia.org/wiki/Richard_Griffiths",
+      "img": "images/actors/movie_vernon_dursley.jpg",
+      "coverage": "Movies 1, 2, 3, 5, 7",
+      "notes": "The late Richard Griffiths gave Vernon purpling rage, blustering indignation, and legendary hatred of post ('NO POST ON SUNDAYS!')."
+    },
+    "audible": {
+      "actor": "Jeremy Swift",
+      "wiki": "https://en.wikipedia.org/wiki/Jeremy_Swift",
+      "audibleWiki": "https://harrypotter.fandom.com/wiki/Harry_Potter:_The_Full-Cast_Audio_Editions",
+      "img": "images/actors/audible_vernon_dursley.jpg",
+      "coverage": "Books 1, 2, 3, 4, 5, 7",
+      "notes": "Jeremy Swift (Higgins in Ted Lasso, Downton Abbey) captures Vernon's vein-throbbing exasperation, drill obsession, and comical panic when wizards visit Privet Drive."
+    },
+    "trivia": "Jeremy Swift records Vernon's hilarious outrage when the Weasleys accidentally destroy the Dursley fireplace via Floo Network in Book 4.",
+    "characterImg": "images/characters/vernon_dursley.jpg"
+  },
+  {
+    "id": "petunia_dursley",
+    "name": "Petunia Dursley",
+    "role": "Harry's Muggle Aunt / Lily's Estranged Sister",
+    "category": "Ministry & Civilians",
+    "house": "Muggle",
+    "booksActive": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7
+    ],
+    "tags": [
+      "Audible Star Casting"
+    ],
+    "shiftSummary": "Fiona Shaw portrayed Aunt Petunia in Movies 1\u20133, 5, and 7. Indira Varma voices Aunt Petunia in Audible.",
+    "movie": {
+      "actor": "Fiona Shaw",
+      "wiki": "https://en.wikipedia.org/wiki/Fiona_Shaw",
+      "img": "images/actors/movie_petunia_dursley.jpg",
+      "coverage": "Movies 1, 2, 3, 5, 7",
+      "notes": "Fiona Shaw gave Petunia horse-necked snooping, shrill domestic tyranny, and quiet undercurrents of painful childhood rejection."
+    },
+    "audible": {
+      "actor": "Indira Varma",
+      "secondaryActor": "Child Petunia: Sophia Jamal",
+      "wiki": "https://en.wikipedia.org/wiki/Indira_Varma",
+      "audibleWiki": "https://harrypotter.fandom.com/wiki/Harry_Potter:_The_Full-Cast_Audio_Editions",
+      "img": "images/actors/audible_petunia_dursley.jpg",
+      "coverage": "Books 1, 2, 3, 4, 5, 7",
+      "notes": "Indira Varma (Game of Thrones' Ellaria Sand, Obi-Wan Kenobi, Rome) infuses Petunia with razor-wire disdain, obsessive kitchen cleaning, and deep suppressed trauma over Lily."
+    },
+    "trivia": "In Book 5, Petunia receives a Howler shouting 'REMEMBER MY LAST, PETUNIA' from Dumbledore; Varma's reaction is chillingly authentic.",
+    "characterImg": "images/characters/petunia_dursley.jpg"
+  },
+  {
+    "id": "dudley_dursley",
+    "name": "Dudley Dursley",
+    "role": "Harry's Spoiled Cousin / Smeltings Boxer",
+    "category": "Ministry & Civilians",
+    "house": "Muggle",
+    "booksActive": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7
+    ],
+    "tags": [
+      "Audible Recast (Book 4)",
+      "Movie Continuity"
+    ],
+    "shiftSummary": "Harry Melling played Dudley in Movies 1\u20133, 5, and 7. Audible casts Jaiden Dosanjh for Books 1\u20133 and Isaac Howard for Books 4, 5, and 7.",
+    "movie": {
+      "actor": "Harry Melling",
+      "wiki": "https://en.wikipedia.org/wiki/Harry_Melling",
+      "img": "images/actors/movie_dudley_dursley.jpg",
+      "coverage": "Movies 1, 2, 3, 5, 7",
+      "notes": "Harry Melling played Dudley through tantrums (36 presents!) to his boxing teenage years, culminating in his quiet handshake redemption in Deathly Hallows."
+    },
+    "audible": {
+      "actor": "Jaiden Dosanjh (B1\u20133) / Isaac Howard (B4\u20137)",
+      "wiki": "https://en.wikipedia.org/wiki/Harry_Melling",
+      "audibleWiki": "https://harrypotter.fandom.com/wiki/Harry_Potter:_The_Full-Cast_Audio_Editions",
+      "img": "images/actors/audible_dudley_dursley.jpg",
+      "coverage": "Books 1\u20133 (Dosanjh) | Books 4, 5, 7 (Howard)",
+      "notes": "Jaiden Dosanjh nails the wailing birthday tantrum; Isaac Howard voices the gruff, shaken teen survivor of Dementor trauma who says 'I don't think you're a waste of space.'"
+    },
+    "trivia": "The Ton-Tongue Toffee scene from Book 4 where Dudley eats Fred & George's candy is a masterpiece of sound effects and comedic groans.",
+    "characterImg": "images/characters/dudley_dursley.jpg"
+  },
+  {
+    "id": "argus_filch",
+    "name": "Argus Filch",
+    "role": "Hogwarts Caretaker / Squib / Mrs. Norris's Owner",
+    "category": "Hogwarts Faculty & Staff",
+    "house": "Hogwarts",
+    "booksActive": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "tags": [
+      "Audible Star Casting"
+    ],
+    "shiftSummary": "David Bradley played Filch in Movies 1\u20136 and 8. BAFTA winner Adeel Akhtar voices Filch in Audible across all 7 books.",
+    "movie": {
+      "actor": "David Bradley",
+      "wiki": "https://en.wikipedia.org/wiki/David_Bradley_(actor)",
+      "img": "images/actors/movie_argus_filch.jpg",
+      "coverage": "Movies 1\u20136, 8",
+      "notes": "David Bradley gave Filch a greasy limp, wheezing spite, lantern-swinging menace, and hilarious enthusiasm for hanging students by their thumbs."
+    },
+    "audible": {
+      "actor": "Adeel Akhtar",
+      "wiki": "https://en.wikipedia.org/wiki/Adeel_Akhtar",
+      "audibleWiki": "https://harrypotter.fandom.com/wiki/Harry_Potter:_The_Full-Cast_Audio_Editions",
+      "img": "images/actors/audible_argus_filch.jpg",
+      "coverage": "All 7 Audiobooks (Books 1\u20137)",
+      "notes": "Adeel Akhtar (Sweet Tooth, Fool Me Once, Enola Holmes) captures Filch's bitter jealousy of magic, manic devotion to Umbridge's proclamations, and coddling love for his cat."
+    },
+    "trivia": "The secret Kwikspell letter Harry discovers in Filch's office in Book 2 is read with delicious pathos by Akhtar.",
+    "characterImg": "images/characters/argus_filch.jpg"
+  },
+  {
+    "id": "cornelius_fudge",
+    "name": "Cornelius Fudge",
+    "role": "Minister for Magic / Incompetent Bureaucrat",
+    "category": "Ministry & Civilians",
+    "house": "Ministry",
+    "booksActive": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "tags": [
+      "Audible Star Casting"
+    ],
+    "shiftSummary": "Robert Hardy played Fudge in Movies 2\u20135. Miles Jupp voices Fudge in Audible across Books 2\u20136.",
+    "movie": {
+      "actor": "Robert Hardy",
+      "wiki": "https://en.wikipedia.org/wiki/Robert_Hardy",
+      "img": "images/actors/movie_cornelius_fudge.jpg",
+      "coverage": "Movies 2, 3, 4, 5",
+      "notes": "Robert Hardy gave Fudge bowler-hatted pompous affability that curdled into paranoid political self-delusion during Harry's hearing."
+    },
+    "audible": {
+      "actor": "Miles Jupp",
+      "wiki": "https://en.wikipedia.org/wiki/Miles_Jupp",
+      "audibleWiki": "https://harrypotter.fandom.com/wiki/Harry_Potter:_The_Full-Cast_Audio_Editions",
+      "img": "images/actors/audible_cornelius_fudge.jpg",
+      "coverage": "Books 2\u20136",
+      "notes": "Miles Jupp (The Thick of It, Rev.) delivers Fudge's anxious hand-wringing and stubborn refusal to accept Voldemort's return with pitch-perfect bureaucratic defensiveness."
+    },
+    "trivia": "In Book 6's opening chapter 'The Other Minister', Miles Jupp visits the Muggle Prime Minister (Tom Alexander) via fireplace in a tour-de-force comic scene cut from the films.",
+    "characterImg": "images/characters/cornelius_fudge.jpg"
+  },
+  {
+    "id": "rita_skeeter",
+    "name": "Rita Skeeter",
+    "role": "Daily Prophet Journalist / Unregistered Beetle Animagus",
+    "category": "Ministry & Civilians",
+    "house": "Ministry",
+    "booksActive": [
+      4,
+      5,
+      7
+    ],
+    "tags": [
+      "Audible Star Voice"
+    ],
+    "shiftSummary": "Miranda Richardson played Skeeter in Movies 4 and 7. Anna Maxwell Martin voices Skeeter in Audible across Books 4, 5, and 7.",
+    "movie": {
+      "actor": "Miranda Richardson",
+      "wiki": "https://en.wikipedia.org/wiki/Miranda_Richardson",
+      "img": "images/actors/movie_rita_skeeter.jpg",
+      "coverage": "Movies 4 & 7",
+      "notes": "Miranda Richardson brought platinum curls, horned glasses, and acid-green Quick-Quotes Quill sensationalism into the broom cupboard."
+    },
+    "audible": {
+      "actor": "Anna Maxwell Martin",
+      "wiki": "https://en.wikipedia.org/wiki/Anna_Maxwell_Martin",
+      "audibleWiki": "https://harrypotter.fandom.com/wiki/Harry_Potter:_The_Full-Cast_Audio_Editions",
+      "img": "images/actors/audible_rita_skeeter.jpg",
+      "coverage": "Books 4, 5, 7",
+      "notes": "Two-time BAFTA winner Anna Maxwell Martin (Motherland, Line of Duty) delivers Skeeter's toxic, smiling venom with breathtaking spite and ruthless tabloid greed."
+    },
+    "trivia": "Hermione trapping Rita in an unbreakable jar as a beetle at the end of Book 4 is fully dramatized in the Audible recording with frantic buzzing sound design!",
+    "characterImg": "images/characters/rita_skeeter.jpg"
+  },
+  {
+    "id": "barty_crouch_jr",
+    "name": "Bartemius Crouch Jr.",
+    "role": "Death Eater Infiltrator / Polyjuice Moody",
+    "category": "Death Eaters & Dark Forces",
+    "house": "Slytherin",
+    "booksActive": [
+      4
+    ],
+    "tags": [
+      "Movie-to-Audio Highlights"
+    ],
+    "shiftSummary": "David Tennant played Crouch Jr. in Movie 4. West End star Michael Ahomka-Lindsay voices Crouch Jr. in Audible.",
+    "movie": {
+      "actor": "David Tennant",
+      "wiki": "https://en.wikipedia.org/wiki/David_Tennant",
+      "img": "images/actors/movie_barty_crouch_jr.jpg",
+      "coverage": "Movie 4 (Goblet of Fire)",
+      "notes": "David Tennant brought tongue-flicking manic energy, wild eyes, and fanatical devotion to the Dark Lord in the trial and unmasking."
+    },
+    "audible": {
+      "actor": "Michael Ahomka-Lindsay",
+      "wiki": "https://en.wikipedia.org/wiki/Michael_Ahomka-Lindsay",
+      "audibleWiki": "https://harrypotter.fandom.com/wiki/Harry_Potter:_The_Full-Cast_Audio_Editions",
+      "img": "images/actors/audible_barty_crouch_jr.svg",
+      "coverage": "Book 4 (Goblet of Fire)",
+      "notes": "West End powerhouse Michael Ahomka-Lindsay (Cabaret, Newsies) delivers Crouch Jr.'s spine-chilling Veritaserum confession with manic theatrical intensity."
+    },
+    "trivia": "In the book, Crouch Jr.'s backstory involving his mother drinking Polyjuice Potion to die in Azkaban in his place is fully explained, unlike the simplified movie version.",
+    "characterImg": "images/characters/barty_crouch_jr.jpg"
+  },
+  {
+    "id": "cedric_diggory",
+    "name": "Cedric Diggory",
+    "role": "Hufflepuff Seeker & Prefect / Triwizard Champion",
+    "category": "Hogwarts Students",
+    "house": "Hufflepuff",
+    "booksActive": [
+      3,
+      4
+    ],
+    "tags": [
+      "Iconic Casting"
+    ],
+    "shiftSummary": "Robert Pattinson played Cedric in Movie 4 in his breakthrough role. Ryan Cresswell voices Cedric in Audible for Books 3 and 4.",
+    "movie": {
+      "actor": "Robert Pattinson",
+      "wiki": "https://en.wikipedia.org/wiki/Robert_Pattinson",
+      "img": "images/actors/movie_cedric_diggory.jpg",
+      "coverage": "Movie 4 (Goblet of Fire)",
+      "notes": "Robert Pattinson's dashing, chivalrous performance made Cedric's sudden murder in the graveyard an indelible cinematic tragedy."
+    },
+    "audible": {
+      "actor": "Ryan Cresswell",
+      "wiki": "https://en.wikipedia.org/wiki/Robert_Pattinson",
+      "audibleWiki": "https://harrypotter.fandom.com/wiki/Harry_Potter:_The_Full-Cast_Audio_Editions",
+      "img": "images/actors/audible_cedric_diggory.jpg",
+      "coverage": "Books 3 & 4",
+      "notes": "Ryan Cresswell captures Cedric's honest sportsmanship, modesty, and the tragic camaraderie with Harry as they both agree to take the Triwizard Cup together."
+    },
+    "trivia": "Cedric actually first appears playing Quidditch in Book 3 (catching the Snitch when Dementors attack Harry); Cresswell voices him across both books.",
+    "characterImg": "images/characters/cedric_diggory.jpg"
+  },
+  {
+    "id": "cho_chang",
+    "name": "Cho Chang",
+    "role": "Ravenclaw Seeker / D.A. Member / Harry's First Crush",
+    "category": "Hogwarts Students",
+    "house": "Ravenclaw",
+    "booksActive": [
+      3,
+      4,
+      5,
+      7
+    ],
+    "tags": [
+      "Student Key Cast"
+    ],
+    "shiftSummary": "Katie Leung played Cho in Movies 4\u20138. Lisa He voices Cho in Audible across Books 3, 4, 5, and 7.",
+    "movie": {
+      "actor": "Katie Leung",
+      "wiki": "https://en.wikipedia.org/wiki/Katie_Leung",
+      "img": "images/actors/movie_cho_chang.jpg",
+      "coverage": "Movies 4\u20138",
+      "notes": "Katie Leung was chosen from thousands of Scottish applicants, portraying Cho through the heartbreak of Cedric's death and her awkward first kiss with Harry."
+    },
+    "audible": {
+      "actor": "Lisa He",
+      "wiki": "https://en.wikipedia.org/wiki/Katie_Leung",
+      "audibleWiki": "https://harrypotter.fandom.com/wiki/Harry_Potter:_The_Full-Cast_Audio_Editions",
+      "img": "images/actors/audible_cho_chang.svg",
+      "coverage": "Books 3, 4, 5, 7",
+      "notes": "Lisa He navigates Cho's emotional turmoil with poignant sensitivity, highlighting the book plotline where Cho's friend Marietta Edgecombe\u2014not Cho\u2014betrays Dumbledore's Army."
+    },
+    "trivia": "In the movie, Cho betrays the D.A. under Veritaserum; in the book and Audible edition, it was her friend Marietta, clearing Cho of personal treachery!",
+    "characterImg": "images/characters/cho_chang.jpg"
+  },
+  {
+    "id": "fleur_delacour",
+    "name": "Fleur Delacour",
+    "role": "Beauxbatons Champion / Gringotts Employee / Bill's Wife",
+    "category": "Ministry & Civilians",
+    "house": "Beauxbatons",
+    "booksActive": [
+      4,
+      6,
+      7
+    ],
+    "tags": [
+      "Triwizard Champion"
+    ],
+    "shiftSummary": "Cl\u00e9mence Po\u00e9sy played Fleur in Movies 4, 7, and 8. Tara Salma voices Fleur in Audible across Books 4, 6, and 7.",
+    "movie": {
+      "actor": "Cl\u00e9mence Po\u00e9sy",
+      "wiki": "https://en.wikipedia.org/wiki/Cl%C3%A9mence_Po%C3%A9sy",
+      "img": "images/actors/movie_fleur_delacour.jpg",
+      "coverage": "Movies 4, 7, 8",
+      "notes": "Cl\u00e9mence Po\u00e9sy brought French elegance, silvery veela charm, and brave devotion to Bill Weasley after Greyback's attack."
+    },
+    "audible": {
+      "actor": "Tara Salma",
+      "wiki": "https://en.wikipedia.org/wiki/Cl%C3%A9mence_Po%C3%A9sy",
+      "audibleWiki": "https://harrypotter.fandom.com/wiki/Harry_Potter:_The_Full-Cast_Audio_Editions",
+      "img": "images/actors/audible_fleur_delacour.svg",
+      "coverage": "Books 4, 6, 7",
+      "notes": "Tara Salma brings vibrant French intonation, proud champion swagger, and heart-melting devotion in the hospital wing scene where Fleur declares her love for scarred Bill."
+    },
+    "trivia": "Tara Salma delivers Fleur's legendary hospital quote to Molly: 'I am good-looking enough for both of us, I think! All these scars show is that my husband is brave!'",
+    "characterImg": "images/characters/fleur_delacour.jpg"
+  },
+  {
+    "id": "stan_shunpike",
+    "name": "Stan Shunpike",
+    "role": "Knight Bus Conductor / Unwitting Death Eater Pawn",
+    "category": "Ministry & Civilians",
+    "house": "Ministry",
+    "booksActive": [
+      3,
+      4,
+      7
+    ],
+    "tags": [
+      "Stunt Double Tribute Casting"
+    ],
+    "shiftSummary": "Lee Ingleby played Stan in Movie 3. In one of the most heartwarming cast stories, David Holmes (Daniel Radcliffe's film stunt double who was paralyzed on set) voices Stan in Audible!",
+    "movie": {
+      "actor": "Lee Ingleby",
+      "wiki": "https://en.wikipedia.org/wiki/Lee_Ingleby",
+      "img": "images/actors/movie_stan_shunpike.jpg",
+      "coverage": "Movie 3 (Prisoner of Azkaban)",
+      "notes": "Lee Ingleby gave Stan Cockney conductor chatter, pimply enthusiasm, and purple uniformed cheek in the Knight Bus."
+    },
+    "audible": {
+      "actor": "David Holmes",
+      "wiki": "https://en.wikipedia.org/wiki/David_Holmes_(stuntman)",
+      "audibleWiki": "https://harrypotter.fandom.com/wiki/Harry_Potter:_The_Full-Cast_Audio_Editions",
+      "img": "images/actors/audible_stan_shunpike.svg",
+      "coverage": "Books 3, 4, 7",
+      "notes": "David Holmes\u2014Daniel Radcliffe's beloved stunt double who suffered a career-ending spinal cord injury during Deathly Hallows rehearsals\u2014triumphantly returns to the Wizarding World to voice the fast-talking conductor!"
+    },
+    "trivia": "PROFOUND CASTING TRIBUTE: David Holmes was a core part of the Harry Potter film family for a decade before his tragic injury. Casting him as Stan Shunpike was hailed across the fandom.",
+    "characterImg": "images/characters/stan_shunpike.jpg"
+  },
+  {
+    "id": "xenophilius_lovegood",
+    "name": "Xenophilius Lovegood",
+    "role": "Editor of The Quibbler / Luna's Father / Deathly Hallows Lore",
+    "category": "Ministry & Civilians",
+    "house": "Ravenclaw",
+    "booksActive": [
+      7
+    ],
+    "tags": [
+      "Audible Star Comedy Casting"
+    ],
+    "shiftSummary": "Rhys Ifans played Xenophilius in Movie 7. Triple BAFTA winner Jamie Demetriou voices Xenophilius in Audible.",
+    "movie": {
+      "actor": "Rhys Ifans",
+      "wiki": "https://en.wikipedia.org/wiki/Rhys_Ifans",
+      "img": "images/actors/movie_xenophilius_lovegood.jpg",
+      "coverage": "Movie 7 (Deathly Hallows: Part 1)",
+      "notes": "Rhys Ifans wore canary-yellow robes and the Deathly Hallows pendant, delivering the tragic desperation of a father who betrays Harry to save his daughter."
+    },
+    "audible": {
+      "actor": "Jamie Demetriou",
+      "wiki": "https://en.wikipedia.org/wiki/Jamie_Demetriou",
+      "audibleWiki": "https://harrypotter.fandom.com/wiki/Harry_Potter:_The_Full-Cast_Audio_Editions",
+      "img": "images/actors/audible_xenophilius_lovegood.jpg",
+      "coverage": "Book 7 (Deathly Hallows)",
+      "notes": "Jamie Demetriou (Stath Lets Flats, Fleabag, Barbie) brings extraordinary eccentric cadence and heart-rending panic to the rook-shaped Lovegood house."
+    },
+    "trivia": "Jamie Demetriou narrates the 'Tale of the Three Brothers' alongside Cush Jumbo in an acoustic storytelling sequence inside the Audible recording.",
+    "characterImg": "images/characters/xenophilius_lovegood.jpg"
+  },
+  {
+    "id": "bill_weasley",
+    "name": "Bill Weasley",
+    "role": "Curse-Breaker in Egypt / Eldest Weasley Brother",
+    "category": "Order of the Phoenix",
+    "house": "Gryffindor",
+    "booksActive": [
+      4,
+      6,
+      7
+    ],
+    "tags": [
+      "Audible Breakout Star Casting"
+    ],
+    "shiftSummary": "Domhnall Gleeson played Bill in Movies 7 and 8. Rising star Leo Woodall voices Bill Weasley in Audible.",
+    "movie": {
+      "actor": "Domhnall Gleeson",
+      "wiki": "https://en.wikipedia.org/wiki/Domhnall_Gleeson",
+      "img": "images/actors/movie_bill_weasley.jpg",
+      "coverage": "Movies 7 & 8",
+      "notes": "Domhnall Gleeson brought rock-star charisma with fang earrings and cool charm, hosting the refugees at Shell Cottage."
+    },
+    "audible": {
+      "actor": "Leo Woodall",
+      "wiki": "https://en.wikipedia.org/wiki/Leo_Woodall",
+      "audibleWiki": "https://harrypotter.fandom.com/wiki/Harry_Potter:_The_Full-Cast_Audio_Editions",
+      "img": "images/actors/audible_bill_weasley.jpg",
+      "coverage": "Books 4, 6, 7",
+      "notes": "Leo Woodall (The White Lotus, One Day) voices the dashing eldest Weasley with rugged charm, cool confidence, and battle courage."
+    },
+    "trivia": "Domhnall Gleeson (movie Bill) is the real-life son of Brendan Gleeson (Mad-Eye Moody)! In the audio version, Bill is voiced by Leo Woodall.",
+    "characterImg": "images/characters/bill_weasley.jpg"
+  },
+  {
+    "id": "peeves",
+    "name": "Peeves the Poltergeist",
+    "role": "Hogwarts Spirit of Chaos / Incorrigible Prankster",
+    "category": "Ghosts & Magical Beings",
+    "house": "Hogwarts",
+    "booksActive": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "tags": [
+      "BOOK EXCLUSIVE",
+      "Cut from Movies!",
+      "Audible Complete Restoration"
+    ],
+    "shiftSummary": "Peeves was famously CUT from all 8 movies! Rik Mayall filmed scenes for Movie 1 that were discarded. In Audible, Peeves is gloriously restored in all 7 books, voiced by Nigel Pilkington!",
+    "movie": {
+      "actor": "CUT FROM ALL FILMS! (Rik Mayall unreleased)",
+      "wiki": "https://en.wikipedia.org/wiki/Peeves",
+      "img": "images/actors/movie_peeves.jpg",
+      "coverage": "Cut from all 8 film adaptations (footage lost)",
+      "notes": "Comedy genius Rik Mayall shot scenes for Chris Columbus's 2001 film, but the CGI and pacing cuts excised him completely, a legendary lament of Potter fans."
+    },
+    "audible": {
+      "actor": "Nigel Pilkington",
+      "wiki": "https://en.wikipedia.org/wiki/Nigel_Pilkington",
+      "audibleWiki": "https://harrypotter.fandom.com/wiki/Harry_Potter:_The_Full-Cast_Audio_Editions",
+      "img": "images/actors/audible_peeves.jpg",
+      "coverage": "All 7 Audiobooks (Books 1\u20137)",
+      "notes": "Nigel Pilkington delivers pure chaotic glee: blowing raspberries, singing rude rhymes ('Oh, Potter, you rotter!'), unscrewing chandeliers on Fred and George's orders, and dropping busts of medieval wizards on Death Eaters."
+    },
+    "trivia": "ONE OF THE BIGGEST BOOK-TO-MOVIE DIFFERENCES: Peeves' salute to Fred and George in Book 5 ('It unscrews the other way') is one of the most famous moments in Potter history, fully voiced in Audible!",
+    "characterImg": "images/characters/peeves.jpg"
+  },
+  {
+    "id": "ludo_bagman",
+    "name": "Ludo Bagman",
+    "role": "Head of Magical Games and Sports / Washed-up Wasp Beater",
+    "category": "Ministry & Civilians",
+    "house": "Ministry",
+    "booksActive": [
+      4
+    ],
+    "tags": [
+      "BOOK EXCLUSIVE",
+      "Cut from Goblet of Fire Film"
+    ],
+    "shiftSummary": "Ludo Bagman was entirely cut from the Goblet of Fire film adaptation. In Audible, he is voiced by Danny Kirrane as a major character!",
+    "movie": {
+      "actor": "CUT FROM MOVIE!",
+      "wiki": "https://en.wikipedia.org/wiki/Magic_in_Harry_Potter",
+      "img": "images/actors/movie_ludo_bagman.svg",
+      "coverage": "Entirely omitted from Movie 4",
+      "notes": "To condense Goblet of Fire into a single film, Mike Newell cut Bagman entirely, transferring basic commentary duties to Cornelius Fudge."
+    },
+    "audible": {
+      "actor": "Danny Kirrane",
+      "wiki": "https://en.wikipedia.org/wiki/Danny_Kirrane",
+      "audibleWiki": "https://harrypotter.fandom.com/wiki/Harry_Potter:_The_Full-Cast_Audio_Editions",
+      "img": "images/actors/audible_ludo_bagman.svg",
+      "coverage": "Book 4 (Goblet of Fire)",
+      "notes": "Danny Kirrane (Pirates of the Caribbean: Dead Men Tell No Tales, The Serpent Queen) voices the booming, jovial, hopelessly indebted gambler in his tight Wimbourne Wasps robes with infectious energy."
+    },
+    "trivia": "BOOK EXCLUSIVE PLOT: Bagman's secret betting with goblins using leprechaun gold that vanishes is what leaves Fred and George broke until Harry gives them his 1,000 Galleon Triwizard winnings!",
+    "characterImg": "images/characters/ludo_bagman.jpg"
+  },
+  {
+    "id": "winky",
+    "name": "Winky the House-Elf",
+    "role": "Crouch Family House-Elf / Key to the Dark Mark Mystery",
+    "category": "Ghosts & Magical Beings",
+    "house": "House of Crouch",
+    "booksActive": [
+      4
+    ],
+    "tags": [
+      "BOOK EXCLUSIVE",
+      "Cut from Goblet of Fire Film"
+    ],
+    "shiftSummary": "Winky was entirely omitted from the movies. Clare Corbett voices Winky in Audible for Goblet of Fire.",
+    "movie": {
+      "actor": "CUT FROM MOVIE!",
+      "wiki": "https://en.wikipedia.org/wiki/House-elf#Winky",
+      "img": "images/actors/movie_winky.svg",
+      "coverage": "Entirely omitted from Movie 4",
+      "notes": "Winky's role guarding Barty Crouch Jr. in the Top Box and her butterbeer spiral in the Hogwarts kitchens were removed from the film adaptation."
+    },
+    "audible": {
+      "actor": "Clare Corbett",
+      "wiki": "https://en.wikipedia.org/wiki/House-elf",
+      "audibleWiki": "https://harrypotter.fandom.com/wiki/Harry_Potter:_The_Full-Cast_Audio_Editions",
+      "img": "images/actors/audible_winky.svg",
+      "coverage": "Book 4 (Goblet of Fire)",
+      "notes": "Clare Corbett gives a tear-jerking, squeaking performance of Crouch's terrified house-elf, sobbing into her skirts and drunkenly clutching butterbeer bottles."
+    },
+    "trivia": "Winky's tragic dismissal by Mr. Crouch at the Quidditch World Cup is what inspires Hermione to found S.P.E.W.",
+    "characterImg": "images/characters/winky.jpg"
+  },
+  {
+    "id": "sir_cadogan",
+    "name": "Sir Cadogan",
+    "role": "Eccentric Knight in the Portrait / Gryffindor Tower Guardian",
+    "category": "Ghosts & Magical Beings",
+    "house": "Hogwarts",
+    "booksActive": [
+      3,
+      5,
+      7
+    ],
+    "tags": [
+      "Comedy Voice Royalty",
+      "Matt Berry Masterpiece"
+    ],
+    "shiftSummary": "Only a fleeting background cameo in Movie 3. In Audible, comedy legend Matt Berry plays Sir Cadogan across Books 3, 5, and 7!",
+    "movie": {
+      "actor": "Paul Whitehouse (Deleted Scene / Cameo)",
+      "wiki": "https://en.wikipedia.org/wiki/Hogwarts_staff",
+      "img": "images/actors/movie_sir_cadogan.jpg",
+      "coverage": "Movie 3 (Cut / Background Portrait Cameo)",
+      "notes": "Paul Whitehouse filmed scenes as Sir Cadogan for Prisoner of Azkaban, but they were cut down to background set dressing."
+    },
+    "audible": {
+      "actor": "Matt Berry",
+      "wiki": "https://en.wikipedia.org/wiki/Matt_Berry",
+      "audibleWiki": "https://harrypotter.fandom.com/wiki/Harry_Potter:_The_Full-Cast_Audio_Editions",
+      "img": "images/actors/audible_sir_cadogan.jpg",
+      "coverage": "Books 3, 5, 7",
+      "notes": "Cult comedy icon Matt Berry (What We Do in the Shadows' Laszlo Cravensworth, The IT Crowd) delivers a hilarious, booming tour-de-force: 'STAND AND FIGHT, YE DOGS! HULLO, SCURVY KNAVES!'"
+    },
+    "trivia": "Matt Berry's Sir Cadogan challenges students to duels every time they try to enter Gryffindor Tower while substituting for the slashed Fat Lady portrait.",
+    "characterImg": "images/characters/sir_cadogan.jpg"
+  },
+  {
+    "id": "sorting_hat",
+    "name": "The Sorting Hat",
+    "role": "Ancient Relic of Godric Gryffindor / Singer of Warning Songs",
+    "category": "Ghosts & Magical Beings",
+    "house": "Hogwarts",
+    "booksActive": [
+      1,
+      2,
+      4,
+      5,
+      7
+    ],
+    "tags": [
+      "Audible Star Casting"
+    ],
+    "shiftSummary": "Leslie Phillips voiced the Sorting Hat in Movies 1, 2, and 8. Lennie James voices the Hat in Audible across Books 1, 2, 4, 5, and 7.",
+    "movie": {
+      "actor": "Leslie Phillips",
+      "wiki": "https://en.wikipedia.org/wiki/Leslie_Phillips",
+      "img": "images/actors/movie_sorting_hat.jpg",
+      "coverage": "Movies 1, 2, 8",
+      "notes": "Leslie Phillips gave the Hat a deep, theatrical rumble with famous crescendos: 'GRYFFINDOR!'"
+    },
+    "audible": {
+      "actor": "Lennie James",
+      "wiki": "https://en.wikipedia.org/wiki/Lennie_James",
+      "audibleWiki": "https://harrypotter.fandom.com/wiki/Harry_Potter:_The_Full-Cast_Audio_Editions",
+      "img": "images/actors/audible_sorting_hat.jpg",
+      "coverage": "Books 1, 2, 4, 5, 7",
+      "notes": "Lennie James (The Walking Dead's Morgan, Save Me, Line of Duty) brings rich lyrical poetry, ancient wisdom, and ominous musical cadences to the Sorting Hat's yearly warning songs."
+    },
+    "trivia": "In Book 5, the Sorting Hat sings an extended ballad warning the houses to unite against outside enemies\u2014a song fully musicalized in the Audible edition.",
+    "characterImg": "images/characters/sorting_hat.jpg"
+  },
+  {
+    "id": "nearly_headless_nick",
+    "name": "Nearly Headless Nick",
+    "role": "Gryffindor Resident Ghost / Sir Nicholas de Mimsy-Porpington",
+    "category": "Ghosts & Magical Beings",
+    "house": "Gryffindor",
+    "booksActive": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7
+    ],
+    "tags": [
+      "Comedy Star Casting"
+    ],
+    "shiftSummary": "Monty Python legend John Cleese played Nick in Movies 1 and 2. Stephen Mangan voices Nick in Audible across Books 1\u20135 and 7.",
+    "movie": {
+      "actor": "John Cleese",
+      "wiki": "https://en.wikipedia.org/wiki/John_Cleese",
+      "img": "images/actors/movie_nearly_headless_nick.jpg",
+      "coverage": "Movies 1 & 2",
+      "notes": "John Cleese brought pompous British gentry humor and famously pulled his head sideways on its hinge of skin and sinew."
+    },
+    "audible": {
+      "actor": "Stephen Mangan",
+      "wiki": "https://en.wikipedia.org/wiki/Stephen_Mangan",
+      "audibleWiki": "https://harrypotter.fandom.com/wiki/Harry_Potter:_The_Full-Cast_Audio_Editions",
+      "img": "images/actors/audible_nearly_headless_nick.jpg",
+      "coverage": "Books 1, 2, 3, 4, 5, 7",
+      "notes": "Stephen Mangan (Episodes, The Split, Green Wing) voices Sir Nicholas with exquisite aristocratic dignity, comic snobbery, and touching poignancy when Harry questions him about death in Book 5."
+    },
+    "trivia": "The Deathday Party from Chamber of Secrets (with rancid haggis, rotten fish, and the headless hunt) is fully restored in the Audible production.",
+    "characterImg": "images/characters/nearly_headless_nick.jpg"
+  },
+  {
+    "id": "charlie_weasley",
+    "name": "Charlie Weasley",
+    "role": "Dragon Keeper in Romania / Order Member",
+    "category": "Order of the Phoenix",
+    "house": "Gryffindor",
+    "booksActive": [
+      4,
+      7
+    ],
+    "tags": [
+      "BOOK EXCLUSIVE IN PERSON",
+      "Cut from Movies"
+    ],
+    "shiftSummary": "Charlie only ever appeared in a moving family photo in Movie 3; he had zero speaking lines on screen. In Audible, he is voiced in person by Joel Fry for Goblet of Fire and Deathly Hallows!",
+    "movie": {
+      "actor": "CUT! (Alex Crockford photo cameo only)",
+      "wiki": "https://en.wikipedia.org/wiki/Weasley_family#Charlie_Weasley",
+      "img": "images/actors/movie_charlie_weasley.jpg",
+      "coverage": "Never featured in person with dialogue across 8 movies",
+      "notes": "Despite being an essential character in the books, Charlie Weasley was notoriously excluded from all films."
+    },
+    "audible": {
+      "actor": "Joel Fry",
+      "wiki": "https://en.wikipedia.org/wiki/Joel_Fry_(actor)",
+      "audibleWiki": "https://harrypotter.fandom.com/wiki/Harry_Potter:_The_Full-Cast_Audio_Editions",
+      "img": "images/actors/audible_charlie_weasley.jpg",
+      "coverage": "Books 4 & 7",
+      "notes": "Joel Fry (Our Flag Means Death, Cruella, Game of Thrones' Hizdahr zo Loraq) brings rugged, cheerful enthusiasm to the second Weasley son handling nesting Hungarian Horntails in the Forbidden Forest."
+    },
+    "trivia": "BOOK EXCLUSIVE SCENE: In Book 4, Charlie sneaks Harry a look at the dragons before the first task with Hagrid; Joel Fry's dragon-trainer swagger shines.",
+    "characterImg": "images/characters/charlie_weasley.jpg"
+  },
+  {
+    "id": "lavender_brown",
+    "name": "Lavender Brown",
+    "role": "Gryffindor Student / Ron's Clingy Girlfriend ('Won-Won')",
+    "category": "Hogwarts Students",
+    "house": "Gryffindor",
+    "booksActive": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "tags": [
+      "Movie Recast Controversy",
+      "Audible Consistency"
+    ],
+    "shiftSummary": "Famous Movie Recast: Kathleen Cauley (M2) and Jennifer Smith (M3) played Lavender as background extras, before Jessie Cave was cast in Movie 6 for the romantic subplot. In Audible, Ruby-May Martinwood voices Lavender consistently across all 7 books.",
+    "movie": {
+      "actor": "Kathleen Cauley (M2) / Jennifer Smith (M3) / Jessie Cave (M6\u20138)",
+      "wiki": "https://en.wikipedia.org/wiki/Jessie_Cave",
+      "img": "images/actors/movie_lavender_brown.jpg",
+      "coverage": "M2 (Cauley) | M3 (Smith) | M6\u20138 (Cave)",
+      "notes": "Jessie Cave brought hilarious clingy infatuation, heart-shaped necklaces, and shrill possessiveness to 'Won-Won'."
+    },
+    "audible": {
+      "actor": "Ruby-May Martinwood",
+      "wiki": "https://en.wikipedia.org/wiki/Jessie_Cave",
+      "audibleWiki": "https://harrypotter.fandom.com/wiki/Harry_Potter:_The_Full-Cast_Audio_Editions",
+      "img": "images/actors/audible_lavender_brown.svg",
+      "coverage": "All 7 Audiobooks (Books 1\u20137)",
+      "notes": "Ruby-May Martinwood provides smooth continuity from Divination class giggles in Book 3 to full romantic turbulence in Book 6 and her tragic wolf attack in Book 7."
+    },
+    "trivia": "The film recasting sparked major fan debate in 2008 when the character was recast from Black background actresses to white actress Jessie Cave when dialogue was introduced.",
+    "characterImg": "images/characters/lavender_brown.jpg"
+  },
+  {
+    "id": "celestina_warbeck",
+    "name": "Celestina Warbeck",
+    "role": "The Singing Sorceress / Wizarding Wireless Star",
+    "category": "Ministry & Civilians",
+    "house": "Gryffindor",
+    "booksActive": [
+      2,
+      6
+    ],
+    "tags": [
+      "LEGENDARY CAMEO",
+      "Dame Shirley Bassey!"
+    ],
+    "shiftSummary": "Never seen in movies. In an astonishing luxury casting moment, world music legend Dame Shirley Bassey voices Celestina Warbeck for the Audible edition!",
+    "movie": {
+      "actor": "CUT / MENTIONED ONLY",
+      "wiki": "https://en.wikipedia.org/wiki/Shirley_Bassey",
+      "img": "images/actors/movie_celestina_warbeck.jpg",
+      "coverage": "Not featured in the film series",
+      "notes": "Molly Weasley's favorite singer was only ever mentioned in passing on screen."
+    },
+    "audible": {
+      "actor": "Dame Shirley Bassey",
+      "wiki": "https://en.wikipedia.org/wiki/Shirley_Bassey",
+      "audibleWiki": "https://harrypotter.fandom.com/wiki/Harry_Potter:_The_Full-Cast_Audio_Editions",
+      "img": "images/actors/audible_celestina_warbeck.jpg",
+      "coverage": "Books 2 & 6",
+      "notes": "Global superstar Dame Shirley Bassey (Goldfinger, Diamonds Are Forever) makes an unbelievable cameo singing 'A Cauldron Full of Hot, Strong Love' over the wireless at Christmas!"
+    },
+    "trivia": "Having Dame Shirley Bassey perform Celestina Warbeck's hit single on the wizarding wireless at the Burrow in Book 6 is one of Audible's most delightful surprises.",
+    "characterImg": "images/characters/celestina_warbeck.jpg"
+  }
+];
+
+
+// app.js - The Chronicles of Casting: Harry Potter
+// Pure vanilla JS with responsive state management & Web Audio API synthesizers
+
+let state = {
+  selectedBook: 0, // 0 = All Books, 1-7 = Specific book
+  selectedCategory: "all",
+  searchQuery: "",
+  showOnlyRecasts: false,
+  showOnlyExclusives: false,
+  activeView: "cards", // "cards", "table", "timeline", "exclusives"
+  soundEnabled: true
+};
+
+// Web Audio API Magical Chime
+let audioCtx = null;
+function playMagicalChime() {
+  if (!state.soundEnabled) return;
+  try {
+    if (!audioCtx) {
+      audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    }
+    if (audioCtx.state === 'suspended') {
+      audioCtx.resume();
+    }
+    const now = audioCtx.currentTime;
+    const osc1 = audioCtx.createOscillator();
+    const osc2 = audioCtx.createOscillator();
+    const gain = audioCtx.createGain();
+
+    osc1.type = 'sine';
+    osc2.type = 'triangle';
+
+    osc1.frequency.setValueAtTime(587.33, now); // D5
+    osc1.frequency.exponentialRampToValueAtTime(880.00, now + 0.15); // A5
+    osc1.frequency.exponentialRampToValueAtTime(1174.66, now + 0.35); // D6
+
+    osc2.frequency.setValueAtTime(440, now);
+    osc2.frequency.exponentialRampToValueAtTime(659.25, now + 0.2);
+
+    gain.gain.setValueAtTime(0.08, now);
+    gain.gain.exponentialRampToValueAtTime(0.001, now + 0.6);
+
+    osc1.connect(gain);
+    osc2.connect(gain);
+    gain.connect(audioCtx.destination);
+
+    osc1.start(now);
+    osc2.start(now);
+    osc1.stop(now + 0.65);
+    osc2.stop(now + 0.65);
+  } catch (e) {
+    console.debug('Audio chime error:', e);
+  }
+}
+
+// Fallback image monogram generator for actors (safe replaceWith to protect sibling DOM nodes)
+window.handleImageError = function(img) {
+  img.onerror = null;
+  const actorName = img.getAttribute('data-name') || img.alt || 'HP';
+  const initials = actorName
+    .split(' ')
+    .filter(Boolean)
+    .map(p => p[0])
+    .slice(0, 2)
+    .join('')
+    .toUpperCase() || 'HP';
+  
+  const monogram = document.createElement('div');
+  monogram.className = 'actor-monogram';
+  monogram.title = actorName;
+  monogram.textContent = initials;
+  img.replaceWith(monogram);
+};
+
+// Fallback image generator for characters (safe replaceWith to protect sibling DOM nodes)
+window.handleCharImageError = function(img) {
+  img.onerror = null;
+  const charName = img.getAttribute('data-name') || img.alt || 'Character';
+  const monogram = document.createElement('div');
+  monogram.className = 'char-monogram';
+  monogram.title = charName;
+  monogram.textContent = '🧙‍♂️';
+  img.replaceWith(monogram);
+};
+
+// Filter logic
+function getFilteredCharacters() {
+  return HP_CHARACTERS_DATA.filter(char => {
+    // Book filter
+    if (state.selectedBook !== 0 && !char.booksActive.includes(state.selectedBook)) {
+      return false;
+    }
+
+    // Category filter
+    if (state.selectedCategory !== "all" && char.category !== state.selectedCategory) {
+      return false;
+    }
+
+    // Recasts only filter
+    if (state.showOnlyRecasts) {
+      const hasRecast = char.tags.some(t => 
+        t.toLowerCase().includes('recast') || 
+        t.toLowerCase().includes('shift') || 
+        t.toLowerCase().includes('crossover')
+      );
+      if (!hasRecast) return false;
+    }
+
+    // Exclusives only filter
+    if (state.showOnlyExclusives) {
+      const isExclusive = char.tags.some(t => 
+        t.toLowerCase().includes('exclusive') || 
+        t.toLowerCase().includes('cut')
+      );
+      if (!isExclusive) return false;
+    }
+
+    // Search query filter
+    if (state.searchQuery.trim() !== "") {
+      const query = state.searchQuery.toLowerCase().trim();
+      const inName = char.name.toLowerCase().includes(query);
+      const inRole = char.role.toLowerCase().includes(query);
+      const inHouse = char.house.toLowerCase().includes(query);
+      const inMovieActor = char.movie.actor.toLowerCase().includes(query);
+      const inAudibleActor = char.audible.actor.toLowerCase().includes(query);
+      const inNotes = (char.movie.notes + ' ' + char.audible.notes + ' ' + char.trivia).toLowerCase().includes(query);
+      if (!inName && !inRole && !inHouse && !inMovieActor && !inAudibleActor && !inNotes) {
+        return false;
+      }
+    }
+
+    return true;
+  });
+}
+
+// Render Book Navigation
+function renderBookNav() {
+  const container = document.getElementById("bookNavTabs");
+  if (!container) return;
+
+  let html = `
+    <button class="book-tab-btn ${state.selectedBook === 0 ? 'active' : ''}" data-book="0">
+      <span class="book-tab-badge">⚡ OVERVIEW</span>
+      <span class="book-tab-title">All 7 Books & Films</span>
+      <span class="book-tab-meta">Full Series Master Comparison</span>
+    </button>
+  `;
+
+  HP_BOOKS_DATA.forEach(book => {
+    const isActive = state.selectedBook === book.id;
+    html += `
+      <button class="book-tab-btn ${isActive ? 'active' : ''}" data-book="${book.id}">
+        <span class="book-tab-badge">${book.icon} BOOK ${book.id}</span>
+        <span class="book-tab-title">${book.shortTitle.split('. ')[1]}</span>
+        <span class="book-tab-meta">Film: ${book.movieYear} | Audio: ${book.audibleYear}</span>
+      </button>
+    `;
+  });
+
+  container.innerHTML = html;
+
+  // Add click events
+  container.querySelectorAll(".book-tab-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const bookId = parseInt(btn.getAttribute("data-book"), 10);
+      state.selectedBook = bookId;
+      playMagicalChime();
+      renderApp();
+    });
+  });
+}
+
+// Render Context Banner
+function renderBookContextBanner() {
+  const banner = document.getElementById("bookContextBanner");
+  if (!banner) return;
+
+  if (state.selectedBook === 0) {
+    banner.innerHTML = `
+      <div class="book-context-card animate-fade-in">
+        <div class="context-left">
+          <h3>⚡ The Complete Wizarding Saga (Books 1–7)</h3>
+          <p class="context-synopsis">
+            Explore the comprehensive side-by-side casting comparison between all eight Warner Bros. film adaptations (2001–2011) and the historic 2025–2026 Audible full-cast ensemble audio editions produced with Pottermore Publishing in immersive Dolby Atmos.
+          </p>
+          <div class="context-meta-row">
+            <div class="context-meta-item">
+              <span>Film Directors</span>
+              <span>Columbus, Cuarón, Newell, Yates</span>
+            </div>
+            <div class="context-meta-item">
+              <span>Audible Narrator</span>
+              <span>Cush Jumbo OBE</span>
+            </div>
+            <div class="context-meta-item">
+              <span>Audible Total Performers</span>
+              <span>Over 500 Voice Actors</span>
+            </div>
+          </div>
+        </div>
+        <div class="context-right">
+          <div class="shift-alert-title">
+            <span>🎭 THE CORE CASTING TRANSITION</span>
+          </div>
+          <p class="shift-alert-desc">
+            Audible purposely divided the student characters into <strong>Two Distinct Eras</strong>: youthful child actors for Books 1–3 (Frankie Treadaway, Max Lester, Arabella Stanton) and mature teenage actors for Books 4–7 (Jaxon Knopf, Rhys Mulligan, Nina Barker-Francis) to accurately reflect adolescent voice deepening and dramatic intensity.
+          </p>
+        </div>
+      </div>
+    `;
+  } else {
+    const book = HP_BOOKS_DATA.find(b => b.id === state.selectedBook);
+    if (!book) return;
+
+    banner.innerHTML = `
+      <div class="book-context-card animate-fade-in">
+        <div class="context-left">
+          <h3>${book.icon} Book ${book.id}: ${book.title}</h3>
+          <p class="context-synopsis">${book.synopsis}</p>
+          <div class="context-meta-row">
+            <div class="context-meta-item">
+              <span>Novel Published</span>
+              <span>${book.bookYear}</span>
+            </div>
+            <div class="context-meta-item">
+              <span>Film Release</span>
+              <span>${book.movieYear} (${book.movieDirector})</span>
+            </div>
+            <div class="context-meta-item">
+              <span>Audible Release</span>
+              <span>${book.audibleYear} (Narrated by ${book.audibleNarrator})</span>
+            </div>
+          </div>
+        </div>
+        <div class="context-right">
+          <div class="shift-alert-title">
+            <span>🚨 ${book.audibleCastEra}</span>
+          </div>
+          <p class="shift-alert-desc">${book.shiftSummary}</p>
+        </div>
+      </div>
+    `;
+  }
+}
+
+// Render Category Pills
+function renderCategoryPills() {
+  const container = document.getElementById("categoryPills");
+  if (!container) return;
+
+  const categories = [
+    { id: "all", label: "All Characters" },
+    { id: "Golden Trio", label: "The Golden Trio" },
+    { id: "Hogwarts Faculty & Staff", label: "Hogwarts Faculty & Staff" },
+    { id: "Hogwarts Students", label: "Hogwarts Students" },
+    { id: "Order of the Phoenix", label: "Order of the Phoenix" },
+    { id: "Death Eaters & Dark Forces", label: "Death Eaters & Dark Forces" },
+    { id: "Ministry & Civilians", label: "Ministry & Civilians" },
+    { id: "Ghosts & Magical Beings", label: "Ghosts & Magical Beings" }
+  ];
+
+  let html = "";
+  categories.forEach(cat => {
+    const count = HP_CHARACTERS_DATA.filter(c => {
+      const matchBook = state.selectedBook === 0 || c.booksActive.includes(state.selectedBook);
+      const matchCat = cat.id === "all" || c.category === cat.id;
+      return matchBook && matchCat;
+    }).length;
+
+    const isActive = state.selectedCategory === cat.id;
+    html += `
+      <button class="cat-pill ${isActive ? 'active' : ''}" data-cat="${cat.id}">
+        ${cat.label} (${count})
+      </button>
+    `;
+  });
+
+  container.innerHTML = html;
+
+  container.querySelectorAll(".cat-pill").forEach(pill => {
+    pill.addEventListener("click", () => {
+      state.selectedCategory = pill.getAttribute("data-cat");
+      playMagicalChime();
+      renderApp();
+    });
+  });
+}
+
+// Render Cards View with Prominent Character Portraits
+function renderCards(filteredChars) {
+  const container = document.getElementById("castContentArea");
+  if (!container) return;
+
+  if (filteredChars.length === 0) {
+    container.innerHTML = `
+      <div style="text-align: center; padding: 4rem 2rem; background: var(--bg-card); border-radius: var(--border-radius-lg); border: 1px dashed var(--gold-border);">
+        <p style="font-size: 2.5rem; margin-bottom: 1rem;">🧙‍♂️📜</p>
+        <h3 style="color: var(--gold-light); margin-bottom: 0.5rem;">No Wizards or Witches Found</h3>
+        <p style="color: var(--text-muted); max-width: 450px; margin: 0 auto 1.5rem;">
+          No cast members match your current combination of book, category, and search terms.
+        </p>
+        <button id="resetFiltersBtn" class="toggle-btn active" style="margin: 0 auto;">Reset All Filters</button>
+      </div>
+    `;
+    const resetBtn = document.getElementById("resetFiltersBtn");
+    if (resetBtn) {
+      resetBtn.addEventListener("click", () => {
+        state.selectedCategory = "all";
+        state.searchQuery = "";
+        state.showOnlyRecasts = false;
+        state.showOnlyExclusives = false;
+        const searchInput = document.getElementById("characterSearchInput");
+        if (searchInput) searchInput.value = "";
+        renderApp();
+      });
+    }
+    return;
+  }
+
+  let html = `<div class="cards-grid">`;
+
+  filteredChars.forEach(char => {
+    const houseClass = char.house.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+    
+    // Build badges
+    const badgesHtml = char.tags.map(tag => {
+      let tagClass = "tag-shift";
+      if (tag.toLowerCase().includes("exclusive") || tag.toLowerCase().includes("cut")) {
+        tagClass = "tag-exclusive";
+      } else if (tag.toLowerCase().includes("star") || tag.toLowerCase().includes("crossover")) {
+        tagClass = "tag-star";
+      }
+      return `<span class="tag-badge ${tagClass}">${tag}</span>`;
+    }).join("");
+
+    // Build book dots
+    const dotsHtml = [1, 2, 3, 4, 5, 6, 7].map(num => {
+      const isActiveInBook = char.booksActive.includes(num);
+      const isSelectedBook = state.selectedBook === num;
+      let dotClass = "";
+      if (isActiveInBook) dotClass = "active";
+      if (isSelectedBook) dotClass = "selected";
+      return `<span class="dot-book ${dotClass}" title="Book ${num}">${num}</span>`;
+    }).join("");
+
+    const charImgSrc = char.characterImg || `images/characters/${char.id}.jpg`;
+    const escapedCharName = char.name.replace(/"/g, '&quot;');
+    const escapedMovieActor = char.movie.actor.replace(/"/g, '&quot;');
+    const escapedAudibleActor = char.audible.actor.replace(/"/g, '&quot;');
+
+    html += `
+      <div class="char-card animate-fade-in" data-id="${char.id}">
+        <!-- Card Header with Prominent Character Face -->
+        <div class="char-card-header">
+          <div class="char-header-identity">
+            <div class="char-portrait-container house-ring-${houseClass}">
+              <img 
+                class="char-portrait-img" 
+                src="${charImgSrc}" 
+                alt="${escapedCharName} Portrait"
+                data-name="${escapedCharName}"
+                loading="lazy"
+                onerror="handleCharImageError(this)"
+              />
+              <span class="char-portrait-tag" title="Wizarding Character Face">🧙‍♂️</span>
+            </div>
+            <div class="char-identity-meta">
+              <div class="char-title-row">
+                <h3 class="char-name">${char.name}</h3>
+                <span class="house-badge ${houseClass}">${char.house}</span>
+              </div>
+              <span class="char-role">${char.role}</span>
+              <div class="char-tags-list">
+                ${badgesHtml}
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card Body Split: Movie Actor vs Audible Artist -->
+        <div class="char-card-body">
+          <!-- Left: Movie Cast -->
+          <div class="char-side movie-side">
+            <div class="side-header">
+              <span class="side-title movie">🎬 MOVIE PORTRAYAL</span>
+              <span class="side-year">Warner Bros.</span>
+            </div>
+            <div class="actor-profile-row">
+              <div class="actor-avatar-wrap">
+                <img 
+                  class="actor-avatar-img" 
+                  src="${char.movie.img}" 
+                  alt="${escapedMovieActor}"
+                  data-name="${escapedMovieActor}"
+                  loading="lazy"
+                  onerror="handleImageError(this)"
+                />
+              </div>
+              <div class="actor-meta">
+                <a class="actor-name-link" href="${char.movie.wiki}" target="_blank" rel="noopener noreferrer" title="View Wikipedia Biography">
+                  ${char.movie.actor}
+                  <span class="wiki-icon">↗</span>
+                </a>
+                ${char.movie.secondaryActor ? `<span class="actor-secondary">${char.movie.secondaryActor}</span>` : ''}
+                <span class="actor-coverage">${char.movie.coverage}</span>
+              </div>
+            </div>
+            <p class="actor-notes">${char.movie.notes}</p>
+          </div>
+
+          <!-- Right: Audible Ensemble Cast -->
+          <div class="char-side audible-side">
+            <div class="side-header">
+              <span class="side-title audible">🎧 AUDIBLE VOICE ARTIST</span>
+              <span class="side-year">Dolby Atmos</span>
+            </div>
+            <div class="actor-profile-row">
+              <div class="actor-avatar-wrap audible-wrap">
+                <img 
+                  class="actor-avatar-img" 
+                  src="${char.audible.img}" 
+                  alt="${escapedAudibleActor}"
+                  data-name="${escapedAudibleActor}"
+                  loading="lazy"
+                  onerror="handleImageError(this)"
+                />
+              </div>
+              <div class="actor-meta">
+                <a class="actor-name-link" href="${char.audible.wiki}" target="_blank" rel="noopener noreferrer" title="View Biography">
+                  ${char.audible.actor}
+                  <span class="wiki-icon">↗</span>
+                </a>
+                ${char.audible.secondaryActor ? `<span class="actor-secondary">${char.audible.secondaryActor}</span>` : ''}
+                <span class="actor-coverage">${char.audible.coverage}</span>
+              </div>
+            </div>
+            <p class="actor-notes">${char.audible.notes}</p>
+          </div>
+        </div>
+
+        <!-- Card Footer -->
+        <div class="char-card-footer">
+          <div class="book-presence-dots">
+            <span class="presence-label">Books:</span>
+            ${dotsHtml}
+          </div>
+          <button class="details-modal-btn" onclick="openCharModal('${char.id}')">
+            <span>✨ Deep-Dive Comparison</span>
+          </button>
+        </div>
+      </div>
+    `;
+  });
+
+  html += `</div>`;
+  container.innerHTML = html;
+}
+
+// Render Table View with Portraits
+function renderTable(filteredChars) {
+  const container = document.getElementById("castContentArea");
+  if (!container) return;
+
+  let rows = filteredChars.map(char => {
+    const houseClass = char.house.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+    const charImgSrc = char.characterImg || `images/characters/${char.id}.jpg`;
+    const escapedCharName = char.name.replace(/"/g, '&quot;');
+    const escapedMovieActor = char.movie.actor.replace(/"/g, '&quot;');
+    const escapedAudibleActor = char.audible.actor.replace(/"/g, '&quot;');
+    
+    return `
+    <tr>
+      <td>
+        <div class="table-char-cell">
+          <div class="table-thumb-wrap house-ring-${houseClass}">
+            <img class="table-char-thumb" src="${charImgSrc}" alt="${escapedCharName}" data-name="${escapedCharName}" loading="lazy" onerror="handleCharImageError(this)" />
+          </div>
+          <div class="table-char-info">
+            <strong>${char.name}</strong>
+            <span class="house-badge ${houseClass}">${char.house}</span>
+            <small style="color: var(--text-dim); display: block;">${char.role}</small>
+          </div>
+        </div>
+      </td>
+      <td>
+        <div class="table-actor-cell">
+          <img class="table-actor-thumb" src="${char.movie.img}" alt="${escapedMovieActor}" data-name="${escapedMovieActor}" loading="lazy" onerror="handleImageError(this)" />
+          <div class="table-actor-meta">
+            <a class="table-wiki-link" href="${char.movie.wiki}" target="_blank" rel="noopener noreferrer">
+              ${char.movie.actor} ↗
+            </a>
+            <small style="color: var(--text-dim); display: block;">${char.movie.coverage}</small>
+          </div>
+        </div>
+      </td>
+      <td>
+        <div class="table-actor-cell">
+          <img class="table-actor-thumb audible-thumb" src="${char.audible.img}" alt="${escapedAudibleActor}" data-name="${escapedAudibleActor}" loading="lazy" onerror="handleImageError(this)" />
+          <div class="table-actor-meta">
+            <a class="table-wiki-link" href="${char.audible.wiki}" target="_blank" rel="noopener noreferrer" style="color: var(--cyan-accent);">
+              ${char.audible.actor} ↗
+            </a>
+            <small style="color: var(--text-dim); display: block;">${char.audible.coverage}</small>
+          </div>
+        </div>
+      </td>
+      <td>
+        <small style="color: var(--text-muted);">${char.shiftSummary || char.movie.notes}</small>
+      </td>
+      <td>
+        <button class="details-modal-btn" onclick="openCharModal('${char.id}')">
+          Details
+        </button>
+      </td>
+    </tr>
+  `;
+  }).join("");
+
+  container.innerHTML = `
+    <div class="table-view-container animate-fade-in">
+      <table class="cast-table">
+        <thead>
+          <tr>
+            <th>Character & Face</th>
+            <th>Movie Actor (WB)</th>
+            <th>Audible Voice Artist</th>
+            <th>Casting Transition Analysis</th>
+            <th>Deep Dive</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${rows}
+        </tbody>
+      </table>
+    </div>
+  `;
+}
+
+// Render Timeline / Era View
+function renderTimeline() {
+  const container = document.getElementById("castContentArea");
+  if (!container) return;
+
+  container.innerHTML = `
+    <div class="timeline-section animate-fade-in">
+      <div class="hero-tag">🌟 INSIDE THE PRODUCTION DESIGN</div>
+      <h2 class="timeline-title">The Audible Full-Cast Casting Architecture: 3 Eras of Growth</h2>
+      <p style="color: var(--text-muted); max-width: 900px; margin-bottom: 2rem; line-height: 1.6;">
+        Unlike the feature films where Daniel Radcliffe, Emma Watson, and Rupert Grint aged naturally in front of the lens from 2001 to 2011, Pottermore Publishing and Audible made a deliberate directorial choice to split the 7-book audiobook audio production across three distinct voice eras to capture authentic vocal maturity:
+      </p>
+
+      <div class="timeline-grid">
+        <div class="era-card era-1">
+          <div class="era-badge">ERA 1: BOOKS 1–3 (AGES 11–13)</div>
+          <h3 class="era-title">The Child Voice Ensemble</h3>
+          <p class="era-desc">
+            Recorded with authentic young British actors to capture the high pitch, innocent banter, and schoolyard wonder of Harry's early Hogwarts years.
+          </p>
+          <div class="era-cast-list">
+            • <strong>Harry Potter:</strong> Frankie Treadaway<br>
+            • <strong>Ron Weasley:</strong> Max Lester<br>
+            • <strong>Hermione Granger:</strong> Arabella Stanton<br>
+            • <strong>Draco Malfoy:</strong> Jude Farrant<br>
+            • <strong>Neville Longbottom:</strong> Jake Sigsworth<br>
+            • <strong>Ginny Weasley:</strong> Bumble Clarke
+          </div>
+        </div>
+
+        <div class="era-card era-2">
+          <div class="era-badge">ERA 2: BOOKS 4–7 (AGES 14–17)</div>
+          <h3 class="era-title">The Mature / Teen Ensemble</h3>
+          <p class="era-desc">
+            Beginning with the dark, tragic tone shift of <em>Goblet of Fire</em>, the student cast transitions to older teenage actors with deeper vocal timbre and emotional gravity.
+          </p>
+          <div class="era-cast-list">
+            • <strong>Harry Potter:</strong> Jaxon Knopf<br>
+            • <strong>Ron Weasley:</strong> Rhys Mulligan<br>
+            • <strong>Hermione Granger:</strong> Nina Barker-Francis<br>
+            • <strong>Draco Malfoy:</strong> Maximus Evans<br>
+            • <strong>Neville Longbottom:</strong> Archie Mountain<br>
+            • <strong>Ginny Weasley:</strong> Shreya Lallu
+          </div>
+        </div>
+
+        <div class="era-card era-3">
+          <div class="era-badge">ERA 3: EPILOGUE (19 YEARS LATER)</div>
+          <h3 class="era-title">The Adult Epilogue Cast</h3>
+          <p class="era-desc">
+            In <em>Deathly Hallows</em> Platform 9¾ scene, mature adult actors take over as parents seeing their children off to Hogwarts, avoiding artificial aging effects.
+          </p>
+          <div class="era-cast-list">
+            • <strong>Adult Harry:</strong> Sam Stafford<br>
+            • <strong>Adult Ron:</strong> David Ames<br>
+            • <strong>Adult Hermione:</strong> Kelechi Okafor<br>
+            • <strong>Adult Ginny:</strong> Rosie Jones<br>
+            • <strong>Adult Draco:</strong> Alex Hassell
+          </div>
+        </div>
+      </div>
+
+      <div style="margin-top: 3rem; background: var(--bg-card); border: 1px solid var(--gold-border); border-radius: var(--border-radius-lg); padding: 2rem;">
+        <h3 style="color: var(--gold-light); margin-bottom: 1rem; font-family: var(--font-display);">🎬 Film vs. 🎧 Audio: Key Directorial Differences</h3>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem;">
+          <div>
+            <h4 style="color: #fff; margin-bottom: 0.5rem;">1. Visual Aging vs Vocal Authenticity</h4>
+            <p style="color: var(--text-muted); font-size: 0.88rem; line-height: 1.5;">
+              Warner Bros. committed to Daniel, Emma, and Rupert over a 10-year span. While beloved, 21-year-old Daniel playing 17-year-old Harry in 2011 differed from Audible's vocal casting, which could strictly match the characters' precise chronological vocal resonance.
+            </p>
+          </div>
+          <div>
+            <h4 style="color: #fff; margin-bottom: 0.5rem;">2. Restoring S.P.E.W., Winky & Peeves</h4>
+            <p style="color: var(--text-muted); font-size: 0.88rem; line-height: 1.5;">
+              Because films face 2.5-hour runtime limits, massive storylines like Hermione's Society for the Promotion of Elfish Welfare (S.P.E.W.), Ludo Bagman's gambling debts, and poltergeist Peeves were excised. The Audible series features every single line unabridged.
+            </p>
+          </div>
+          <div>
+            <h4 style="color: #fff; margin-bottom: 0.5rem;">3. Spatial Dolby Atmos Soundscapes</h4>
+            <p style="color: var(--text-muted); font-size: 0.88rem; line-height: 1.5;">
+              The audio edition is mixed in full Dolby Atmos, placing Harry's Parseltongue whispers around your head, Dementor chills sweeping from behind, and Quidditch Golden Snitches buzzing past each ear in 3D binaural space.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+// Render Exclusives View
+function renderExclusives() {
+  const container = document.getElementById("castContentArea");
+  if (!container) return;
+
+  const exclusives = HP_CHARACTERS_DATA.filter(c => 
+    c.tags.some(t => t.toLowerCase().includes("exclusive") || t.toLowerCase().includes("cut"))
+  );
+
+  renderCards(exclusives);
+}
+
+// Main App Render
+function renderApp() {
+  renderBookNav();
+  renderBookContextBanner();
+  renderCategoryPills();
+
+  const filteredChars = getFilteredCharacters();
+
+  // Update results count
+  const countEl = document.getElementById("resultsCount");
+  if (countEl) {
+    countEl.textContent = `${filteredChars.length} Characters Displayed`;
+  }
+
+  // Render view
+  if (state.activeView === "cards") {
+    renderCards(filteredChars);
+  } else if (state.activeView === "table") {
+    renderTable(filteredChars);
+  } else if (state.activeView === "timeline") {
+    renderTimeline();
+  } else if (state.activeView === "exclusives") {
+    renderExclusives();
+  }
+}
+
+// Open Character Modal with Character and Actor Portraits
+window.openCharModal = function(charId) {
+  const char = HP_CHARACTERS_DATA.find(c => c.id === charId);
+  if (!char) return;
+
+  playMagicalChime();
+
+  const modal = document.getElementById("charModal");
+  const modalContent = document.getElementById("modalBodyContent");
+  if (!modal || !modalContent) return;
+
+  const houseClass = char.house.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+  const charImgSrc = char.characterImg || `images/characters/${char.id}.jpg`;
+  const escapedCharName = char.name.replace(/"/g, '&quot;');
+  const escapedMovieActor = char.movie.actor.replace(/"/g, '&quot;');
+  const escapedAudibleActor = char.audible.actor.replace(/"/g, '&quot;');
+
+  modalContent.innerHTML = `
+    <!-- Modal Hero: Character Portrait + Lore Header -->
+    <div class="modal-header">
+      <div class="modal-hero-split">
+        <div class="modal-char-portrait-wrap house-ring-${houseClass}">
+          <img 
+            class="modal-char-portrait-img" 
+            src="${charImgSrc}" 
+            alt="${escapedCharName} Portrait"
+            data-name="${escapedCharName}"
+            onerror="handleCharImageError(this)"
+          />
+        </div>
+        <div class="modal-hero-text">
+          <div class="modal-title-row">
+            <h2 class="modal-title">${char.name}</h2>
+            <span class="house-badge ${houseClass}">${char.house}</span>
+          </div>
+          <p class="modal-subtitle">${char.role} • Active in Books: ${char.booksActive.join(', ')}</p>
+          <div class="modal-tags">
+            ${char.tags.map(t => `<span class="tag-badge tag-shift">${t}</span>`).join('')}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Dual Grid: Movie Actor vs Voice Artist Faces -->
+    <div class="modal-body">
+      <div class="modal-dual-grid">
+        <!-- Movie Actor Profile -->
+        <div class="modal-column">
+          <div class="side-header">
+            <span class="side-title movie">🎬 WARNER BROS. FILMS</span>
+            <span class="side-year">${char.movie.coverage}</span>
+          </div>
+          <div class="modal-actor-card-head">
+            <img 
+              class="modal-actor-img" 
+              src="${char.movie.img}" 
+              alt="${escapedMovieActor}"
+              data-name="${escapedMovieActor}"
+              onerror="handleImageError(this)"
+            />
+            <div>
+              <h3 style="color: #fff; font-size: 1.15rem; margin-bottom: 0.2rem;">${char.movie.actor}</h3>
+              ${char.movie.secondaryActor ? `<p style="font-size: 0.8rem; color: var(--gold-light);">${char.movie.secondaryActor}</p>` : ''}
+              <a class="wiki-btn-link" href="${char.movie.wiki}" target="_blank" rel="noopener noreferrer">
+                📖 View Wikipedia Biography ↗
+              </a>
+            </div>
+          </div>
+          <div class="modal-section">
+            <h4 class="modal-section-title">Screen Portrayal & Impact</h4>
+            <p class="modal-section-text">${char.movie.notes}</p>
+          </div>
+        </div>
+
+        <!-- Audible Actor Profile -->
+        <div class="modal-column">
+          <div class="side-header">
+            <span class="side-title audible">🎧 AUDIBLE FULL-CAST EDITION</span>
+            <span class="side-year">${char.audible.coverage}</span>
+          </div>
+          <div class="modal-actor-card-head">
+            <img 
+              class="modal-actor-img audible-modal-img" 
+              src="${char.audible.img}" 
+              alt="${escapedAudibleActor}"
+              data-name="${escapedAudibleActor}"
+              onerror="handleImageError(this)"
+            />
+            <div>
+              <h3 style="color: #fff; font-size: 1.15rem; margin-bottom: 0.2rem;">${char.audible.actor}</h3>
+              ${char.audible.secondaryActor ? `<p style="font-size: 0.8rem; color: var(--cyan-accent);">${char.audible.secondaryActor}</p>` : ''}
+              <a class="wiki-btn-link" href="${char.audible.wiki}" target="_blank" rel="noopener noreferrer" style="border-color: rgba(79,195,247,0.4); color: var(--cyan-accent);">
+                📖 View Biography ↗
+              </a>
+            </div>
+          </div>
+          <div class="modal-section">
+            <h4 class="modal-section-title">Vocal Delivery & Dolby Atmos Nuance</h4>
+            <p class="modal-section-text">${char.audible.notes}</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Casting Shift & Production Analysis -->
+      <div style="background: rgba(15,22,36,0.9); border: 1px solid var(--gold-border); border-radius: var(--border-radius-md); padding: 1.5rem; margin-bottom: 1.5rem;">
+        <h4 class="modal-section-title">🔄 Casting Transition & Production Analysis</h4>
+        <p class="modal-section-text">${char.shiftSummary || 'Maintained consistent casting throughout the production run.'}</p>
+      </div>
+
+      <!-- Wizarding Trivia & Lore Difference -->
+      <div style="background: rgba(9,13,22,0.8); border: 1px solid rgba(255,255,255,0.08); border-radius: var(--border-radius-md); padding: 1.5rem;">
+        <h4 class="modal-section-title">⚡ Wizarding Trivia & Lore Difference</h4>
+        <p class="modal-section-text">${char.trivia}</p>
+      </div>
+    </div>
+  `;
+
+  modal.setAttribute("aria-hidden", "false");
+  modal.classList.add("open");
+  document.body.style.overflow = "hidden";
+};
+
+// Close Character Modal
+window.closeCharModal = function() {
+  const modal = document.getElementById("charModal");
+  if (modal) {
+    modal.classList.remove("open");
+    modal.setAttribute("aria-hidden", "true");
+    document.body.style.overflow = "auto";
+  }
+};
+
+// Initialize listeners on DOM load
+document.addEventListener("DOMContentLoaded", () => {
+  // Search input
+  const searchInput = document.getElementById("characterSearchInput");
+  if (searchInput) {
+    searchInput.addEventListener("input", (e) => {
+      state.searchQuery = e.target.value;
+      renderApp();
+    });
+  }
+
+  // Recasts toggle
+  const recastBtn = document.getElementById("toggleRecastsBtn");
+  if (recastBtn) {
+    recastBtn.addEventListener("click", () => {
+      state.showOnlyRecasts = !state.showOnlyRecasts;
+      recastBtn.classList.toggle("active", state.showOnlyRecasts);
+      playMagicalChime();
+      renderApp();
+    });
+  }
+
+  // Exclusives toggle
+  const exclusiveBtn = document.getElementById("toggleExclusivesBtn");
+  if (exclusiveBtn) {
+    exclusiveBtn.addEventListener("click", () => {
+      state.showOnlyExclusives = !state.showOnlyExclusives;
+      exclusiveBtn.classList.toggle("active", state.showOnlyExclusives);
+      playMagicalChime();
+      renderApp();
+    });
+  }
+
+  // View switchers
+  document.querySelectorAll(".view-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const mode = btn.getAttribute("data-view");
+      state.activeView = mode;
+      document.querySelectorAll(".view-btn").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      playMagicalChime();
+      renderApp();
+    });
+  });
+
+  // Sound toggle
+  const soundBtn = document.getElementById("soundToggleBtn");
+  if (soundBtn) {
+    soundBtn.addEventListener("click", () => {
+      state.soundEnabled = !state.soundEnabled;
+      soundBtn.classList.toggle("active", state.soundEnabled);
+      soundBtn.innerHTML = state.soundEnabled ? "🔔 Chimes: ON" : "🔕 Chimes: OFF";
+      if (state.soundEnabled) playMagicalChime();
+    });
+  }
+
+  // Modal close listeners
+  const closeBtn = document.getElementById("modalCloseBtn");
+  if (closeBtn) {
+    closeBtn.addEventListener("click", closeCharModal);
+  }
+
+  const modalOverlay = document.getElementById("charModal");
+  if (modalOverlay) {
+    modalOverlay.addEventListener("click", (e) => {
+      if (e.target === modalOverlay) closeCharModal();
+    });
+  }
+
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") closeCharModal();
+  });
+
+  // Initial render
+  renderApp();
+});
+
+</script>
+</body>
+</html>

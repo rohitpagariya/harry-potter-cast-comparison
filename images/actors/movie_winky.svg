@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="320" height="320">
+  <defs>
+    <radialGradient id="cutBg" cx="50%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#2a1215"/>
+      <stop offset="70%" stop-color="#1a0b0d"/>
+      <stop offset="100%" stop-color="#0b0405"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background Circle -->
+  <circle cx="160" cy="160" r="154" fill="url(#cutBg)" stroke="#e11d48" stroke-width="4" stroke-opacity="0.6"/>
+  <circle cx="160" cy="160" r="140" fill="none" stroke="#f43f5e" stroke-opacity="0.2" stroke-dasharray="6,6" stroke-width="2"/>
+
+  <!-- Film Reel Slash Icon -->
+  <g transform="translate(160, 110)">
+    <circle cx="0" cy="0" r="32" fill="none" stroke="#f43f5e" stroke-width="4"/>
+    <circle cx="0" cy="0" r="8" fill="#f43f5e"/>
+    <circle cx="-14" cy="-14" r="5" fill="#f43f5e"/>
+    <circle cx="14" cy="-14" r="5" fill="#f43f5e"/>
+    <circle cx="-14" cy="14" r="5" fill="#f43f5e"/>
+    <circle cx="14" cy="14" r="5" fill="#f43f5e"/>
+    <line x1="-38" y1="38" x2="38" y2="-38" stroke="#f43f5e" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- Heading -->
+  <text x="160" y="195" font-family="'Cinzel', 'Georgia', serif" font-size="20" font-weight="bold" fill="#fda4af" text-anchor="middle" letter-spacing="1">
+    CUT FROM FILMS
+  </text>
+
+  <!-- Banner -->
+  <rect x="40" y="222" width="240" height="28" rx="14" fill="#180709" stroke="#e11d48" stroke-width="1.5"/>
+  <text x="160" y="241" font-family="'Inter', -apple-system, sans-serif" font-size="11" font-weight="700" fill="#f43f5e" text-anchor="middle" letter-spacing="1.5">
+    AUDIOBOOK EXCLUSIVE
+  </text>
+
+  <text x="160" y="274" font-family="'Inter', -apple-system, sans-serif" font-size="10" font-weight="500" fill="#cbd5e1" text-anchor="middle">
+    Not featured in WB Movie adaptations
+  </text>
+</svg>

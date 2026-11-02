@@ -1,0 +1,752 @@
+{
+  "characters": {
+    "harry_potter": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/c/ce/Harry_Potter_DHF1.jpg/revision/latest/scale-to-width-down/300?cb=20140603201724"
+    },
+    "hermione_granger": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/3/34/Hermione_Granger.jpg/revision/latest/scale-to-width-down/300?cb=20251206062840"
+    },
+    "ron_weasley": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/4/44/Ronald_Weasley_DHF1.jpg/revision/latest/scale-to-width-down/300?cb=20101104210200"
+    },
+    "albus_dumbledore": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/7/75/Albus_Dumbledore_%28HBPF_promo%29.jpg/revision/latest/scale-to-width-down/300?cb=20150822232849"
+    },
+    "severus_snape": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/a/a3/Severus_Snape.jpg/revision/latest/scale-to-width-down/268?cb=20150307193047"
+    },
+    "minerva_mcgonagall": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/6/65/ProfessorMcGonagall-HBP.jpg/revision/latest/scale-to-width-down/330?cb=20100612114856"
+    },
+    "rubeus_hagrid": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/f/fe/Rubeus_Hagrid.png/revision/latest/scale-to-width-down/300?cb=20221014184333"
+    },
+    "lord_voldemort": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/9/97/Voldemort_Headshot_DHF1.png/revision/latest/scale-to-width-down/300?cb=20161203031453"
+    },
+    "narrator": {
+      "local": null,
+      "remote": null
+    },
+    "draco_malfoy": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/7/7e/Draco_Malfoy_TDH.png/revision/latest/scale-to-width-down/300?cb=20180116013508"
+    },
+    "neville_longbottom": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/b/ba/Neville_Longbottom_DHF2_promo_2.jpg/revision/latest/scale-to-width-down/300?cb=20230923173442"
+    },
+    "sirius_black": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/b/bc/OOTP_promo_front_closeup_Sirius_Black.jpg/revision/latest/scale-to-width-down/268?cb=20150918055024"
+    },
+    "remus_lupin": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/e/e2/Remus_Lupin_Deathly_Hallows_promo_image.jpg/revision/latest/scale-to-width-down/300?cb=20161119235913"
+    },
+    "dolores_umbridge": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/4/4e/Dolores_Umbridge_DHF1_promotional_image.jpg/revision/latest/scale-to-width-down/303?cb=20101127041001"
+    },
+    "bellatrix_lestrange": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/1/14/BellatrixLestrange.png/revision/latest/scale-to-width-down/236?cb=20171101034243"
+    },
+    "gilderoy_lockhart": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/7/7b/Gilderoy_Lockhart_promotional_image_COSF.jpg/revision/latest/scale-to-width-down/296?cb=20221104114009"
+    },
+    "alastor_moody": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/4/4d/MoodyProfile.png/revision/latest/scale-to-width-down/251?cb=20210819174911"
+    },
+    "horace_slughorn": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/a/a1/Horace_Slughorn_%28HBP_promo%29_1-1.jpg/revision/latest/scale-to-width-down/316?cb=20100706114608"
+    },
+    "arthur_weasley": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/0/02/Arthur_Weasley_profile.jpg/revision/latest/scale-to-width-down/300?cb=20150828155118"
+    },
+    "molly_weasley": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/3/3c/Molly_Weasley_Deathly_Hallows.jpg/revision/latest/scale-to-width-down/300?cb=20150828155116"
+    },
+    "ginny_weasley": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/8/8b/Ginny_Weasley_hbp_promo.jpg/revision/latest/scale-to-width-down/300?cb=20090317022440"
+    },
+    "luna_lovegood": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/e/ed/Luna_Lovegood.jpg/revision/latest/scale-to-width-down/269?cb=20160902165706"
+    },
+    "lucius_malfoy": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/b/b4/Lucius_Malfoy_BoH.png/revision/latest/scale-to-width-down/270?cb=20190604135420"
+    },
+    "narcissa_malfoy": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/7/78/Narcissa_Malfoy.png/revision/latest/scale-to-width-down/294?cb=20190111020523"
+    },
+    "peter_pettigrew": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/5/5a/Peter_Pettigrew_GOFF.webp/revision/latest/scale-to-width-down/284?cb=20260603053214"
+    },
+    "dobby": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/8/82/Dobby.jpg/revision/latest/scale-to-width-down/358?cb=20230712061949"
+    },
+    "kreacher": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/d/d4/Kreacher_HPE.jpg/revision/latest/scale-to-width-down/337?cb=20100621114028"
+    },
+    "sybill_trelawney": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/5/5d/Sybill_Trelawney.JPG/revision/latest/scale-to-width-down/259?cb=20110108192301"
+    },
+    "nymphadora_tonks": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/c/c8/Nymphadora_Tonks_DH_promo_headshot_.jpg/revision/latest/scale-to-width-down/300?cb=20161119222048"
+    },
+    "kingsley_shacklebolt": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/5/5e/Kingsley_Shacklebolt_DHF1_promo.jpg/revision/latest/scale-to-width-down/300?cb=20101113194841"
+    },
+    "quirinus_quirrell": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/d/d2/Quirinus_Quirrell_PS_promo.jpg/revision/latest/scale-to-width-down/300?cb=20110806132643"
+    },
+    "vernon_dursley": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/9/9e/Vernon_Dursley_HP5.jpg/revision/latest/scale-to-width-down/286?cb=20160121162004"
+    },
+    "petunia_dursley": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/6/64/Petunia_DH1.png/revision/latest/scale-to-width-down/303?cb=20200413045426"
+    },
+    "dudley_dursley": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/1/19/Dudley_DH.png/revision/latest/scale-to-width-down/267?cb=20200413050209"
+    },
+    "argus_filch": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/c/c9/Filch-GOF.jpg/revision/latest/scale-to-width-down/323?cb=20100418170019"
+    },
+    "cornelius_fudge": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/6/6d/Corneliushogwarts.jpg/revision/latest/scale-to-width-down/300?cb=20100312184011"
+    },
+    "rita_skeeter": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/2/23/Rita_Skeeter_2.jpg/revision/latest/scale-to-width-down/300?cb=20101113194128"
+    },
+    "barty_crouch_jr": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/f/f4/Barty_Crouch_Junior.jpg/revision/latest/scale-to-width-down/255?cb=20161221034115"
+    },
+    "cedric_diggory": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/9/90/Cedric_Diggory_Profile.png/revision/latest/scale-to-width-down/300?cb=20161123045136"
+    },
+    "cho_chang": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/1/1e/Cho_Chang.jpg/revision/latest/scale-to-width-down/274?cb=20180322164130"
+    },
+    "fleur_delacour": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/1/1e/Fleur_Delacour.jpg/revision/latest/scale-to-width-down/300?cb=20220718183655"
+    },
+    "stan_shunpike": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/4/49/StanShunpike.jpg/revision/latest/scale-to-width-down/297?cb=20090611131501"
+    },
+    "xenophilius_lovegood": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/5/54/Xenophilius_Lovegood_Promo_Shot.jpg/revision/latest/scale-to-width-down/296?cb=20160719193236"
+    },
+    "bill_weasley": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/6/66/BillWeasleyDH2.png/revision/latest/scale-to-width-down/266?cb=20160212193938"
+    },
+    "peeves": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/0/01/Peeves_-_Bob_Venables_PM.gif/revision/latest/scale-to-width-down/257?cb=20171018234135"
+    },
+    "ludo_bagman": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/2/2f/Ludo_Bagman_HM.jpg/revision/latest/scale-to-width-down/400?cb=20221111180947"
+    },
+    "winky": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/9/95/Winky_jim_kay.webp/revision/latest/scale-to-width-down/242?cb=20250114142942"
+    },
+    "sir_cadogan": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/9/9a/Cadogan_WWHP.PNG/revision/latest/scale-to-width-down/320?cb=20260318044028"
+    },
+    "sorting_hat": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/6/62/Sorting_Hat.png/revision/latest/scale-to-width-down/400?cb=20161120072849"
+    },
+    "nearly_headless_nick": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/6/6d/Nicholas_de_Mimsy-Porpington.png/revision/latest?cb=20200515191831"
+    },
+    "charlie_weasley": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/d/d0/Charlie_PM.jpg/revision/latest/scale-to-width-down/326?cb=20180618065107"
+    },
+    "lavender_brown": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/b/b6/Lavender_Brown_HBP.jpg/revision/latest/scale-to-width-down/266?cb=20180203062638"
+    },
+    "celestina_warbeck": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/7/79/Ceelstina_Warbeck_WWHP.jpeg/revision/latest/scale-to-width-down/400?cb=20260331052212"
+    },
+    "fred_george_weasley": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/9/9e/Fred_Weasley_promo_DHF1.jpg/revision/latest/scale-to-width-down/300?cb=20230526122025"
+    },
+    "percy_weasley": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/b/bc/Percy_WeasleyDH.jpg/revision/latest?cb=20160720032549"
+    },
+    "moaning_myrtle": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/b/b8/Myrtle_Warren_profile.png/revision/latest/scale-to-width-down/300?cb=20170113020338"
+    },
+    "garrick_ollivander": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/6/6f/Garrick_Ollivander.png/revision/latest/scale-to-width-down/251?cb=20180127182338"
+    },
+    "filius_flitwick": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/4/4b/Flitwickarmourbattle.png/revision/latest/scale-to-width-down/276?cb=20110628141204"
+    },
+    "pomona_sprout": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/6/6e/Pomona_Sprout_DHF2.jpg/revision/latest/scale-to-width-down/270?cb=20170730031333"
+    },
+    "fat_lady": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/f/f5/FatLady.png/revision/latest/scale-to-width-down/169?cb=20250109155727"
+    },
+    "rufus_scrimgeour": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/b/b1/Rufus_Scrimgeour.jpg/revision/latest/scale-to-width-down/290?cb=20161119230758"
+    },
+    "gaunt_family": {
+      "local": null,
+      "remote": "https://static.wikia.nocookie.net/harrypotter/images/f/f9/Marvolo_Gaunt.jpeg/revision/latest/scale-to-width-down/316?cb=20180101230127"
+    }
+  },
+  "movie_actors": {
+    "harry_potter": {
+      "local": null,
+      "remote": null
+    },
+    "hermione_granger": {
+      "local": null,
+      "remote": null
+    },
+    "ron_weasley": {
+      "local": null,
+      "remote": null
+    },
+    "albus_dumbledore": {
+      "local": null,
+      "remote": null
+    },
+    "severus_snape": {
+      "local": null,
+      "remote": null
+    },
+    "minerva_mcgonagall": {
+      "local": null,
+      "remote": null
+    },
+    "rubeus_hagrid": {
+      "local": null,
+      "remote": null
+    },
+    "lord_voldemort": {
+      "local": null,
+      "remote": null
+    },
+    "narrator": {
+      "local": null,
+      "remote": null
+    },
+    "draco_malfoy": {
+      "local": null,
+      "remote": null
+    },
+    "neville_longbottom": {
+      "local": null,
+      "remote": null
+    },
+    "sirius_black": {
+      "local": null,
+      "remote": null
+    },
+    "remus_lupin": {
+      "local": null,
+      "remote": null
+    },
+    "dolores_umbridge": {
+      "local": null,
+      "remote": null
+    },
+    "bellatrix_lestrange": {
+      "local": null,
+      "remote": null
+    },
+    "gilderoy_lockhart": {
+      "local": null,
+      "remote": null
+    },
+    "alastor_moody": {
+      "local": null,
+      "remote": null
+    },
+    "horace_slughorn": {
+      "local": null,
+      "remote": null
+    },
+    "arthur_weasley": {
+      "local": null,
+      "remote": null
+    },
+    "molly_weasley": {
+      "local": null,
+      "remote": null
+    },
+    "ginny_weasley": {
+      "local": null,
+      "remote": null
+    },
+    "luna_lovegood": {
+      "local": null,
+      "remote": null
+    },
+    "lucius_malfoy": {
+      "local": null,
+      "remote": null
+    },
+    "narcissa_malfoy": {
+      "local": null,
+      "remote": null
+    },
+    "peter_pettigrew": {
+      "local": null,
+      "remote": null
+    },
+    "dobby": {
+      "local": null,
+      "remote": null
+    },
+    "kreacher": {
+      "local": null,
+      "remote": null
+    },
+    "sybill_trelawney": {
+      "local": null,
+      "remote": null
+    },
+    "nymphadora_tonks": {
+      "local": null,
+      "remote": null
+    },
+    "kingsley_shacklebolt": {
+      "local": null,
+      "remote": null
+    },
+    "quirinus_quirrell": {
+      "local": null,
+      "remote": null
+    },
+    "vernon_dursley": {
+      "local": null,
+      "remote": null
+    },
+    "petunia_dursley": {
+      "local": null,
+      "remote": null
+    },
+    "dudley_dursley": {
+      "local": null,
+      "remote": null
+    },
+    "argus_filch": {
+      "local": null,
+      "remote": null
+    },
+    "cornelius_fudge": {
+      "local": null,
+      "remote": null
+    },
+    "rita_skeeter": {
+      "local": null,
+      "remote": null
+    },
+    "barty_crouch_jr": {
+      "local": null,
+      "remote": null
+    },
+    "cedric_diggory": {
+      "local": null,
+      "remote": null
+    },
+    "cho_chang": {
+      "local": null,
+      "remote": null
+    },
+    "fleur_delacour": {
+      "local": null,
+      "remote": null
+    },
+    "stan_shunpike": {
+      "local": null,
+      "remote": null
+    },
+    "xenophilius_lovegood": {
+      "local": null,
+      "remote": null
+    },
+    "bill_weasley": {
+      "local": null,
+      "remote": null
+    },
+    "peeves": {
+      "local": null,
+      "remote": null
+    },
+    "ludo_bagman": {
+      "local": null,
+      "remote": null
+    },
+    "winky": {
+      "local": null,
+      "remote": null
+    },
+    "sir_cadogan": {
+      "local": null,
+      "remote": null
+    },
+    "sorting_hat": {
+      "local": null,
+      "remote": null
+    },
+    "nearly_headless_nick": {
+      "local": null,
+      "remote": null
+    },
+    "charlie_weasley": {
+      "local": null,
+      "remote": null
+    },
+    "lavender_brown": {
+      "local": null,
+      "remote": null
+    },
+    "celestina_warbeck": {
+      "local": null,
+      "remote": null
+    },
+    "fred_george_weasley": {
+      "local": null,
+      "remote": null
+    },
+    "percy_weasley": {
+      "local": null,
+      "remote": null
+    },
+    "moaning_myrtle": {
+      "local": null,
+      "remote": null
+    },
+    "garrick_ollivander": {
+      "local": null,
+      "remote": null
+    },
+    "filius_flitwick": {
+      "local": null,
+      "remote": null
+    },
+    "pomona_sprout": {
+      "local": null,
+      "remote": null
+    },
+    "fat_lady": {
+      "local": null,
+      "remote": null
+    },
+    "rufus_scrimgeour": {
+      "local": null,
+      "remote": null
+    },
+    "gaunt_family": {
+      "local": null,
+      "remote": null
+    }
+  },
+  "audible_actors": {
+    "harry_potter": {
+      "local": null,
+      "remote": null
+    },
+    "hermione_granger": {
+      "local": null,
+      "remote": null
+    },
+    "ron_weasley": {
+      "local": null,
+      "remote": null
+    },
+    "albus_dumbledore": {
+      "local": null,
+      "remote": null
+    },
+    "severus_snape": {
+      "local": null,
+      "remote": null
+    },
+    "minerva_mcgonagall": {
+      "local": null,
+      "remote": null
+    },
+    "rubeus_hagrid": {
+      "local": null,
+      "remote": null
+    },
+    "lord_voldemort": {
+      "local": null,
+      "remote": null
+    },
+    "narrator": {
+      "local": null,
+      "remote": null
+    },
+    "draco_malfoy": {
+      "local": null,
+      "remote": null
+    },
+    "neville_longbottom": {
+      "local": null,
+      "remote": null
+    },
+    "sirius_black": {
+      "local": null,
+      "remote": null
+    },
+    "remus_lupin": {
+      "local": null,
+      "remote": null
+    },
+    "dolores_umbridge": {
+      "local": null,
+      "remote": null
+    },
+    "bellatrix_lestrange": {
+      "local": null,
+      "remote": null
+    },
+    "gilderoy_lockhart": {
+      "local": null,
+      "remote": null
+    },
+    "alastor_moody": {
+      "local": null,
+      "remote": null
+    },
+    "horace_slughorn": {
+      "local": null,
+      "remote": null
+    },
+    "arthur_weasley": {
+      "local": null,
+      "remote": null
+    },
+    "molly_weasley": {
+      "local": null,
+      "remote": null
+    },
+    "ginny_weasley": {
+      "local": null,
+      "remote": null
+    },
+    "luna_lovegood": {
+      "local": null,
+      "remote": null
+    },
+    "lucius_malfoy": {
+      "local": null,
+      "remote": null
+    },
+    "narcissa_malfoy": {
+      "local": null,
+      "remote": null
+    },
+    "peter_pettigrew": {
+      "local": null,
+      "remote": null
+    },
+    "dobby": {
+      "local": null,
+      "remote": null
+    },
+    "kreacher": {
+      "local": null,
+      "remote": null
+    },
+    "sybill_trelawney": {
+      "local": null,
+      "remote": null
+    },
+    "nymphadora_tonks": {
+      "local": null,
+      "remote": null
+    },
+    "kingsley_shacklebolt": {
+      "local": null,
+      "remote": null
+    },
+    "quirinus_quirrell": {
+      "local": null,
+      "remote": null
+    },
+    "vernon_dursley": {
+      "local": null,
+      "remote": null
+    },
+    "petunia_dursley": {
+      "local": null,
+      "remote": null
+    },
+    "dudley_dursley": {
+      "local": null,
+      "remote": null
+    },
+    "argus_filch": {
+      "local": null,
+      "remote": null
+    },
+    "cornelius_fudge": {
+      "local": null,
+      "remote": null
+    },
+    "rita_skeeter": {
+      "local": null,
+      "remote": null
+    },
+    "barty_crouch_jr": {
+      "local": null,
+      "remote": null
+    },
+    "cedric_diggory": {
+      "local": null,
+      "remote": null
+    },
+    "cho_chang": {
+      "local": null,
+      "remote": null
+    },
+    "fleur_delacour": {
+      "local": null,
+      "remote": null
+    },
+    "stan_shunpike": {
+      "local": null,
+      "remote": null
+    },
+    "xenophilius_lovegood": {
+      "local": null,
+      "remote": null
+    },
+    "bill_weasley": {
+      "local": null,
+      "remote": null
+    },
+    "peeves": {
+      "local": null,
+      "remote": null
+    },
+    "ludo_bagman": {
+      "local": null,
+      "remote": null
+    },
+    "winky": {
+      "local": null,
+      "remote": null
+    },
+    "sir_cadogan": {
+      "local": null,
+      "remote": null
+    },
+    "sorting_hat": {
+      "local": null,
+      "remote": null
+    },
+    "nearly_headless_nick": {
+      "local": null,
+      "remote": null
+    },
+    "charlie_weasley": {
+      "local": null,
+      "remote": null
+    },
+    "lavender_brown": {
+      "local": null,
+      "remote": null
+    },
+    "celestina_warbeck": {
+      "local": null,
+      "remote": null
+    },
+    "fred_george_weasley": {
+      "local": null,
+      "remote": null
+    },
+    "percy_weasley": {
+      "local": null,
+      "remote": null
+    },
+    "moaning_myrtle": {
+      "local": null,
+      "remote": null
+    },
+    "garrick_ollivander": {
+      "local": null,
+      "remote": null
+    },
+    "filius_flitwick": {
+      "local": null,
+      "remote": null
+    },
+    "pomona_sprout": {
+      "local": null,
+      "remote": null
+    },
+    "fat_lady": {
+      "local": null,
+      "remote": null
+    },
+    "rufus_scrimgeour": {
+      "local": null,
+      "remote": null
+    },
+    "gaunt_family": {
+      "local": null,
+      "remote": null
+    }
+  }
+}

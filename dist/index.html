@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harry Potter Cast Comparison | Movies vs. Audible Full Ensemble</title>
+  <meta name="description" content="Explore side-by-side casting comparison between the Warner Bros. Harry Potter films and the Audible 2025–2026 full-cast audio editions book by book.">
+  
+  <!-- Google Fonts: Cinzel for wizarding grandeur, Plus Jakarta Sans for clean legibility -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Top Sticky Header -->
+  <header class="site-header">
+    <div class="header-container">
+      <div class="brand-wrapper">
+        <div class="brand-crest">⚡</div>
+        <div class="brand-titles">
+          <h1>Chronicles of Casting</h1>
+          <p>Warner Bros. Movies (2001–2011) vs. Audible Full-Cast Audiobooks (2025–2026)</p>
+        </div>
+      </div>
+      <div class="header-actions">
+        <button id="soundToggleBtn" class="audio-toggle-btn active" title="Toggle Magical Chime Effects">
+          🔔 Chimes: ON
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main class="main-content">
+    
+    <!-- Hero Banner -->
+    <section class="hero-banner">
+      <div class="hero-tag">✨ Complete Audio & Film Encyclopedia</div>
+      <h2 class="hero-title">Book-by-Book Cast Comparison & Vocal Evolution</h2>
+      <p class="hero-desc">
+        Compare every major wizard, witch, and magical creature side by side. Witness how the Warner Bros. live-action film ensemble compares to the star-studded, 500+ voice cast of Pottermore & Audible’s Dolby Atmos full-cast audio editions, including the intentional <strong>Book 1–3 to Book 4–7 cast evolution</strong>, Hollywood star crossovers, and beloved characters cut from the films!
+      </p>
+
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-value">7 Books</span>
+          <span class="stat-label">Full Saga Coverage</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-value">500+ Actors</span>
+          <span class="stat-label">Audible Ensemble Size</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-value">50+ Profiles</span>
+          <span class="stat-label">Major Character Lineups</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-value">Direct Wiki</span>
+          <span class="stat-label">Linked Actor Biographies</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Book Selector Navigation Bar -->
+    <nav class="book-nav-container" aria-label="Book Selection">
+      <div class="book-nav-title">
+        <span>📖 Select Book / Era</span>
+        <small style="color: var(--text-dim); text-transform: none; font-weight: 400;">Filter cast members by their specific book presence</small>
+      </div>
+      <div id="bookNavTabs" class="book-tabs-scroll">
+        <!-- Injected dynamically by app.js -->
+      </div>
+    </nav>
+
+    <!-- Dynamic Book Context & Shift Banner -->
+    <section id="bookContextBanner" aria-live="polite">
+      <!-- Injected dynamically by app.js -->
+    </section>
+
+    <!-- Interactive Filter & Search Controls Bar -->
+    <div class="controls-bar">
+      <!-- Search Input -->
+      <div class="search-box">
+        <span class="search-icon">🔍</span>
+        <input 
+          type="text" 
+          id="characterSearchInput" 
+          placeholder="Search character, movie actor, voice artist, or house..."
+          autocomplete="off"
+        />
+      </div>
+
+      <!-- Quick Toggles -->
+      <div class="filter-toggles">
+        <button id="toggleRecastsBtn" class="toggle-btn" title="Filter for characters with recasts or casting shifts">
+          <span>🔄 Only Recasts & Shifts</span>
+        </button>
+        <button id="toggleExclusivesBtn" class="toggle-btn" title="Filter for characters in the audiobooks cut from movies">
+          <span>📖 Only Book Exclusives</span>
+        </button>
+      </div>
+
+      <!-- View Switcher Tabs -->
+      <div class="view-mode-tabs" role="tablist">
+        <button class="view-btn active" data-view="cards" role="tab" aria-selected="true">
+          <span>🎴 Side-by-Side</span>
+        </button>
+        <button class="view-btn" data-view="table" role="tab" aria-selected="false">
+          <span>📋 Matrix Table</span>
+        </button>
+        <button class="view-btn" data-view="timeline" role="tab" aria-selected="false">
+          <span>📊 Era Architecture</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Category Filter Pills -->
+    <div id="categoryPills" class="category-pills" role="group" aria-label="Filter by Affiliation">
+      <!-- Injected dynamically by app.js -->
+    </div>
+
+    <!-- Results Header -->
+    <div class="results-header">
+      <span id="resultsCount" class="results-count">Loading Cast Profiles...</span>
+      <small style="color: var(--text-dim);">Click "Deep-Dive Comparison" on any character card to examine vocal nuance & lore trivia.</small>
+    </div>
+
+    <!-- Cast Content Display Area (Cards / Table / Timeline) -->
+    <div id="castContentArea">
+      <!-- Injected dynamically by app.js -->
+    </div>
+
+  </main>
+
+  <!-- Deep Dive Character Modal -->
+  <div id="charModal" class="modal-overlay" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-dialog">
+      <button id="modalCloseBtn" class="modal-close-btn" aria-label="Close Modal">✕</button>
+      <div id="modalBodyContent">
+        <!-- Injected dynamically when modal opens -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="footer-logo">⚡ 🧙‍♀️ 🎧</div>
+      <p class="footer-text">
+        <strong>The Chronicles of Casting</strong> is an educational interactive guide comparing the performance craft across media.
+        Harry Potter film adaptations &copy; Warner Bros. Entertainment Inc. Full-Cast Audio Editions produced by Audible &amp; Pottermore Publishing in Dolby Atmos.
+      </p>
+      <div class="footer-links">
+        <a href="https://en.wikipedia.org/wiki/Harry_Potter_(film_series)" target="_blank" rel="noopener noreferrer">Film Series Wikipedia</a>
+        <a href="https://harrypotter.fandom.com/wiki/Harry_Potter:_The_Full-Cast_Audio_Editions" target="_blank" rel="noopener noreferrer">Audible Full-Cast Wiki</a>
+        <a href="https://www.audible.com" target="_blank" rel="noopener noreferrer">Audible.com</a>
+        <a href="https://www.harrypotter.com" target="_blank" rel="noopener noreferrer">Wizarding World</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
